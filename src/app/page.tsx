@@ -1,6 +1,39 @@
-import Image from "next/image";
+import Image from "next/image"
+import Nav from "./styles/Nav.module.css"
 
 export default function Home() {
+  return (
+    <div>
+      {/*<DefaultNextJs />*/}
+      <TopNav />
+      <Header />
+    </div>
+    );
+}
+
+function TopNav() {
+  return (
+      <div className={Nav.topnav}>
+        <a className={Nav.active} href="#home">Sellswords</a>
+        <a href="#rules">Rules</a>
+        <a href="#character">Character Creation</a>
+        <a href="#abilities">Abilities</a>
+        <a href="#equipment">Equipment</a>
+        <a href="#appendix">Appendix</a>
+      </div>
+  );
+}
+
+function Header() {
+  return (
+    <div className={Nav.mainheader}>
+      SELLSWORDS
+      Initiative
+    </div>
+  );
+}
+
+function DefaultNextJs() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
       <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
