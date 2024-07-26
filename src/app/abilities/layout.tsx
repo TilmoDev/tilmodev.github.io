@@ -1,6 +1,6 @@
 import RootLayout from "../layout";
 
-export default function SkillsLayout({
+export default function AbilitiesLayout({
 	children,
 }: {
 	children: React.ReactNode;
