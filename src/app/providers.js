@@ -8,7 +8,7 @@ import {
 	createDOMRenderer,
 	RendererProvider,
 	FluentProvider,
-	webLightTheme,
+	webDarkTheme,
 	SSRProvider,
 	makeStyles,
 } from "@fluentui/react-components";
@@ -54,7 +54,7 @@ export function Providers({ children }) {
 	return (
 		<RendererProvider renderer={renderer || createDOMRenderer()}>
 			<SSRProvider>
-				<FluentProvider theme={webLightTheme}>
+				<FluentProvider theme={webDarkTheme}>
 					<div className={styles.root}>
 						<Navbar />
 						{children}
