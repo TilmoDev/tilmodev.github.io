@@ -173,8 +173,8 @@ const Navbar = (props: Partial<NavDrawerProps>) => {
 				</NavItem>
 				<NavDivider />
 				<NavItem icon={<Search />} value="10">
-					<Link href="/skills" className={styles.link}>
-						Skills
+					<Link href="/abilities" className={styles.link}>
+						Abilities
 					</Link>
 				</NavItem>
 				<NavItem icon={<PerformanceReviews />} value="11">
