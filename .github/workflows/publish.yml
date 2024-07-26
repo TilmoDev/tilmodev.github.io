@@ -31,6 +31,7 @@ jobs:
         uses: actions/configure-pages@v4
         with:
           static_site_generator: next
+          generator_config_file: ./next.config.mjs
 
       - name: Build with Next.js 🏗️
         run: npm run build
