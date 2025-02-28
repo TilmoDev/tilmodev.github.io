@@ -1,0 +1,647 @@
+[
+	{
+		"name": "Accurate",
+		"category": "Equipment",
+		"subcategory": "",
+		"definition": "Your Attack Dice using these weapons increases by 1 size.",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Ammo",
+		"category": "Equipment",
+		"subcategory": "",
+		"definition": "These arms fire projectiles, with a specific ammo capacity indicated. Once empty, reloading is imperative.",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Arcane",
+		"category": "Equipment",
+		"subcategory": "",
+		"definition": "Adds +1 to Spell Dice.",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Attached",
+		"category": "Equipment",
+		"subcategory": "",
+		"definition": "These are affixed to your limb, freeing a hand.",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Awkward",
+		"category": "Equipment",
+		"subcategory": "",
+		"definition": "When used below a certain distance threshold, your Attack Dice using these weapons decreases by 2 sizes.",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Brace",
+		"category": "Equipment",
+		"subcategory": "",
+		"definition": "Enemies approaching your weapon's range automatically suffer 1d4 Pierce damage.",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Bulk",
+		"category": "Equipment",
+		"subcategory": "",
+		"definition": "Refers to the weight of armor or a shield, influencing penalties on related Action or Reaction Dice for physical activities while equipped. Also, each 2 points of Bulk reduces your movement by 1m and your accuracy with ranged weapons by 1. It also reduces spellcast incantation rolls by 1 per Bulk value.",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Burst",
+		"category": "Equipment",
+		"subcategory": "",
+		"definition": "These enhance accuracy or damage by sacrificing ammo. For every extra ammo spent (based on the weapon's Burst value), you gain 1 Reroll of your Attack Dice or you gain +1d4 bonus to your Damage Dice.",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Compact",
+		"category": "Equipment",
+		"subcategory": "",
+		"definition": "Compact weapons or equipment are small enough that they can share inventory space up to a limit but they all share the same Durability value.",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Crit",
+		"category": "Equipment",
+		"subcategory": "",
+		"definition": "Critical damage capability, featuring additional dice and effects.",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Defensive",
+		"category": "Equipment",
+		"subcategory": "",
+		"definition": "Your Defense Dice using these weapons increases by 1 size.",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Disposable",
+		"category": "Equipment",
+		"subcategory": "",
+		"definition": "Destroyed after use.",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Durability",
+		"category": "Equipment",
+		"subcategory": "",
+		"definition": "Represents an equipment's integrity. Each time you take damage, you can willingly consume a point of Durability to nullify 5 damage of any type. If Durability reaches 0, the equipment permanently breaks. Additionally, rolling a natural 1 with a weapon deducts a point of Durability, representing mishandling.",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Explosive",
+		"category": "Equipment",
+		"subcategory": "",
+		"definition": "Roll additional damage dice for each maximum roll until a non-maximum result occurs. Additionally, when its Durability reaches 0, the equipment detonates and explodes.",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Heavy",
+		"category": "Equipment",
+		"subcategory": "",
+		"definition": "Requires 4 Stamina to use or attack. The wielder also gains +1 bonus to Defense Dice.",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Light",
+		"category": "Equipment",
+		"subcategory": "",
+		"definition": "Requires only 2 Stamina to use or attack.",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Loud",
+		"category": "Equipment",
+		"subcategory": "",
+		"definition": "Firing disrupts stealth and alerts.",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Malfunction",
+		"category": "Equipment",
+		"subcategory": "",
+		"definition": "A natural 1 on Attack Roll halts weapon, requiring 3 Stamina to repair.",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Mitigation",
+		"category": "Equipment",
+		"subcategory": "",
+		"definition": "An armor's damage absorption capability. The number is the maximum damage an armor can absorb in a single hit. Surplus damage over this value is deducted from Health points. Blunt damage diminishes Mitigation permanently. Zero Mitigation breaks the armor.",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Oil",
+		"category": "Equipment",
+		"subcategory": "",
+		"definition": "A vial can be applied to a blade (5 attacks), 5 pcs of arrows, or 5 grams of food.",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Overheat",
+		"category": "Equipment",
+		"subcategory": "",
+		"definition": "Using Burst over the designated limit reduces Durability by 1.",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "One-Handed",
+		"category": "Equipment",
+		"subcategory": "",
+		"definition": "Wielded with one hand.",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Precise",
+		"category": "Equipment",
+		"subcategory": "",
+		"definition": "Attack Dice rolling its maximum deals critical damage if it hits.",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Range",
+		"category": "Equipment",
+		"subcategory": "",
+		"definition": "Projectiles fired at a specified distance. Attacks beyond range suffer Weakness.",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Reach",
+		"category": "Equipment",
+		"subcategory": "",
+		"definition": "Melee weapons striking beyond 1 meter, range indicated.",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Reload",
+		"category": "Equipment",
+		"subcategory": "",
+		"definition": "Reload speed varies; Stamina cost for full ammo replenishment is noted. Requires a free hand.",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Returning",
+		"category": "Equipment",
+		"subcategory": "",
+		"definition": "Returns to your hand after an attack, unless a natural 1 occurs, in which case it lands 1 meter from the target.",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Risky",
+		"category": "Equipment",
+		"subcategory": "",
+		"definition": "Your natural 1 Attack Dice knocks you down, but if it rolls maximum, the target is also knocked down.",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Setup",
+		"category": "Equipment",
+		"subcategory": "",
+		"definition": "Unusable in combat, needing ample preparation.",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Slot",
+		"category": "Equipment",
+		"subcategory": "",
+		"definition": "Determines how many spaces a piece of equipment occupies in your Inventory Slot.",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Sneak",
+		"category": "Equipment",
+		"subcategory": "",
+		"definition": "Unaware targets hit with these automatically face critical hits. Does not make any sound.",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Snipe",
+		"category": "Equipment",
+		"subcategory": "",
+		"definition": "This property allows weapons to engage targets at extreme distances beyond their normal range (based on a given value). Attacks made with the Snipe property do not suffer penalties for firing past the weapon's standard range. However, the Snipe property can only be used when not actively engaged in combat, as the hectic nature of battle makes lining up long-distance shots impractical.",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Sole",
+		"category": "Equipment",
+		"subcategory": "",
+		"definition": "You can only equip one instance of this category at a time.",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Thrown",
+		"category": "Equipment",
+		"subcategory": "",
+		"definition": "Hurlable to a specified range, as indicated.",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Trap",
+		"category": "Equipment",
+		"subcategory": "",
+		"definition": "Attack upon activation, triggered by proximity or remote control.",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Two-Handed",
+		"category": "Equipment",
+		"subcategory": "",
+		"definition": "Requires two hands to wield. The wielder also gains +1 bonus to Attack Dice.",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Unarmed",
+		"category": "Equipment",
+		"subcategory": "",
+		"definition": "Considered Unarmed attacks.",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Unique",
+		"category": "Equipment",
+		"subcategory": "",
+		"definition": "Multiple copies of this equipment’s effect do not stack.",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Versatile",
+		"category": "Equipment",
+		"subcategory": "",
+		"definition": "Wieldable with one or two hands.",
+		"tooltip": "placeholder tooltip"
+	},
+
+	{
+		"name": "Blunt",
+		"category": "Damage Type",
+		"subcategory": "Effect",
+		"definition": "Lowers an armor's Mitigation value by 1 (permanently) if it deals 6+ damage.",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Slice",
+		"category": "Damage Type",
+		"subcategory": "Effect",
+		"definition": "Inflicts double total damage to Health after armor mitigation.",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Decay",
+		"category": "Damage Type",
+		"subcategory": "Effect",
+		"definition": "If at least 3 Health damage occurs, inflict Vulnerable to all damage (until healed, can stack).",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Burn",
+		"category": "Damage Type",
+		"subcategory": "Effect",
+		"definition": "If at least 3 Health damage occurs, reduce maximum Health by 5 (until healed, can stack).",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Frost",
+		"category": "Damage Type",
+		"subcategory": "Effect",
+		"definition": "If at least 3 Health damage occurs, reduce maximum Reflex by 1 (until healed, can stack).",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Pierce",
+		"category": "Damage Type",
+		"subcategory": "Effect",
+		"definition": "Disregards a quarter of an armor’s Mitigation value (rounded down).",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Pure",
+		"category": "Damage Type",
+		"subcategory": "Effect",
+		"definition": "Affects Health solely, bypassing armor and resistances (except Soak).",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Shock",
+		"category": "Damage Type",
+		"subcategory": "Effect",
+		"definition": "If at least 3 Health damage occurs, reduce maximum Focus by 3 (until healed, can stack).",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Toxic",
+		"category": "Damage Type",
+		"subcategory": "Effect",
+		"definition": "If at least 3 Health damage occurs, reduce maximum Stamina by 1 (until healed, cannot stack).",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Absorption",
+		"category": "Condition",
+		"subcategory": "Beneficial",
+		"definition": "Convert damage to Health determined by a specific damage type.",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Cover",
+		"category": "Condition",
+		"subcategory": "Beneficial",
+		"definition": "Hidden behind larger object, defense die increased by 1 size if partial cover, 3 sizes if greater cover.",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Elevated",
+		"category": "Condition",
+		"subcategory": "Beneficial",
+		"definition": "Base die for ranged attacks increases by 1 size against targets below, and melee attacks deal Critical Damage when executed from a significant height difference.",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Hidden",
+		"category": "Condition",
+		"subcategory": "Beneficial",
+		"definition": "Unseen and unheard by target. Increases all base die by 1 size.",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Immunity",
+		"category": "Condition",
+		"subcategory": "Beneficial",
+		"definition": "Reduce damage to zero determined by a specific damage type.",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Resilience",
+		"category": "Condition",
+		"subcategory": "Beneficial",
+		"definition": "The ability to make an opposing spellcaster have more difficulty in casting their spell against you based on a specific value added to the spellcaster’s Incantation Dice.",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Resistance",
+		"category": "Condition",
+		"subcategory": "Beneficial",
+		"definition": "Reduce damage by half determined by a specific damage type.",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Soak",
+		"category": "Condition",
+		"subcategory": "Beneficial",
+		"definition": "Functions as an extra set of Health points. When damaged, deduct from Soak before real Health points. Soak disregards Vulnerability. Multiple Soak sources don't stack; the highest value source replaces the rest.",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Toughness",
+		"category": "Condition",
+		"subcategory": "Beneficial",
+		"definition": "Immune to a specific threshold of damage.",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Bleed",
+		"category": "Condition",
+		"subcategory": "Negative - Mild",
+		"definition": "Suffer set Health loss per round. Stacks from different damage types.",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Distracted",
+		"category": "Condition",
+		"subcategory": "Negative - Mild",
+		"definition": "Cannot use Focus.",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Exposed",
+		"category": "Condition",
+		"subcategory": "Negative - Mild",
+		"definition": "Lowers defense dice by one size (d8 to d6, d6 to d4, etc.).",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Flinched",
+		"category": "Condition",
+		"subcategory": "Negative - Mild",
+		"definition": "Cannot use Reflex and lose Momentum.",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Hindered",
+		"category": "Condition",
+		"subcategory": "Negative - Mild",
+		"definition": "Lowers action and reaction dice by one size (d8 to d6, d6 to d4, etc.).",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Impaired",
+		"category": "Condition",
+		"subcategory": "Negative - Mild",
+		"definition": "Lowers attack dice by one size (d8 to d6, d6 to d4, etc.).",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Wet",
+		"category": "Condition",
+		"subcategory": "Negative - Mild",
+		"definition": "Reduces fire damage by half (round up), doubles shock and frost damage.",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Blinded",
+		"category": "Condition",
+		"subcategory": "Negative - Moderate",
+		"definition": "Lose attack roll bonuses, attack die decreased by 1 size.",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Burned",
+		"category": "Condition",
+		"subcategory": "Negative - Moderate",
+		"definition": "Your maximum Health drops by 5 until healed.",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Chilled",
+		"category": "Condition",
+		"subcategory": "Negative - Moderate",
+		"definition": "Your maximum Reflex drops by 1 until healed.",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Corrode",
+		"category": "Condition",
+		"subcategory": "Negative - Moderate",
+		"definition": "Lose set armor Mitigation, shield Durability, or weapon Durability each round.",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Crippled",
+		"category": "Condition",
+		"subcategory": "Negative - Moderate",
+		"definition": "Combat actions and abilities cost 1 extra Stamina.",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Dazed",
+		"category": "Condition",
+		"subcategory": "Negative - Moderate",
+		"definition": "Moving causes immediate knock down and loss of turn.",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Deafened",
+		"category": "Condition",
+		"subcategory": "Negative - Moderate",
+		"definition": "Lose defense and reaction roll bonuses, defense and reaction die decreased by 1 size.",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Disabled",
+		"category": "Condition",
+		"subcategory": "Negative - Moderate",
+		"definition": "Cannot willingly attack.",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Fatigued",
+		"category": "Condition",
+		"subcategory": "Negative - Moderate",
+		"definition": "Maximum stamina reduced to 2.",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Flanked",
+		"category": "Condition",
+		"subcategory": "Negative - Moderate",
+		"definition": "Engaged by two+ melee attackers, defense die decreased by 1 size against them.",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Immobilized",
+		"category": "Condition",
+		"subcategory": "Negative - Moderate",
+		"definition": "Cannot willingly move.",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Poisoned",
+		"category": "Condition",
+		"subcategory": "Negative - Moderate",
+		"definition": "Your maximum Stamina drops by 1 until healed.",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Sapped",
+		"category": "Condition",
+		"subcategory": "Negative - Moderate",
+		"definition": "Your maximum Focus drops by 3 until healed.",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Silenced",
+		"category": "Condition",
+		"subcategory": "Negative - Moderate",
+		"definition": "Lose ability to speak.",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Slowed",
+		"category": "Condition",
+		"subcategory": "Negative - Moderate",
+		"definition": "Move 1 meter per Stamina used.",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Vulnerable",
+		"category": "Condition",
+		"subcategory": "Negative - Moderate",
+		"definition": "Take 150% damage determined by a specific damage type.",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Weakened",
+		"category": "Condition",
+		"subcategory": "Negative - Moderate",
+		"definition": "Halved melee and bow damage (round down).",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Asleep",
+		"category": "Condition",
+		"subcategory": "Negative - Severe",
+		"definition": "Unconscious state that can be awakened with damage, Blinded, Deafened, Unaware.",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Drained",
+		"category": "Condition",
+		"subcategory": "Negative - Severe",
+		"definition": "Lose all Focus points.",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Exhausted",
+		"category": "Condition",
+		"subcategory": "Negative - Severe",
+		"definition": "No Focus regeneration.",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Knocked Down",
+		"category": "Condition",
+		"subcategory": "Negative - Severe",
+		"definition": "Grounded, melee attackers do critical hit damage against downed targets, Slowed.",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Restrained",
+		"category": "Condition",
+		"subcategory": "Negative - Severe",
+		"definition": "Lowers all base die by 1 size, no spell gesticulation.",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Rot",
+		"category": "Condition",
+		"subcategory": "Negative - Severe",
+		"definition": "Your Injury raises by 1 until healed.",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Staggered",
+		"category": "Condition",
+		"subcategory": "Negative - Severe",
+		"definition": "Lose a turn, attacks against you increase their base die by 1 size.",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Suppressed",
+		"category": "Condition",
+		"subcategory": "Negative - Severe",
+		"definition": "Cannot access Mana.",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Unaware",
+		"category": "Condition",
+		"subcategory": "Negative - Severe",
+		"definition": "Automatically takes Critical Damage when hit.",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Dying",
+		"category": "Condition",
+		"subcategory": "Negative - Critical",
+		"definition": "Reach 0 Health, lose 1d4 Health/round till -10 (dead).",
+		"tooltip": "placeholder tooltip"
+	},
+	{
+		"name": "Incapacitated",
+		"category": "Condition",
+		"subcategory": "Negative - Critical",
+		"definition": "Unable to act, attack, or defend for turns, attacks against you instantly hit and deal Critical Damage.",
+		"tooltip": "placeholder tooltip"
+	}
+]
