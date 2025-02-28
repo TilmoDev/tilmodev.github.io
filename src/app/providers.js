@@ -20,7 +20,6 @@ const renderer = createDOMRenderer();
 
 const useStyles = makeStyles({
 	root: {
-		display: "flex",
 		height: "100vh",
 	},
 });
