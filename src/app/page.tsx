@@ -6,12 +6,11 @@ import Header from "../components/Header/Header";
 
 const useStyles = makeStyles({
 	container: {
-		// TODO
-		// display: "flex",
-		// flexDirection: "column",
-		// alignItems: "center",
-		// justifyContent: "center",
-		// minHeight: "100vh",
+		display: "flex",
+		flexDirection: "column",
+		alignItems: "center",
+		justifyContent: "center",
+		minHeight: "100vh",
 	},
 });
 
@@ -20,7 +19,7 @@ export default function Home() {
 
 	return (
 		<main className={styles.container}>
-			<Header />
+			<Header text="Sellswords Initiative" />
 		</main>
 	);
 }
