@@ -1,25 +1,17 @@
 "use client";
 
-import { makeStyles } from "@fluentui/react-components";
-
-import Header from "../components/Header/Header";
-
-const useStyles = makeStyles({
-	container: {
-		display: "flex",
-		flexDirection: "column",
-		alignItems: "center",
-		justifyContent: "center",
-		minHeight: "100vh",
-	},
-});
+import { Image } from "@fluentui/react-components";
+import logo from "../../public/images/logo.png";
 
 export default function Home() {
-	const styles = useStyles();
-
 	return (
-		<main className={styles.container}>
-			<Header text="Sellswords Initiative" />
-		</main>
+		<div className="flex flex-col justify-center items-center h-screen">
+			<Image
+				alt="Sellwords Initiative"
+				src={logo.src}
+				height={200}
+				width={200}
+			/>
+		</div>
 	);
 }

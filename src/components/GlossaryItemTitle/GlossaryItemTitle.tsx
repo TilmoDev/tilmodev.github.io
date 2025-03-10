@@ -14,6 +14,8 @@ interface GlossaryItemTitleProps {
 	tooltipContent: React.ReactNode;
 }
 
+// TODO Refactor
+
 const useStyles = makeStyles({
 	root: {
 		display: "flex",

@@ -2,32 +2,12 @@ import * as React from "react";
 import Link from "next/link";
 import {
 	Button,
-	makeStyles,
 	Menu,
 	MenuTrigger,
 	MenuList,
 	MenuItem,
 	MenuPopover,
 } from "@fluentui/react-components";
-
-const useStyles = makeStyles({
-	nav: {
-		display: "flex",
-		justifyContent: "space-between",
-		alignItems: "center",
-		padding: "10px 0",
-	},
-	navOptions: {
-		display: "flex",
-		gap: "10px",
-	},
-	navButton: {
-		border: "1px solid transparent",
-		"&:hover, &:focus": {
-			border: "1px solid white",
-		},
-	},
-});
 
 const DropdownMenu = ({
 	title,
@@ -40,25 +20,31 @@ const DropdownMenu = ({
 		submenu?: { label: string; href: string }[];
 	}[];
 }) => {
-	const styles = useStyles();
 	return (
 		<Menu positioning={{ autoSize: true }}>
 			<MenuTrigger disableButtonEnhancement>
-				<Button className={styles.navButton}>{title}</Button>
+				<Button className="px-4 py-2" appearance="transparent">
+					{title}
+				</Button>
 			</MenuTrigger>
 			<MenuPopover>
-				<MenuList>
+				<MenuList className="text-white p-2 rounded-md">
 					{items.map((item, index) =>
 						item.submenu ? (
 							// If the item has a submenu, create a nested menu
 							<Menu key={index}>
 								<MenuTrigger disableButtonEnhancement>
-									<MenuItem>{item.label}</MenuItem>
+									<MenuItem className="px-4 py-2 cursor-pointer hover:bg-gray-700">
+										{item.label}
+									</MenuItem>
 								</MenuTrigger>
 								<MenuPopover>
-									<MenuList>
+									<MenuList className="text-white p-2 rounded-md shadow-lg">
 										{item.submenu.map((subItem, subIndex) => (
-											<MenuItem key={subIndex}>
+											<MenuItem
+												key={subIndex}
+												className="px-4 py-2 cursor-pointer hover:bg-gray-700"
+											>
 												<Link href={subItem.href}>{subItem.label}</Link>
 											</MenuItem>
 										))}
@@ -67,7 +53,10 @@ const DropdownMenu = ({
 							</Menu>
 						) : (
 							// If there's no submenu, render a normal menu item
-							<MenuItem key={index}>
+							<MenuItem
+								key={index}
+								className="px-4 py-2 cursor-pointer hover:bg-gray-700"
+							>
 								<Link href={item.href!}>{item.label}</Link>
 							</MenuItem>
 						)
@@ -79,13 +68,13 @@ const DropdownMenu = ({
 };
 
 const Navbar = () => {
-	const styles = useStyles();
-
 	return (
-		<nav className={styles.nav}>
-			<Link href="/">Sellswords</Link>
-			<div className={styles.navOptions}>
-				<Button className={styles.navButton}>
+		<nav className="flex justify-between items-center py-4 px-6 text-white">
+			<Link href="/" className="text-xl font-bold">
+				Sellswords
+			</Link>
+			<div className="flex gap-4">
+				<Button className="px-4 py-2" appearance="transparent">
 					<Link href="/">Home</Link>
 				</Button>
 				<DropdownMenu
@@ -113,10 +102,10 @@ const Navbar = () => {
 						{ label: "Weapons", href: "/armory/weapons" },
 					]}
 				/>
-				<Button className={styles.navButton}>
+				<Button className="px-4 py-2" appearance="transparent">
 					<Link href="/abilities">Abilities</Link>
 				</Button>
-				<Button className={styles.navButton}>
+				<Button className="px-4 py-2" appearance="transparent">
 					<Link href="/glossary">Glossary</Link>
 				</Button>
 			</div>
