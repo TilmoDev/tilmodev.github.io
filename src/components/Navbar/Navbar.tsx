@@ -106,7 +106,7 @@ const Navbar = () => {
 					<Link href="/abilities">Abilities</Link>
 				</Button>
 				<Button className="px-4 py-2" appearance="transparent">
-					<Link href="/glossary">Glossary</Link>
+					<Link href="/appendix">Appendix</Link>
 				</Button>
 			</div>
 		</nav>

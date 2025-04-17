@@ -1,4 +1,4 @@
-export default function GlossaryLayout({
+export default function AppendixLayout({
 	children,
 }: {
 	children: React.ReactNode;
