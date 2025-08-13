@@ -1,0 +1,38 @@
+[
+	{
+		"name": "Absorption",
+		"description": "Convert damage to Health determined by a specific damage type."
+	},
+	{
+		"name": "Cover",
+		"description": "Covered behind larger objects or obscuration, defense die increases by 1 size if partial cover, 3 sizes if greater cover (does not benefit from flanking creatures)."
+	},
+	{
+		"name": "Elevated",
+		"description": "Base die for ranged attacks increases by 1 size against targets below, and melee attacks deal Critical Hit when executed from a significant height difference, such as leaping down from an elevated surface, to a target below."
+	},
+	{
+		"name": "Hidden",
+		"description": "Unseen and unheard by target until seen or detected. Increases all base die by 2 sizes."
+	},
+	{
+		"name": "Immunity",
+		"description": "Reduce damage to zero determined by a specific damage type."
+	},
+	{
+		"name": "Prone",
+		"description": "Base die for ranged attacks and Defense Dice against ranged attacks increases by 1 size, but your Defense Dice decreases by 1 size against melee attacks."
+	},
+	{
+		"name": "Resistance",
+		"description": "Reduce damage by half determined by a specific damage type."
+	},
+	{
+		"name": "Soak",
+		"description": "Functions as an extra set of Health points. When damaged, deduct from Soak before real Health points. Soak disregards Vulnerability. Multiple Soak sources don't stack; the highest value source replaces the rest."
+	},
+	{
+		"name": "Toughness",
+		"description": "Immune to a specific threshold of damage."
+	}
+]

@@ -1,0 +1,149 @@
+{
+	"proficiencies": [
+		{
+			"name": "Axes",
+			"description": "Mastering the art of axes, you effortlessly wield these brutal blades, cleaving through foes with precision and raw strength.",
+			"ranks": [
+				{
+					"rank": "I",
+					"price": 500,
+					"effect": "Your Base Attack Dice for this weapon type is now d8."
+				},
+				{
+					"rank": "II",
+					"price": 1500,
+					"requires": "Rank I",
+					"effect": "Your Base Attack Dice for this weapon type is now d10."
+				},
+				{
+					"rank": "III",
+					"price": 2500,
+					"requires": "Rank II",
+					"effect": "Your Base Attack Dice for this weapon type is now d12."
+				}
+			],
+			"special": "If your attack brings the target to 0 Health, you can immediately make a free Normal Attack against an adjacent enemy."
+		},
+		{
+			"name": "Bludgeons",
+			"description": "With an expertise in bludgeons, you dominate the battlefield, delivering bone-Blunt blows that leave your enemies dazed and defeated.",
+			"ranks": [
+				{
+					"rank": "I",
+					"price": 500,
+					"effect": "Your Base Attack Dice for this weapon type is now d8."
+				},
+				{
+					"rank": "II",
+					"price": 1500,
+					"requires": "Rank I",
+					"effect": "Your Base Attack Dice for this weapon type is now d10."
+				},
+				{
+					"rank": "III",
+					"price": 2500,
+					"requires": "Rank II",
+					"effect": "Your Base Attack Dice for this weapon type is now d12."
+				}
+			],
+			"special": "If your attack deals at least 10 damage, the target is Dazed."
+		},
+		{
+			"name": "Brawling",
+			"description": "Whether swinging nunchakus or specialized martial art weapons, your proficiency in brawling grants you unmatched finesse and agility, turning combat into a dance of controlled chaos.",
+			"ranks": [
+				{
+					"rank": "I",
+					"price": 500,
+					"effect": "Your Base Attack Dice for this weapon type is now d8."
+				},
+				{
+					"rank": "II",
+					"price": 1500,
+					"requires": "Rank I",
+					"effect": "Your Base Attack Dice for this weapon type is now d10."
+				},
+				{
+					"rank": "III",
+					"price": 2500,
+					"requires": "Rank II",
+					"effect": "Your Base Attack Dice for this weapon type is now d12."
+				}
+			],
+			"special": "Spend 1 Focus to disarm your opponent on a successful hit. Their weapon falls 2m away from them in a direction of your choice.",
+			"limit": "You can only disarm weapons that are being held."
+		},
+		{
+			"name": "Daggers",
+			"description": "A master of daggers, you move like a shadow, swiftly and lethally striking at vulnerable points, making each confrontation a deadly dance.",
+			"ranks": [
+				{
+					"rank": "I",
+					"price": 500,
+					"effect": "Your Base Attack Dice for this weapon type is now d8."
+				},
+				{
+					"rank": "II",
+					"price": 1500,
+					"requires": "Rank I",
+					"effect": "Your Base Attack Dice for this weapon type is now d10."
+				},
+				{
+					"rank": "III",
+					"price": 2500,
+					"requires": "Rank II",
+					"effect": "Your Base Attack Dice for this weapon type is now d12."
+				}
+			],
+			"special": "Your requirement to inflict the negative conditions of Slice and Pierce damage is reduced by 5."
+		},
+		{
+			"name": "Poles",
+			"description": "Excelling in pole weapons, you command the reach of your weapon, keeping foes at bay with calculated strikes that make you a formidable force on the battlefield.",
+			"ranks": [
+				{
+					"rank": "I",
+					"price": 500,
+					"effect": "Your Base Attack Dice for this weapon type is now d8."
+				},
+				{
+					"rank": "II",
+					"price": 1500,
+					"requires": "Rank I",
+					"effect": "Your Base Attack Dice for this weapon type is now d10."
+				},
+				{
+					"rank": "III",
+					"price": 2500,
+					"requires": "Rank II",
+					"effect": "Your Base Attack Dice for this weapon type is now d12."
+				}
+			],
+			"special": "If your attack hits, you can spend 2 Focus to Knock Down the target."
+		},
+		{
+			"name": "Swords",
+			"description": "As a master of swords, your every move is a dance of deadly elegance, effortlessly parrying and striking with finesse and lethal precision.",
+			"ranks": [
+				{
+					"rank": "I",
+					"price": 500,
+					"effect": "Your Base Attack Dice for this weapon type is now d8."
+				},
+				{
+					"rank": "II",
+					"price": 1500,
+					"requires": "Rank I",
+					"effect": "Your Base Attack Dice for this weapon type is now d10."
+				},
+				{
+					"rank": "III",
+					"price": 2500,
+					"requires": "Rank II",
+					"effect": "Your Base Attack Dice for this weapon type is now d12."
+				}
+			],
+			"special": "When wielding a sword, you have a +2 bonus to your Defense Dice."
+		}
+	]
+}

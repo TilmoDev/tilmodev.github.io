@@ -1,0 +1,158 @@
+{
+	"mild": [
+		{
+			"name": "Bleed",
+			"description": "You suffer 1 Health damage at the end of your Turn, and this damage increases by 1 additional Health per Turn while the condition persists (additional applications increase the current count by 1). You can spend 3 Stamina to roll a Vitality Action Dice vs Risk 4 to remove the effect."
+		},
+		{
+			"name": "Crippled",
+			"description": "Combat maneuvers and skills cost 1 extra Stamina. You can spend 3 Stamina to roll a Vitality Action Dice vs Risk 4 to remove the effect."
+		},
+		{
+			"name": "Confused",
+			"description": "You have a 50% chance each Turn to target a random creature within range instead of their intended target. You can spend 3 Stamina to roll a Sense Action Dice vs Risk 4 to remove the effect."
+		},
+		{
+			"name": "Dazed",
+			"description": "Moving causes immediate knock down and loss of Turn and Momentum. You can spend 3 Stamina to roll a Vitality Action Dice vs Risk 4 to remove the effect."
+		},
+		{
+			"name": "Distracted",
+			"description": "Cannot use Focus. You can spend 2 Stamina to roll an Intellect Action Dice vs Risk 4 to remove the effect."
+		},
+		{
+			"name": "Exposed",
+			"description": "Lowers Defense Dice by one size (d8 to d6, d6 to d4, etc.) cumulatively. You can spend 3 Stamina to roll a Sense Action Dice vs Risk 6 to remove the effect."
+		},
+		{
+			"name": "Flanked",
+			"description": "Engaged by 2+ attackers within 2m, attackers’ Attack Dice increases by 1 size against you (negates any Cover bonuses you have). You can spend 2 Stamina to roll a Finesse Action Dice vs Risk 4 to remove the effect for this instance. Alternatively, automatically end if you move more than 2m away or allies engage the flanking enemies."
+		},
+		{
+			"name": "Flinched",
+			"description": "Cannot use Reflex and lose Momentum. You can spend 2 Stamina to roll an Influence Action Dice vs Risk 4 to remove the effect."
+		},
+		{
+			"name": "Hindered",
+			"description": "Lowers Action/Reaction Dice by one size (d8 to d6, d6 to d4, etc.) cumulatively. You can spend 3 Stamina to roll a Vitality or Strength Action Dice vs Risk 4 to remove the effect."
+		},
+		{
+			"name": "Impaired",
+			"description": "Lowers Attack Dice by one size (d8 to d6, d6 to d4, etc.) cumulatively. You can spend 3 Stamina to roll a Vitality or Finesse Action Dice vs Risk 4 to remove the effect."
+		},
+		{
+			"name": "Slowed",
+			"description": "Move 1 meter per Stamina used. You can spend 3 Stamina to roll a Vitality, Finesse, or Strength Action Dice vs Risk 4 to remove the effect."
+		},
+		{
+			"name": "Wet",
+			"description": "Reduces fire damage by half (round up), doubles shock and frost damage. You can spend 2 Stamina to roll a Finesse Action Dice vs Risk 4 to remove the effect. Alternatively, automatically recover near heat sources or in dry environments."
+		}
+	],
+	"moderate": [
+		{
+			"name": "Blinded",
+			"description": "Lose all Attack Dice bonuses and base dice decreases by 2 sizes. You can spend 3 Stamina to roll a Sense Action Dice vs Risk 6 to remove the effect."
+		},
+		{
+			"name": "Burned",
+			"description": "Your maximum Health drops by 5 cumulatively. Use appropriate Remedy to remove the effect."
+		},
+		{
+			"name": "Chilled",
+			"description": "Your maximum Reflex drops by 1 cumulatively. Use appropriate Remedy to remove the effect."
+		},
+		{
+			"name": "Corrode",
+			"description": "Lose 2 equipment Durability (attacker’s choice). Use a Repair Kit to restore Durability."
+		},
+		{
+			"name": "Deafened",
+			"description": "Lose all Defense and Reaction Dice bonuses and base dice decreases by 2 sizes. You can spend 3 Stamina to roll a Sense Action Dice vs Risk 6 to remove the effect."
+		},
+		{
+			"name": "Disabled",
+			"description": "Cannot willingly attack. You can spend 3 Stamina to roll a Vitality (if physical condition) or Influence (if mental condition) Action Dice vs Risk 6 to remove the effect."
+		},
+		{
+			"name": "Dizzy",
+			"description": "Whenever you spend Focus, double the amount spent. You can spend 3 Stamina to roll a Sense Action Dice vs Risk 6 to remove the effect. Alternatively, you can rest for 10 minutes out of combat to remove it."
+		},
+		{
+			"name": "Fatigued",
+			"description": "Maximum stamina reduced to 2. You can spend 3 Stamina to roll a Vitality Action Dice vs Risk 6 to remove the effect."
+		},
+		{
+			"name": "Frightened",
+			"description": "Cannot willingly approach within 5m of the source of fear. Loses all Attack Dice bonuses and base Attack Dice decreases by 1 size while the source of fear is within line of sight. You can spend 3 Stamina to roll an Influence Action Dice vs Risk 6 to remove the effect. Alternatively, it automatically ends if you cannot see the source of fear for 2 consecutive Turns."
+		},
+		{
+			"name": "Immobilized",
+			"description": "Cannot willingly move. You can spend 3 Stamina to roll a Strength or Finesse Action Dice vs Risk 6 to remove the effect."
+		},
+		{
+			"name": "Poisoned",
+			"description": "Your maximum Stamina drops by 1 cumulatively. Use appropriate Remedy to remove the effect."
+		},
+		{
+			"name": "Sapped",
+			"description": "Your maximum Focus drops by 3 cumulatively. Use appropriate Remedy to remove the effect."
+		},
+		{
+			"name": "Silenced",
+			"description": "Lose ability to speak. You can spend 3 Stamina to roll a Vitality or Influence (if mental condition) Dice vs Risk 6 to remove the effect."
+		},
+		{
+			"name": "Vulnerable",
+			"description": "Take 200% damage determined by a specific damage type. You can spend 3 Stamina to roll a Vitality or Sense Action Dice vs Risk 6 to remove the effect."
+		},
+		{
+			"name": "Weakened",
+			"description": "Halved melee and bow damage (round down). You can spend 3 Stamina to roll a Vitality Action Dice vs Risk 6 to remove the effect."
+		}
+	],
+	"severe": [
+		{
+			"name": "Asleep",
+			"description": "Unconscious state that can be awakened with damage, Blinded, Deafened, Unaware while in this state. Any ally 1m beside you may shake/slap you for 1 Stamina to automatically wake you up, or spend 5 Focus to rouse without damage."
+		},
+		{
+			"name": "Drained",
+			"description": "Immediately lose all Focus points. You can spend 5 Stamina to roll an Intellect or Influence Action Dice vs Risk 8 to remove the effect. Alternatively, you can rest for at least 1 hour to remove the effect."
+		},
+		{
+			"name": "Exhausted",
+			"description": "Cannot regain Focus. You can spend 5 Stamina to roll a Vitality Action Dice vs Risk 8 to remove the effect. Alternatively, you can rest for at least 1 hour to remove the effect."
+		},
+		{
+			"name": "Incapacitated",
+			"description": "Unable to act, attack, or defend for turns, attacks against you instantly hits and deals Critical Damage. Use appropriate Remedy to remove the effect."
+		},
+		{
+			"name": "Knocked Down",
+			"description": "Prone, melee attackers do critical hit damage against downed targets, Slowed. You can spend 5 Stamina to roll a Strength or Finesse Action Dice vs Risk 6 to remove the effect. Alternatively, allies 1m beside you can spend 3 Stamina to hoist you up removing the effect immediately."
+		},
+		{
+			"name": "Restrained",
+			"description": "Lowers all base dice by 2 sizes, cannot gesticulate. You can spend 5 Stamina to roll a Strength or Finesse Action Dice vs Risk 8 to remove the effect."
+		},
+		{
+			"name": "Rot",
+			"description": "Your Injury raises by 1 cumulatively. Refer to your Director to determine the cost of your treatment."
+		},
+		{
+			"name": "Staggered",
+			"description": "All attacks against you automatically hit for the next Turn or until your side regains Momentum. You can spend 5 Stamina to roll a Vitality or Sense Action Dice vs Risk 8 to remove the effect."
+		},
+		{
+			"name": "Unaware",
+			"description": "Automatically takes Critical Damage when hit. You can spend 5 Stamina to roll a Sense Action Dice vs Risk 8 to remove the effect."
+		}
+	],
+	"critical": [
+		{
+			"name": "Dying",
+			"description": "Reach 0 Health, lose 1d4 Health/round till -10 (dead). Must be Resuscitated."
+		}
+	]
+}

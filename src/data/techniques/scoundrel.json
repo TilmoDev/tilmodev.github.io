@@ -1,0 +1,425 @@
+{
+	"difficulty": "Easy",
+	"description": "Scoundrels are cunning opportunists who thrive on the excitement of unpredictability. Through their mastery of unorthodox tactics and their aversion to fair combat, they have honed the skill of surprise to perfection. Expertly versed in deception and armed with concealed weapons, Scoundrels are adept at navigating the shadows, outmaneuvering their adversaries, and delivering decisive strikes.",
+	"tiers": [
+		{
+			"tier": 1,
+			"techniques": [
+				{
+					"name": "Agile",
+					"type": ["Passive", "Utility"],
+					"required": "Your Bulk value must not exceed 1",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "Recover 1 Focus when you roll maximum on your Defense Dice."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "You recover 2 Focus instead."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "You recover 3 Focus instead."
+						}
+					],
+					"limit": "You can't recover more if you already have full Focus."
+				},
+				{
+					"name": "Dagger Master",
+					"type": ["Passive", "Offensive"],
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "As long as you have 3 Focus, you always roll triple whenever you score a Critical Hit with daggers. You also do not need to spend Stamina when switching weapons to a dagger."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "Your daggers’ Durability value increases by 3 as long as you are the one using it."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "As long as you have 5 Focus, you always roll double on all your Base Damage Dice for daggers."
+						}
+					]
+				},
+				{
+					"name": "Dilettante",
+					"type": ["Passive", "Upgrade"],
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "When you use Focus to artificially increase your Action or Reaction Dice result, each point counts as +2, instead of +1."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "Each point counts as +3 instead."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "Each point counts as +4 instead."
+						}
+					]
+				},
+				{
+					"name": "Lethality",
+					"type": ["Passive", "Utility"],
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "Whenever you kill an enemy, regain 1 Focus."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "You recover 2 Focus instead."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "You recover 3 Focus instead."
+						}
+					],
+					"limit": "You can't recover more if you already have full Focus."
+				},
+				{
+					"name": "Sneak",
+					"type": ["Passive", "Upgrade"],
+					"required": "Your Bulk value must not exceed 1",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "You can move your regular distance when Crouching. You are also no longer Slowed when Crawling or Shimmying but can only move up to 3m per Stamina spent."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "You no longer incur a penalty to Hide against alerted enemies."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "All enemy Action or Reaction Dice to spot you hiding is decreased by 2 sizes."
+						}
+					]
+				},
+				{
+					"name": "Tumble",
+					"type": ["Active", "Defensive"],
+					"required": "Your Bulk value must not exceed 1",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "Whenever an attack misses you, you can freely move up to 3m."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "Whenever an attack targets you, you can spend 1 Focus to move 3m before the enemy can even make an attack."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "The movement is now 5m."
+						}
+					],
+					"limit": "Movement takes Bulk into consideration."
+				}
+			]
+		},
+		{
+			"tier": 2,
+			"techniques": [
+				{
+					"name": "Adaptable",
+					"type": ["Active", "Utility"],
+					"prerequisite": "Agile (Tier 1), Dilettante (Tier 1), or Tumble (Tier 1)",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "Every time you fail an Action, Reaction, Attack, or Defense Dice during combat, you gain a pool of 1d4 bonus dice (max of 5) which you can use anytime on your next roll."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "You can use your extra dice pool on your allies' rolls as well as long as they are within 10m."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "The extra dice is now 1d6, instead of 1d4."
+						}
+					]
+				},
+				{
+					"name": "Backstab",
+					"type": ["Passive", "Offensive"],
+					"prerequisite": "Dagger Master (Tier 1), Lethality (Tier 1), or Sneak (Tier 1)",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "When you damage a flanked creature, you have a bonus 1d8 to your Damage Dice."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "Your bonus damage becomes 1d10 instead."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "Your bonus damage becomes 1d12 instead."
+						}
+					]
+				},
+				{
+					"name": "Duelist",
+					"type": ["Passive", "Offensive"],
+					"prerequisite": "Backstab (Tier 1) or Lethality (Tier 1)",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "When you damage a creature in melee that is not beside anyone but you, you have a bonus 1d8 to your Damage Dice."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "Your bonus damage becomes 1d10 instead."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "Your bonus damage becomes 1d12 instead."
+						}
+					]
+				},
+				{
+					"name": "Evasive Maneuver",
+					"type": ["Active", "Defensive"],
+					"prerequisite": "Agile (Tier 1) or Tumble (Tier 1)",
+					"required": "Your Bulk value must not exceed 1",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "Your Base Defense Dice increases by 1 size until your Side regains Momentum for every 5m you have moved during your turn."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "The distance needed to increase your Base Dice is now just 4m."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "The distance needed to increase your Base Dice is now just 3m."
+						}
+					]
+				},
+				{
+					"name": "Feint Attack",
+					"type": ["Active", "Offensive"],
+					"prerequisite": "Agile (Tier 1), Dagger Master (Tier 1), or Lethality (Tier 1)",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "When you perform an attack with a melee weapon and your attack misses, spend 1 Focus to reroll your attack."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "The secondary attack’s Base Dice is increased by 1 size."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "The secondary attack’s Base Dice is increased by 2 sizes instead."
+						}
+					],
+					"special": "You can continue spending Focus points to reroll as long as you can afford it."
+				},
+				{
+					"name": "Flash Step",
+					"type": ["Active", "Utility"],
+					"prerequisite": "Agile (Tier 1) or Tumble (Tier 1)",
+					"required": "Your Bulk value must not exceed 1",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "Your next melee attack costs 1 less Stamina as long as you moved at least 10m prior to the attack."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "Your next melee attack costs 2 less Stamina instead (but cannot go below 1)."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "Your next melee attack costs 3 less Stamina instead (but cannot go below 1)"
+						}
+					],
+					"special": "Enemies cannot use Reflex against you when you move using this ability."
+				}
+			]
+		},
+		{
+			"tier": 3,
+			"techniques": [
+				{
+					"name": "Assassinate",
+					"type": ["Active", "Offensive"],
+					"prerequisite": "Backstab (Tier 2), Duelist (Tier 2), or Feint Attack (Tier 2)",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "After a successful attack, you can enhance its damage by spending Focus. Each point increases damage by +2."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "Each Focus used now increases the damage by +3 instead."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "Each Focus used now increases the damage by +4 instead."
+						}
+					]
+				},
+				{
+					"name": "Dirty Fighting",
+					"type": ["Active", "Offensive", "Utility"],
+					"prerequisite": "Assassinate (Tier 2), Duelist (Tier 2), or Feint Attack (Tier 2)",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "When an enemy (melee or ranged) misses their attack against you, or when you Interrupt an enemy action, you may spend 3 Reflex to make a Normal Attack against that enemy. Your counterattack can be melee or ranged, matching the weapon you currently have equipped and within its normal range. This attack cannot miss and automatically applies the Exposed and Distracted conditions to the target."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "The Reflex required to trigger this ability is reduced by 1."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "The Reflex required to trigger this ability is reduced by 2 instead."
+						}
+					]
+				},
+				{
+					"name": "Final Gambit",
+					"type": ["Passive", "Offensive"],
+					"prerequisite": "Adaptable (Tier 2) or Feint Attack (Tier 2)",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "During combat, when your Health drops to 0, you can immediately spend 1 Reflex to perform one last weapon attack against any target within range. If the attack hits, triple your weapon’s Damage Dice and you recover 1 Health."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "The Damage Dice multiplier is quadrupled instead."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "The Damage Dice multiplier is quintupled instead."
+						}
+					],
+					"limit": "After using this skill, you must rest for 6 hours before using it again."
+				},
+				{
+					"name": "Instill Dread",
+					"type": ["Active", "Offensive", "Utility"],
+					"prerequisite": "Assassinate (Tier 2), Duelist (Tier 2), or Feint Attack (Tier 2)",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "When you kill a target, you can roll an Influence Action Dice against all enemies within 5m. If a target fails, they are Restrained."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "The Risk required to remove the condition increases by 1."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "The Risk required to remove the condition increases by 2 instead."
+						}
+					],
+					"limit": "Further use against the same targets becomes less effective, making their  Influence Reaction Dice increase by 1 size every time."
+				},
+				{
+					"name": "Lightning Reflex",
+					"type": ["Passive", "Upgrade"],
+					"prerequisite": "Evasive Maneuver (Tier 2) or Flash Step (Tier 2)",
+					"required": "Your Bulk value must not exceed 1",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "You spend 1 less Reflex whenever you use the same (but cannot go lower than 1)."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "You spend 2 less Reflex instead (but cannot go lower than 1)."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "Your maximum Reflex increases by 1."
+						}
+					]
+				},
+				{
+					"name": "Second Chances",
+					"type": ["Active", "Utility"],
+					"prerequisite": "Adaptable (Tier 2) or Evasive Maneuver (Tier 2)",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "If you fail an Action or Reaction Dice, you can force a reroll up to two times."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "The reroll can now be used on a failed Attack or Defense Dice."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "You can now trigger the reroll up to three times before resting. Also, the reroll can now be used on undesired Damage Dice results."
+						}
+					],
+					"limit": "After using this skill, you must rest for 6 hours before using it again."
+				}
+			]
+		}
+	]
+}

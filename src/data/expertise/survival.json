@@ -1,0 +1,85 @@
+{
+	"description": "Survival experts thrive where civilization's comforts end, turning inhospitable environments into their playground. They track elusive prey, weather harsh storms, and forage for vital resources with unparalleled skill. Their intimate knowledge of nature ensures life perseveres in the most challenging conditions.",
+	"expertise": [
+		{
+			"name": "Crafting",
+			"description": "Your hands shape raw materials into useful tools, sturdy shelters, and ingenious solutions to any challenge.",
+			"price": 750,
+			"options": [
+				"Spend 1 Focus to create basic tools from available and appropriate materials.",
+				"Spend 2 Focus to craft improvised weapons and traps from available and appropriate materials.",
+				"Spend 4 Focus to concoct improvised drinks, medicines, or poisons from available and appropriate materials."
+			]
+		},
+		{
+			"name": "Endurance",
+			"description": "You push your body to its limits, withstanding fatigue, extreme conditions, and deprivation through sheer force of will.",
+			"price": 750,
+			"options": [
+				"Spend 1 Focus to resist the effects of fatigue or sleep deprivation.",
+				"Spend 2 Focus to withstand extreme temperatures, pain, or toxins.",
+				"Spend 4 Focus to survive extended periods without food, water, or air."
+			]
+		},
+		{
+			"name": "Fitness",
+			"description": "Through rigorous training and discipline, you hone your body into a versatile instrument capable of extraordinary feats.",
+			"price": 750,
+			"options": [
+				"Spend 1 Focus to perform a feat of strength (e.g., lifting heavy objects, breaking through barriers).",
+				"Spend 2 Focus to execute a challenging feat of agility (e.g., running, jumping, balancing).",
+				"Spend 4 Focus to accomplish a complex physical task (e.g., climbing, swimming, diving)."
+			]
+		},
+		{
+			"name": "Foraging",
+			"description": "In the harshest environments, you find nourishment and resources where others see only barren wilderness.",
+			"price": 750,
+			"options": [
+				"Spend 1 Focus to find signs of water sources.",
+				"Spend 2 Focus to locate edible plants and small game.",
+				"Spend 4 Focus to find food and water in extremely harsh environments."
+			]
+		},
+		{
+			"name": "Forecasting",
+			"description": "By reading subtle signs in the environment, you predict the whims of weather and navigate accordingly.",
+			"price": 750,
+			"options": [
+				"Spend 1 Focus to forecast short-term weather changes.",
+				"Spend 2 Focus to predict severe weather events 24 hours in advance.",
+				"Spend 4 Focus to navigate safely through extreme weather conditions."
+			]
+		},
+		{
+			"name": "Navigation",
+			"description": "With an innate sense of direction and a mind for maps, you chart a course through any terrain, no matter how treacherous.",
+			"price": 750,
+			"options": [
+				"Spend 1 Focus to determine cardinal directions without tools.",
+				"Spend 2 Focus to create an accurate map of unexplored terrain.",
+				"Spend 4 Focus to find the safest and most efficient route through hazardous landscapes."
+			]
+		},
+		{
+			"name": "Taming",
+			"description": "With patience and understanding, you forge bonds with wild creatures, turning them into loyal companions.",
+			"price": 750,
+			"options": [
+				"Spend 1 Focus to calm a distressed animal.",
+				"Spend 2 Focus to tame a wild animal for temporary assistance.",
+				"Spend 4 Focus to communicate basic intentions to an animal or creature."
+			]
+		},
+		{
+			"name": "Tracking",
+			"description": "Your keen senses and deductive reasoning allow you to follow even the faintest trails left by your quarry.",
+			"price": 750,
+			"options": [
+				"Spend 1 Focus to identify and follow recent tracks.",
+				"Spend 2 Focus to determine the number, type, and condition of creatures that passed through an area.",
+				"Spend 4 Focus to track a specific target across diverse terrains and through attempts at misdirection."
+			]
+		}
+	]
+}

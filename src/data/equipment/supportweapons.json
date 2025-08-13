@@ -1,0 +1,57 @@
+{
+	"heavies": {
+		"description": "Bulkier, high-impact weapons built to unleash devastating firepower and control the battlefield.",
+		"items": [
+			{
+				"name": "Cannon",
+				"price": 350,
+				"properties": [
+					"6d12 (charges) damage",
+					"Ammo 1",
+					"Reload 4",
+					"Awkward 10m",
+					"Range 150m",
+					"Durability 6",
+					"Slot 5",
+					"Two-Handed",
+					"Explosive",
+					"Recoil",
+					"Loud",
+					"Malfunction 3"
+				]
+			},
+			{
+				"name": "Chemthrower",
+				"price": 300,
+				"properties": [
+					"2d10 (canisters) damage",
+					"Ammo 5",
+					"Reload 3",
+					"Awkward 3m",
+					"Range 20m",
+					"Durability 5",
+					"Slot 4",
+					"Two-Handed",
+					"Loud",
+					"Malfunction 3"
+				]
+			},
+			{
+				"name": "Grenade Launcher",
+				"price": 255,
+				"properties": [
+					"[Grenade] damage",
+					"Ammo 10",
+					"Reload 5",
+					"Range 50m",
+					"Durability 3",
+					"Slot 3",
+					"Two-Handed",
+					"Malfunction 3",
+					"Limit: Only grenades can be used as ammunition and can be pre-loaded during downtime (loaded grenades do not take Equipment Slots.)",
+					"Special: If the grenade travels at least 10m, the explosion becomes instantaneous however the target has to roll Defense Die against your Attack Die."
+				]
+			}
+		]
+	}
+}

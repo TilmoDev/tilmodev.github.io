@@ -1,0 +1,138 @@
+{
+	"light": {
+		"description": "Light Armors provide agile protection, allowing wearers to swiftly navigate the battlefield with minimal hindrance, making them ideal for nimble and evasive combat styles.",
+		"items": [
+			{
+				"name": "Padded Armor",
+				"price": 30,
+				"properties": [
+					"Mitigation 1",
+					"Durability 5",
+					"Slot 3",
+					"Bulk 0",
+					"Sole"
+				]
+			},
+			{
+				"name": "Leather Armor",
+				"price": 75,
+				"properties": [
+					"Mitigation 2",
+					"Durability 6",
+					"Slot 3",
+					"Bulk 0",
+					"Sole"
+				]
+			},
+			{
+				"name": "Fiber Armor",
+				"price": 150,
+				"properties": [
+					"Mitigation 3",
+					"Durability 8",
+					"Slot 4",
+					"Bulk 0",
+					"Sole"
+				]
+			},
+			{
+				"name": "Lightsteel Armor",
+				"price": 500,
+				"properties": [
+					"Mitigation 4",
+					"Durability 10",
+					"Slot 4",
+					"Bulk 0",
+					"Sole"
+				]
+			}
+		]
+	},
+	"medium": {
+		"description": "Medium Armors strike a balance between protection and mobility, offering wearers versatility in combat scenarios by providing decent defense without sacrificing maneuverability.",
+		"items": [
+			{
+				"name": "Scale Armor",
+				"price": 250,
+				"properties": [
+					"Mitigation 4",
+					"Durability 10",
+					"Slot 4",
+					"Bulk 1",
+					"Sole"
+				]
+			},
+			{
+				"name": "Mesh Armor",
+				"price": 250,
+				"properties": [
+					"Mitigation 5",
+					"Durability 12",
+					"Slot 5",
+					"Bulk 1",
+					"Sole"
+				]
+			},
+			{
+				"name": "Midplate Armor",
+				"price": 500,
+				"properties": [
+					"Mitigation 6",
+					"Durability 15",
+					"Slot 5",
+					"Bulk 2",
+					"Sole"
+				]
+			},
+			{
+				"name": "Exo Armor",
+				"price": 800,
+				"properties": [
+					"Mitigation 7",
+					"Durability 18",
+					"Slot 5",
+					"Bulk 2",
+					"Sole"
+				]
+			}
+		]
+	},
+	"heavy": {
+		"description": "Heavy Armors are the epitome of battlefield resilience, offering wearers maximum protection at the cost of some mobility, ensuring they stand as unyielding bastions against the onslaught of adversaries.",
+		"items": [
+			{
+				"name": "Steel Armor",
+				"price": 500,
+				"properties": [
+					"Mitigation 8",
+					"Durability 20",
+					"Slot 6",
+					"Bulk 3",
+					"Sole"
+				]
+			},
+			{
+				"name": "Plated Armor",
+				"price": 750,
+				"properties": [
+					"Mitigation 9",
+					"Durability 25",
+					"Slot 7",
+					"Bulk 4",
+					"Sole"
+				]
+			},
+			{
+				"name": "Titan Armor",
+				"price": 1500,
+				"properties": [
+					"Mitigation 10",
+					"Durability 30",
+					"Slot 8",
+					"Bulk 5",
+					"Sole"
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,669 @@
+{
+	"bows": {
+		"description": "Versatile ranged weapons with varying draw strengths, allowing for precise and sneak attacks.",
+		"items": [
+			{
+				"name": "Compound Bow",
+				"price": 150,
+				"properties": [
+					"2d8 (arrow) damage",
+					"Ammo 1",
+					"Reload 1",
+					"Awkward 15m",
+					"Range 75m",
+					"Snipe 150m",
+					"Durability 5",
+					"Slot 4",
+					"Two-Handed",
+					"Recoil",
+					"Sneak"
+				]
+			},
+			{
+				"name": "Greatbow",
+				"price": 150,
+				"properties": [
+					"2d12 (arrow) damage",
+					"Ammo 1",
+					"Reload 1",
+					"Awkward 25m",
+					"Range 100m",
+					"Snipe 200m",
+					"Durability 3",
+					"Slot 6",
+					"Two-Handed",
+					"Recoil"
+				]
+			},
+			{
+				"name": "Longbow",
+				"price": 75,
+				"properties": [
+					"2d6 (arrow) damage",
+					"Ammo 1",
+					"Reload 1",
+					"Awkward 15m",
+					"Range 75m",
+					"Snipe 150m",
+					"Durability 3",
+					"Slot 5",
+					"Two-Handed",
+					"Recoil"
+				]
+			},
+			{
+				"name": "Recurve Bow",
+				"price": 75,
+				"properties": [
+					"1d12 (arrow) damage",
+					"Ammo 1",
+					"Reload 1",
+					"Awkward 15m",
+					"Range 40m",
+					"Durability 3",
+					"Slot 4",
+					"Two-Handed",
+					"Recoil"
+				]
+			},
+			{
+				"name": "Shortbow",
+				"price": 50,
+				"properties": [
+					"1d10 (arrow) damage",
+					"Ammo 1",
+					"Reload 1",
+					"Awkward 10m",
+					"Range 40m",
+					"Durability 3",
+					"Slot 3",
+					"Two-Handed",
+					"Recoil",
+					"Light",
+					"Sneak"
+				]
+			},
+			{
+				"name": "Warbow",
+				"price": 75,
+				"properties": [
+					"3d4 (arrow) damage",
+					"Ammo 1",
+					"Reload 1",
+					"Awkward 15m",
+					"Range 50m",
+					"Durability 3",
+					"Slot 5",
+					"Two-Handed",
+					"Recoil"
+				]
+			}
+		]
+	},
+	"crossbows": {
+		"description": "Powerful, one-shot ranged weapons featuring a mechanical design for increased accuracy and force.",
+		"items": [
+			{
+				"name": "Compound Crossbow",
+				"price": 150,
+				"properties": [
+					"2d10 (arrow) damage",
+					"Ammo 1",
+					"Reload 2",
+					"Awkward 15m",
+					"Range 100m",
+					"Snipe 200m",
+					"Durability 3",
+					"Slot 5",
+					"Two-Handed",
+					"Recoil",
+					"Sneak"
+				]
+			},
+			{
+				"name": "Heavy Crossbow",
+				"price": 150,
+				"properties": [
+					"2d12 (arrow) damage",
+					"Ammo 1",
+					"Reload 2",
+					"Awkward 15m",
+					"Range 150m",
+					"Snipe 300m",
+					"Durability 5",
+					"Slot 6",
+					"Two-Handed",
+					"Recoil"
+				]
+			},
+			{
+				"name": "Pistol Crossbow",
+				"price": 50,
+				"properties": [
+					"1d10 (arrow) damage",
+					"Ammo 1",
+					"Reload 1",
+					"Awkward 10m",
+					"Range 20m",
+					"Durability 3",
+					"Slot 2",
+					"One-Handed",
+					"Recoil",
+					"Light",
+					"Sneak"
+				]
+			},
+			{
+				"name": "Recurve Crossbow",
+				"price": 75,
+				"properties": [
+					"2d8 (arrow) damage",
+					"Ammo 1",
+					"Reload 2",
+					"Awkward 15m",
+					"Range 75m",
+					"Durability 3",
+					"Slot 4",
+					"Versatile",
+					"Recoil",
+					"Sneak"
+				]
+			},
+			{
+				"name": "Repeating Crossbow",
+				"price": 350,
+				"properties": [
+					"1d8 (arrow) damage",
+					"Ammo 6",
+					"Reload 5",
+					"Awkward 15m",
+					"Range 40m",
+					"Durability 3",
+					"Slot 5",
+					"Versatile",
+					"Recoil",
+					"Burst 6",
+					"Malfunction 2"
+				]
+			},
+			{
+				"name": "Wrist Crossbow",
+				"price": 90,
+				"properties": [
+					"1d10 (arrow) damage",
+					"Ammo 4",
+					"Reload 2",
+					"Awkward 5m",
+					"Range 20m",
+					"Durability 3",
+					"Slot 2",
+					"Attached",
+					"Recoil",
+					"Light",
+					"Sneak",
+					"Malfunction 2"
+				]
+			}
+		]
+	},
+	"launchers": {
+		"description": "Launchers are versatile ranged weapons that propel projectiles with force.",
+		"items": [
+			{
+				"name": "Blowpipe",
+				"price": 10,
+				"properties": [
+					"1d12 (arrows) damage",
+					"Ammo 1",
+					"Reload 1",
+					"Awkward 5m",
+					"Range 15m",
+					"Durability 2",
+					"Slot 1",
+					"Two-Handed",
+					"Light",
+					"Sneak"
+				]
+			},
+			{
+				"name": "Boomerang",
+				"price": 5,
+				"properties": [
+					"3d4 Blunt or Slice damage",
+					"Ammo 1",
+					"Reload 1",
+					"Awkward 5m",
+					"Range 15m",
+					"Durability 3",
+					"Slot 1",
+					"One-Handed",
+					"Light",
+					"Returning",
+					"Risky",
+					"Compact 5"
+				]
+			},
+			{
+				"name": "Sling",
+				"price": 10,
+				"properties": [
+					"2d8 (bullets) damage",
+					"Ammo 1",
+					"Reload 1",
+					"Awkward 25m",
+					"Range 50m",
+					"Snipe 100m",
+					"Durability 2",
+					"Slot 1",
+					"One-Handed",
+					"Special (can use Explosives as ammo)"
+				]
+			},
+			{
+				"name": "Slingshot",
+				"price": 20,
+				"properties": [
+					"2d6 (bullets) damage",
+					"Ammo 1",
+					"Reload 1",
+					"Awkward 5m",
+					"Range 20m",
+					"Durability 2",
+					"Slot 1",
+					"Two-Handed",
+					"Light",
+					"Sneak",
+					"Special (can use Explosives as ammo)"
+				]
+			}
+		]
+	},
+	"pistols": {
+		"description": "Compact and easily wielded firearms with moderate damage, suitable for quick and agile combat scenarios.",
+		"items": [
+			{
+				"name": "Flintlock Pistol",
+				"price": 65,
+				"properties": [
+					"4d4 (bullets) damage",
+					"Ammo 1",
+					"Reload 3",
+					"Awkward 3m",
+					"Range 20m",
+					"Durability 3",
+					"Slot 2",
+					"Versatile",
+					"Recoil",
+					"Loud",
+					"Malfunction 3"
+				]
+			},
+			{
+				"name": "Handcannon",
+				"price": 350,
+				"properties": [
+					"6d4 (bullets) damage",
+					"Ammo 6",
+					"Reload 5",
+					"Awkward 3m",
+					"Range 25m",
+					"Durability 5",
+					"Slot 3",
+					"Versatile",
+					"Recoil",
+					"Loud",
+					"Malfunction 3"
+				]
+			},
+			{
+				"name": "Machine Pistol",
+				"price": 350,
+				"properties": [
+					"1d2 (bullets) damage",
+					"Ammo 20",
+					"Reload 3",
+					"Awkward 3m",
+					"Range 20m",
+					"Durability 3",
+					"Slot 2",
+					"Versatile",
+					"Recoil",
+					"Loud",
+					"Burst 10",
+					"Malfunction 3"
+				]
+			},
+			{
+				"name": "Pepperbox",
+				"price": 200,
+				"properties": [
+					"1d4 (bullets) damage",
+					"Ammo 12",
+					"Reload 5",
+					"Awkward 3m",
+					"Range 20m",
+					"Durability 3",
+					"Slot 2",
+					"Versatile",
+					"Recoil",
+					"Loud",
+					"Burst 6",
+					"Malfunction 3"
+				]
+			},
+			{
+				"name": "Pocket Pistol",
+				"price": 120,
+				"properties": [
+					"2d4 (bullets) damage",
+					"Ammo 4",
+					"Reload 2",
+					"Awkward 3m",
+					"Range 15m",
+					"Durability 3",
+					"Slot 1",
+					"One-Handed",
+					"Recoil",
+					"Light",
+					"Sneak",
+					"Malfunction 2"
+				]
+			},
+			{
+				"name": "Revolver",
+				"price": 200,
+				"properties": [
+					"4d4 (bullets) damage",
+					"Ammo 6",
+					"Reload 5",
+					"Awkward 3m",
+					"Range 20m",
+					"Durability 3",
+					"Slot 2",
+					"Versatile",
+					"Recoil",
+					"Loud",
+					"Malfunction 3"
+				]
+			},
+			{
+				"name": "Tactical Pistol",
+				"price": 120,
+				"properties": [
+					"3d4 (bullets) damage",
+					"Ammo 8",
+					"Reload 3",
+					"Awkward 3m",
+					"Range 20m",
+					"Durability 3",
+					"Slot 2",
+					"Versatile",
+					"Recoil",
+					"Loud",
+					"Sneak",
+					"Malfunction 2"
+				]
+			}
+		]
+	},
+	"rifles": {
+		"description": "Long-barreled firearms designed for accuracy at longer ranges, offering stability and higher damage.",
+		"items": [
+			{
+				"name": "Assault Rifle",
+				"price": 500,
+				"properties": [
+					"1d4 (bullets) damage",
+					"Ammo 20",
+					"Reload 5",
+					"Awkward 15m",
+					"Range 50m",
+					"Durability 5",
+					"Slot 4",
+					"Two-Handed",
+					"Recoil",
+					"Loud",
+					"Burst 5",
+					"Malfunction 2"
+				]
+			},
+			{
+				"name": "Battle Rifle",
+				"price": 350,
+				"properties": [
+					"3d8 (bullets) damage",
+					"Ammo 5",
+					"Reload 3",
+					"Awkward 15m",
+					"Range 75m",
+					"Durability 5",
+					"Slot 4",
+					"Two-Handed",
+					"Recoil",
+					"Loud",
+					"Malfunction 3"
+				]
+			},
+			{
+				"name": "Flintlock Rifle",
+				"price": 100,
+				"properties": [
+					"3d10 (bullets) damage",
+					"Ammo 1",
+					"Reload 3",
+					"Awkward 15m",
+					"Range 50m",
+					"Durability 3",
+					"Slot 4",
+					"Two-Handed",
+					"Recoil",
+					"Loud",
+					"Malfunction 3"
+				]
+			},
+			{
+				"name": "Hunting Rifle",
+				"price": 200,
+				"properties": [
+					"3d8 (bullets) damage",
+					"Ammo 1",
+					"Reload 2",
+					"Awkward 15m",
+					"Range 100m",
+					"Snipe 400m",
+					"Durability 3",
+					"Slot 4",
+					"Two-Handed",
+					"Recoil",
+					"Accurate",
+					"Loud",
+					"Sneak",
+					"Malfunction 3"
+				]
+			},
+			{
+				"name": "Machine Rifle",
+				"price": 800,
+				"properties": [
+					"1d4 (bullets) damage",
+					"Ammo 30",
+					"Reload 5",
+					"Awkward 15m",
+					"Range 50m",
+					"Durability 5",
+					"Slot 6",
+					"Two-Handed",
+					"Recoil",
+					"Loud",
+					"Burst 10",
+					"Malfunction 3"
+				]
+			},
+			{
+				"name": "Marksman Rifle",
+				"price": 500,
+				"properties": [
+					"3d8 (bullets) damage",
+					"Ammo 8",
+					"Reload 3",
+					"Awkward 15m",
+					"Range 100m",
+					"Snipe 600m",
+					"Durability 5",
+					"Slot 4",
+					"Two-Handed",
+					"Recoil",
+					"Accurate",
+					"Loud",
+					"Malfunction 2"
+				]
+			},
+			{
+				"name": "Sniper Rifle",
+				"price": 800,
+				"properties": [
+					"3d10 (bullets) damage",
+					"Ammo 6",
+					"Reload 3",
+					"Awkward 25m",
+					"Range 150m",
+					"Snipe 1200m",
+					"Durability 5",
+					"Slot 6",
+					"Two-Handed",
+					"Recoil",
+					"Accurate",
+					"Sneak",
+					"Malfunction 2"
+				]
+			}
+		]
+	},
+	"shotguns": {
+		"description": "Short-ranged firearms delivering powerful, spread-out shots, ideal for close-quarters combat.",
+		"items": [
+			{
+				"name": "Assault Shotgun",
+				"price": 500,
+				"properties": [
+					"1d6 (shells) damage",
+					"Ammo 15",
+					"Reload 5",
+					"Awkward 2m",
+					"Range 10m",
+					"Durability 5",
+					"Slot 4",
+					"Two-Handed",
+					"Recoil",
+					"Loud",
+					"Burst 3",
+					"Malfunction 2"
+				]
+			},
+			{
+				"name": "Blunderbuss",
+				"price": 100,
+				"properties": [
+					"4d6 (shells) damage",
+					"Ammo 1",
+					"Reload 3",
+					"Awkward 2m",
+					"Range 10m",
+					"Durability 3",
+					"Slot 4",
+					"Two-Handed",
+					"Recoil",
+					"Loud",
+					"Malfunction 3"
+				]
+			},
+			{
+				"name": "Boomstick",
+				"price": 50,
+				"properties": [
+					"1d6 (shells) damage",
+					"Ammo 2",
+					"Reload 3",
+					"Awkward 2m",
+					"Range 10m",
+					"Durability 3",
+					"Slot 2",
+					"One-Handed",
+					"Recoil",
+					"Loud",
+					"Burst 2",
+					"Malfunction 3"
+				]
+			},
+			{
+				"name": "Combat Shotgun",
+				"price": 350,
+				"properties": [
+					"4d6 (shells) damage",
+					"Ammo 6",
+					"Reload 5",
+					"Awkward 2m",
+					"Range 10m",
+					"Durability 5",
+					"Slot 4",
+					"Two-Handed",
+					"Recoil",
+					"Loud",
+					"Malfunction 3"
+				]
+			},
+			{
+				"name": "Hunting Shotgun",
+				"price": 100,
+				"properties": [
+					"1d10 (shells) damage",
+					"Ammo 2",
+					"Reload 3",
+					"Awkward 2m",
+					"Range 20m",
+					"Durability 3",
+					"Slot 4",
+					"Two-Handed",
+					"Recoil",
+					"Loud",
+					"Burst 2",
+					"Malfunction 3"
+				]
+			},
+			{
+				"name": "Scattergun",
+				"price": 100,
+				"properties": [
+					"3d6 (shells) damage",
+					"Ammo 5",
+					"Reload 5",
+					"Awkward 2m",
+					"Range 10m",
+					"Durability 3",
+					"Slot 4",
+					"Two-Handed",
+					"Recoil",
+					"Loud",
+					"Malfunction 3"
+				]
+			},
+			{
+				"name": "Tactical Shotgun",
+				"price": 500,
+				"properties": [
+					"3d6 (shells) damage",
+					"Ammo 6",
+					"Reload 5",
+					"Awkward 2m",
+					"Range 15m",
+					"Durability 5",
+					"Slot 4",
+					"Two-Handed",
+					"Recoil",
+					"Sneak",
+					"Malfunction 2"
+				]
+			}
+		]
+	}
+}

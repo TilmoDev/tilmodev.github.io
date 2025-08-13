@@ -1,0 +1,56 @@
+{
+	"light": {
+		"description": "Light Shields provide a blend of defense and agility, offering wielders the ability to deflect attacks while maintaining flexibility in movement, making them suitable for those who favor a balanced approach.",
+		"items": [
+			{
+				"name": "Buckler",
+				"price": 50,
+				"properties": [
+					"Defense Dice 1d8",
+					"Durability 5",
+					"Slot 2",
+					"Bulk 0",
+					"One-Handed"
+				]
+			},
+			{
+				"name": "Small Shield",
+				"price": 90,
+				"properties": [
+					"Defense Dice 1d10",
+					"Durability 10",
+					"Slot 3",
+					"Bulk 0",
+					"One-Handed"
+				]
+			}
+		]
+	},
+	"heavy": {
+		"description": "Heavy Shields are imposing defenses that prioritize absolute protection, allowing wielders to weather even the most formidable attacks while sacrificing some agility in exchange for unyielding stability on the battlefield.",
+		"items": [
+			{
+				"name": "Large Shield",
+				"price": 200,
+				"properties": [
+					"Defense Dice 1d12",
+					"Durability 15",
+					"Slot 4",
+					"Bulk 1",
+					"One-Handed"
+				]
+			},
+			{
+				"name": "Tower Shield",
+				"price": 350,
+				"properties": [
+					"Defense Dice 1d12",
+					"Durability 20",
+					"Slot 5",
+					"Bulk 2",
+					"One-Handed"
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,72 @@
+{
+	"damage_types": [
+		{
+			"category": "Physical",
+			"types": [
+				{
+					"name": "Blunt",
+					"effect": "Reduces Mitigation by 1 when dealing 12+ damage."
+				},
+				{
+					"name": "Pierce",
+					"effect": "Ignores Mitigation when dealing 10+ damage."
+				},
+				{
+					"name": "Slice",
+					"effect": "Inflict Bleed condition when dealing 12+ damage."
+				}
+			]
+		},
+		{
+			"category": "Elemental",
+			"types": [
+				{
+					"name": "Burn",
+					"effect": "Inflict Burned condition when dealing 15+ damage."
+				},
+				{
+					"name": "Frost",
+					"effect": "Inflict Chilled condition when dealing 15+ damage."
+				},
+				{
+					"name": "Shock",
+					"effect": "Inflict Sapped condition when dealing 15+ damage."
+				}
+			]
+		},
+		{
+			"category": "Entropy",
+			"types": [
+				{
+					"name": "Corruption",
+					"effect": "Inflict Rot condition when dealing 18+ damage."
+				},
+				{
+					"name": "Corrosion",
+					"effect": "Inflict Corrode condition when dealing 12+ damage."
+				},
+				{
+					"name": "Toxic",
+					"effect": "Inflict Poisoned condition when dealing 15+ damage."
+				}
+			]
+		},
+		{
+			"category": "Energy",
+			"types": [
+				{
+					"name": "Brilliant",
+					"effect": "Inflict Blinded condition when dealing 15+ damage."
+				},
+				{
+					"name": "Pure",
+					"effect": "Bypass all Mitigation, Toughness, and Resistances (except Soak)."
+				},
+				{
+					"name": "Sonic",
+					"effect": "Inflict Deafened condition when dealing 15+ damage."
+				}
+			]
+		}
+	]
+}

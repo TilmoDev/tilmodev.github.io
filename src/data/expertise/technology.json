@@ -1,0 +1,85 @@
+{
+	"description": "Technology experts stand at the forefront of innovation, bending the laws of nature to their will. They repair complex machinery, hack secured networks, and create advanced robotics. Their groundbreaking work in various technological fields continuously shapes the future, pushing the boundaries of what is possible.",
+	"expertise": [
+		{
+			"name": "Artifacts",
+			"description": "Your extensive knowledge of history and arcane lore allows you to identify, understand, and utilize the hidden properties of ancient artifacts.",
+			"price": 750,
+			"options": [
+				"Spend 1 Focus to identify the origin and basic properties of an artifact.",
+				"Spend 2 Focus to activate or deactivate an artifact safely.",
+				"Spend 4 Focus to reverse-engineer an artifact's advanced functions."
+			]
+		},
+		{
+			"name": "Chemistry",
+			"description": "Your deep understanding of chemical processes and reactions enables you to manipulate substances and create new compounds with unique properties.",
+			"price": 750,
+			"options": [
+				"Spend 1 Focus to analyze and identify unknown substances.",
+				"Spend 2 Focus to synthesize basic compounds using appropriate materials.",
+				"Spend 4 Focus to create advanced chemical agents using appropriate materials."
+			]
+		},
+		{
+			"name": "Cybernetics",
+			"description": "You specialize in integrating technology with biology, creating cybernetic enhancements that improve human capabilities and performance.",
+			"price": 750,
+			"options": [
+				"Spend 1 Focus to interface with a cybernetic implant using appropriate materials.",
+				"Spend 2 Focus to upgrade a cybernetic enhancement using appropriate materials.",
+				"Spend 4 Focus to troubleshoot a malfunctioning cybernetic using appropriate materials."
+			]
+		},
+		{
+			"name": "Electronics",
+			"description": "You excel at navigating intricate electronic circuits and code, enabling you to design, build, and repair a wide range of electronic devices.",
+			"price": 750,
+			"options": [
+				"Spend 1 Focus to bypass electronic security systems using appropriate materials.",
+				"Spend 2 Focus to repair or modify communication devices using appropriate materials.",
+				"Spend 4 Focus to set up or disable surveillance equipment using appropriate materials."
+			]
+		},
+		{
+			"name": "Machinery",
+			"description": "You have a natural talent for understanding and optimizing complex mechanical systems, ensuring machines operate efficiently and effectively.",
+			"price": 750,
+			"options": [
+				"Spend 1 Focus to operate complex machinery (e.g., industrial equipment, heavy vehicles).",
+				"Spend 2 Focus to repair mechanical equipment in the field using appropriate materials.",
+				"Spend 4 Focus to optimize a machine's performance using appropriate materials."
+			]
+		},
+		{
+			"name": "Robotics",
+			"description": "You have the expertise to design, construct, and program autonomous robots that can perform various tasks and interact with their environment.",
+			"price": 750,
+			"options": [
+				"Spend 1 Focus to control basic robots using appropriate materials.",
+				"Spend 2 Focus to repair or modify robotic systems using appropriate materials.",
+				"Spend 4 Focus to create advanced AI or nanomech using appropriate materials."
+			]
+		},
+		{
+			"name": "Software",
+			"description": "You possess strong logical thinking and problem-solving skills, allowing you to develop efficient and elegant software solutions.",
+			"price": 750,
+			"options": [
+				"Spend 1 Focus to hack into basic computer systems.",
+				"Spend 2 Focus to create or modify programs.",
+				"Spend 4 Focus to break through advanced cybersecurity measures."
+			]
+		},
+		{
+			"name": "Weaponry",
+			"description": "You are skilled in designing, crafting, and using various weapons, from traditional arms to advanced military technology.",
+			"price": 750,
+			"options": [
+				"Spend 1 Focus to maintain and repair advanced weapon systems using appropriate materials.",
+				"Spend 2 Focus to modify weapons using appropriate materials.",
+				"Spend 4 Focus to operate prototype or experimental weapons."
+			]
+		}
+	]
+}

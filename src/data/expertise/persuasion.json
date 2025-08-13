@@ -1,0 +1,85 @@
+{
+	"description": "Persuasion experts wield words as powerful tools, swaying hearts and minds with precision. They captivate audiences, negotiate high-stakes deals, and turn the tide of events without drawing a weapon. Through charm, intimidation, or carefully crafted rhetoric, they move mountains with mere words.",
+	"expertise": [
+		{
+			"name": "Deception",
+			"description": "With your quick thinking and silver tongue, you effortlessly spin convincing tales and half-truths, manipulating others' perceptions to suit your needs.",
+			"price": 750,
+			"options": [
+				"Spend 1 Focus to tell a convincing white lie.",
+				"Spend 2 Focus to create a complex false narrative.",
+				"Spend 4 Focus to plant believable misinformation."
+			]
+		},
+		{
+			"name": "Diplomacy",
+			"description": "Your keen understanding of social dynamics and emotional intelligence allows you to forge alliances, bridge divides, and find common ground in even the most challenging situations.",
+			"price": 750,
+			"options": [
+				"Spend 1 Focus to read a person’s emotions.",
+				"Spend 2 Focus to find a person’s motives.",
+				"Spend 4 Focus to form an alliance with a non-hostile person."
+			]
+		},
+		{
+			"name": "Entertainment",
+			"description": "You captivate audiences with your mesmerizing performances, leaving them spellbound and craving more.",
+			"price": 750,
+			"options": [
+				"Spend 1 Focus to draw a crowd's attention.",
+				"Spend 2 Focus to evoke a specific emotion in your audience (e.g., laughter, awe, nostalgia).",
+				"Spend 4 Focus to deliver a memorable performance that achieves a specific goal."
+			]
+		},
+		{
+			"name": "Intimidation",
+			"description": "Your commanding presence and unwavering resolve strike fear into the hearts of your enemies, making them think twice before crossing you.",
+			"price": 750,
+			"options": [
+				"Spend 1 Focus to make a target uneasy.",
+				"Spend 2 Focus to frighten a target.",
+				"Spend 4 Focus to terrify a target."
+			]
+		},
+		{
+			"name": "Motivation",
+			"description": "You have a gift for inspiring others, igniting their passions and driving them to achieve the impossible through your words and actions.",
+			"price": 750,
+			"options": [
+				"Spend 1 Focus to inspire an individual to action.",
+				"Spend 2 Focus to boost a group's morale.",
+				"Spend 4 Focus to instill courage in the face of adversity."
+			]
+		},
+		{
+			"name": "Negotiation",
+			"description": "With your sharp wit and persuasive skills, you navigate complex deals and contracts, always securing the best terms for yourself and your allies.",
+			"price": 750,
+			"options": [
+				"Spend 1 Focus to get a favorable price when buying or selling an item.",
+				"Spend 2 Focus to negotiate better terms in a deal or contract.",
+				"Spend 4 Focus to mediate a conflict between two parties."
+			]
+		},
+		{
+			"name": "Rhetoric",
+			"description": "Your mastery of language and ability to craft compelling arguments make you a formidable force in any debate or public forum, swaying opinions and rallying support to your cause.",
+			"price": 750,
+			"options": [
+				"Spend 1 Focus to make a persuasive argument.",
+				"Spend 2 Focus to sway a small group's opinion.",
+				"Spend 4 Focus to deliver a rousing speech to a large audience."
+			]
+		},
+		{
+			"name": "Seduction",
+			"description": "Your alluring charm and magnetic presence make you irresistible, allowing you to effortlessly win others' affection and trust.",
+			"price": 750,
+			"options": [
+				"Spend 1 Focus to distract a person.",
+				"Spend 2 Focus to gain a person’s trust.",
+				"Spend 4 Focus to convince a non-hostile person to do something within its means."
+			]
+		}
+	]
+}

@@ -1,0 +1,763 @@
+{
+	"axes": {
+		"description": "Heavy, two-handed weapons with a bladed head, delivering powerful, sweeping strikes and capable of cleaving through armor.",
+		"items": [
+			{
+				"name": "Battleaxe",
+				"price": 90,
+				"properties": [
+					"1d12 Slice + 1d6 Blunt damage",
+					"Melee",
+					"Durability 5",
+					"Slot 6",
+					"Two-Handed"
+				]
+			},
+			{
+				"name": "Greataxe",
+				"price": 110,
+				"properties": [
+					"2d10 Slice + 1d10 Blunt damage",
+					"Melee",
+					"Durability 8",
+					"Slot 8",
+					"Two-Handed",
+					"Heavy"
+				]
+			},
+			{
+				"name": "Hatchet",
+				"price": 20,
+				"properties": [
+					"1d6 Slice + 1d6 Blunt damage",
+					"Melee",
+					"Thrown 15m",
+					"Durability 3",
+					"Slot 2",
+					"One-Handed",
+					"Light"
+				]
+			},
+			{
+				"name": "Longaxe",
+				"price": 90,
+				"properties": [
+					"1d10 Slice + 1d6 Blunt damage",
+					"Melee",
+					"Durability 5",
+					"Slot 5",
+					"Versatile"
+				]
+			},
+			{
+				"name": "Pickaxe",
+				"price": 90,
+				"properties": [
+					"1d12 Pierce + 1d6 Blunt damage",
+					"Melee",
+					"Durability 5",
+					"Slot 6",
+					"Two-Handed"
+				]
+			},
+			{
+				"name": "Poleaxe",
+				"price": 100,
+				"properties": [
+					"2d8 Slice + 1d6 Blunt damage",
+					"Melee 2m",
+					"Durability 8",
+					"Slot 8",
+					"Two-Handed",
+					"Heavy"
+				]
+			},
+			{
+				"name": "War Axe",
+				"price": 120,
+				"properties": [
+					"1d12 Slice + 1d6 Blunt damage",
+					"Melee",
+					"Durability 5",
+					"Slot 4",
+					"Versatile"
+				]
+			}
+		]
+	},
+	"bludgeons": {
+		"description": "Weighty melee weapons designed for Blunt blows, offering high impact and effective against armored foes.",
+		"items": [
+			{
+				"name": "Cudgel",
+				"price": 15,
+				"properties": [
+					"3d4 Blunt damage",
+					"Melee",
+					"Durability 3",
+					"Slot 2",
+					"One-Handed"
+				]
+			},
+			{
+				"name": "Flail",
+				"price": 90,
+				"properties": [
+					"5d4 Blunt damage",
+					"Melee",
+					"Durability 5",
+					"Slot 4",
+					"One-Handed",
+					"Risky"
+				]
+			},
+			{
+				"name": "Great Club",
+				"price": 75,
+				"properties": [
+					"5d4 Blunt damage",
+					"Melee",
+					"Durability 8",
+					"Slot 6",
+					"Two-Handed",
+					"Heavy"
+				]
+			},
+			{
+				"name": "Mace",
+				"price": 60,
+				"properties": [
+					"4d4 Blunt damage",
+					"Melee",
+					"Durability 5",
+					"Slot 4",
+					"One-Handed"
+				]
+			},
+			{
+				"name": "Maul",
+				"price": 125,
+				"properties": [
+					"6d4 Blunt damage",
+					"Melee",
+					"Durability 8",
+					"Slot 8",
+					"Two-Handed",
+					"Heavy"
+				]
+			},
+			{
+				"name": "Morningstar",
+				"price": 100,
+				"properties": [
+					"3d4 Blunt + 1d6 Pierce damage",
+					"Melee",
+					"Durability 5",
+					"Slot 4",
+					"Versatile"
+				]
+			},
+			{
+				"name": "War Hammer",
+				"price": 75,
+				"properties": [
+					"4d4 Blunt damage",
+					"Melee",
+					"Durability 5",
+					"Slot 4",
+					"Versatile"
+				]
+			}
+		]
+	},
+	"brawling": {
+		"description": "Unarmed combat styles that emphasize quick, close-range strikes and grapples, providing versatility in melee confrontations.",
+		"items": [
+			{
+				"name": "Unarmed",
+				"price": 0,
+				"properties": [
+					"1d8 Blunt or Pierce damage",
+					"Melee",
+					"Durability 2",
+					"Slot 0"
+				]
+			},
+			{
+				"name": "Brass Knuckle",
+				"price": 10,
+				"properties": [
+					"1d12 Blunt or Pierce damage",
+					"Melee",
+					"Durability 3",
+					"Slot 1",
+					"Attached",
+					"Unarmed",
+					"Precise"
+				]
+			},
+			{
+				"name": "Bo Staff",
+				"price": 50,
+				"properties": [
+					"2d8 Blunt or Pierce damage",
+					"Melee",
+					"Durability 3",
+					"Slot 4",
+					"Two-Handed",
+					"Defensive",
+					"Precise"
+				]
+			},
+			{
+				"name": "Fighting Stick",
+				"price": 15,
+				"properties": [
+					"2d6 Blunt or Pierce damage",
+					"Melee",
+					"Durability 2",
+					"Slot 2",
+					"One-Handed",
+					"Light",
+					"Precise"
+				]
+			},
+			{
+				"name": "Nunchaku",
+				"price": 15,
+				"properties": [
+					"2d6 Blunt or Pierce damage",
+					"Melee",
+					"Durability 3",
+					"Slot 2",
+					"One-Handed",
+					"Light",
+					"Precise",
+					"Risky"
+				]
+			},
+			{
+				"name": "Sectioned Staff",
+				"price": 50,
+				"properties": [
+					"2d8 Blunt or Pierce damage",
+					"Melee",
+					"Durability 3",
+					"Slot 3",
+					"Two-Handed",
+					"Precise",
+					"Risky"
+				]
+			},
+			{
+				"name": "Tonfa",
+				"price": 15,
+				"properties": [
+					"2d6 Blunt or Pierce damage",
+					"Melee",
+					"Durability 3",
+					"Slot 2",
+					"One-Handed",
+					"Defensive",
+					"Light",
+					"Precise"
+				]
+			},
+			{
+				"name": "Whip",
+				"price": 45,
+				"properties": [
+					"2d8 Pierce or Slice damage",
+					"Melee 3m",
+					"Durability 3",
+					"Slot 2",
+					"One-Handed",
+					"Precise",
+					"Risky"
+				]
+			}
+		]
+	},
+	"daggers": {
+		"description": "Lightweight, short-bladed weapons ideal for swift and precise attacks, often used for stealthy maneuvers.",
+		"items": [
+			{
+				"name": "Bladed Fan",
+				"price": 75,
+				"properties": [
+					"1d10 Slice or Pierce damage",
+					"Melee",
+					"Durability 3",
+					"Slot 2",
+					"One-Handed",
+					"Defensive",
+					"Light",
+					"Precise"
+				]
+			},
+			{
+				"name": "Chakram",
+				"price": 10,
+				"properties": [
+					"1d10 Slice or Pierce damage",
+					"Melee",
+					"Thrown 20m",
+					"Durability 3",
+					"Slot 2",
+					"One-Handed",
+					"Light",
+					"Sneak",
+					"Precise",
+					"Returning",
+					"Compact 3"
+				]
+			},
+			{
+				"name": "Dagger",
+				"price": 30,
+				"properties": [
+					"1d10 Slice or Pierce damage",
+					"Melee",
+					"Thrown 10m",
+					"Durability 2",
+					"Slot 2",
+					"One-Handed",
+					"Light",
+					"Sneak",
+					"Precise"
+				]
+			},
+			{
+				"name": "Karambit",
+				"price": 50,
+				"properties": [
+					"1d10 Slice or Pierce damage",
+					"Melee",
+					"Durability 2",
+					"Slot 1",
+					"One-Handed",
+					"Light",
+					"Sneak",
+					"Precise",
+					"Compact 2"
+				]
+			},
+			{
+				"name": "Katar",
+				"price": 50,
+				"properties": [
+					"1d12 Slice or Pierce damage",
+					"Melee",
+					"Durability 2",
+					"Slot 2",
+					"One-Handed",
+					"Light",
+					"Sneak",
+					"Precise"
+				]
+			},
+			{
+				"name": "Kukri",
+				"price": 50,
+				"properties": [
+					"1d12 Slice or Pierce damage",
+					"Melee",
+					"Durability 3",
+					"Slot 2",
+					"One-Handed",
+					"Light",
+					"Sneak",
+					"Precise"
+				]
+			},
+			{
+				"name": "Kunai",
+				"price": 7,
+				"properties": [
+					"1d6 Pierce damage",
+					"Melee",
+					"Thrown 10m",
+					"Durability 3",
+					"Slot 1",
+					"One-Handed",
+					"Light",
+					"Sneak",
+					"Precise",
+					"Compact 6",
+					"Burst 3"
+				]
+			},
+			{
+				"name": "Kusarigama",
+				"price": 75,
+				"properties": [
+					"1d12 Slice, Blunt, or Pierce damage",
+					"Melee 3m",
+					"Durability 3",
+					"Slot 2",
+					"Two-Handed",
+					"Light",
+					"Sneak",
+					"Precise",
+					"Risky"
+				]
+			},
+			{
+				"name": "Sai",
+				"price": 50,
+				"properties": [
+					"1d10 Pierce damage",
+					"Melee",
+					"Durability 3",
+					"Slot 2",
+					"One-Handed",
+					"Defensive",
+					"Light",
+					"Sneak",
+					"Precise"
+				]
+			},
+			{
+				"name": "Secret Knife",
+				"price": 125,
+				"properties": [
+					"1d10 Pierce damage",
+					"Melee",
+					"Durability 2",
+					"Slot 2",
+					"Attached",
+					"Light",
+					"Sneak",
+					"Precise"
+				]
+			},
+			{
+				"name": "Shuriken",
+				"price": 5,
+				"properties": [
+					"1d4 Pierce damage",
+					"Melee",
+					"Thrown 10m",
+					"Durability 3",
+					"Slot 1",
+					"One-Handed",
+					"Light",
+					"Sneak",
+					"Precise",
+					"Compact 12",
+					"Burst 5"
+				]
+			}
+		]
+	},
+	"poles": {
+		"description": "Long-reaching weapons with various heads, offering versatility in both offensive and defensive combat strategies.",
+		"items": [
+			{
+				"name": "Bardiche",
+				"price": 75,
+				"properties": [
+					"3d8 Slice damage",
+					"Melee",
+					"Durability 8",
+					"Slot 8",
+					"Two-Handed",
+					"Heavy",
+					"Brace"
+				]
+			},
+			{
+				"name": "Billhook",
+				"price": 50,
+				"properties": [
+					"2d12 Slice or Pierce damage",
+					"Melee 2m",
+					"Durability 5",
+					"Slot 6",
+					"Two-Handed",
+					"Precise",
+					"Heavy",
+					"Brace"
+				]
+			},
+			{
+				"name": "Halberd",
+				"price": 100,
+				"properties": [
+					"3d8 Slice, Blunt, or Pierce damage",
+					"Melee 2m",
+					"Durability 8",
+					"Slot 8",
+					"Two-Handed",
+					"Heavy",
+					"Brace"
+				]
+			},
+			{
+				"name": "Glaive",
+				"price": 90,
+				"properties": [
+					"3d6 Slice or Pierce damage",
+					"Melee 2m",
+					"Durability 5",
+					"Slot 8",
+					"Two-Handed",
+					"Heavy",
+					"Brace"
+				]
+			},
+			{
+				"name": "Pike",
+				"price": 50,
+				"properties": [
+					"3d8 Pierce damage",
+					"Melee 2m",
+					"Durability 8",
+					"Slot 8",
+					"Two-Handed",
+					"Heavy",
+					"Brace"
+				]
+			},
+			{
+				"name": "Scythe",
+				"price": 50,
+				"properties": [
+					"3d8 Slice damage",
+					"Melee",
+					"Durability 8",
+					"Slot 8",
+					"Two-Handed",
+					"Heavy"
+				]
+			},
+			{
+				"name": "Spear",
+				"price": 30,
+				"properties": [
+					"2d10 Pierce damage",
+					"Melee",
+					"Thrown 25m",
+					"Durability 3",
+					"Slot 4",
+					"Versatile",
+					"Brace"
+				]
+			},
+			{
+				"name": "Trident",
+				"price": 90,
+				"properties": [
+					"2d10 Pierce damage",
+					"Melee",
+					"Thrown 25m",
+					"Durability 3",
+					"Slot 4",
+					"One-Handed",
+					"Defensive",
+					"Brace"
+				]
+			}
+		]
+	},
+	"swords": {
+		"description": "Versatile one-handed or two-handed bladed weapons designed for balanced and agile combat, suitable for various fighting styles.",
+		"items": [
+			{
+				"name": "Arming Sword",
+				"price": 75,
+				"properties": [
+					"3d4 Slice or Pierce damage",
+					"Melee",
+					"Durability 5",
+					"Slot 3",
+					"One-Handed",
+					"Light"
+				]
+			},
+			{
+				"name": "Bastard Sword",
+				"price": 100,
+				"properties": [
+					"3d6 Slice or Pierce damage",
+					"Melee",
+					"Durability 5",
+					"Slot 5",
+					"Versatile"
+				]
+			},
+			{
+				"name": "Broadsword",
+				"price": 75,
+				"properties": [
+					"3d6 Slice or Pierce damage",
+					"Melee",
+					"Durability 5",
+					"Slot 4",
+					"One-Handed"
+				]
+			},
+			{
+				"name": "Cane Sword",
+				"price": 75,
+				"properties": [
+					"3d4 Slice or Pierce damage",
+					"Melee",
+					"Durability 3",
+					"Slot 3",
+					"One-Handed",
+					"Light",
+					"Sneak"
+				]
+			},
+			{
+				"name": "Double Sword",
+				"price": 150,
+				"properties": [
+					"4d4 Slice or Pierce damage",
+					"Melee",
+					"Durability 5",
+					"Slot 5",
+					"Two-Handed",
+					"Defensive"
+				]
+			},
+			{
+				"name": "Greatsword",
+				"price": 125,
+				"properties": [
+					"3d10 Slice or Pierce damage",
+					"Melee",
+					"Durability 8",
+					"Slot 8",
+					"Two-Handed",
+					"Heavy"
+				]
+			},
+			{
+				"name": "Hook Sword",
+				"price": 100,
+				"properties": [
+					"3d6 Slice or Pierce damage",
+					"Melee",
+					"Durability 3",
+					"Slot 4",
+					"One-Handed",
+					"Defensive",
+					"Risky"
+				]
+			},
+			{
+				"name": "Katana",
+				"price": 100,
+				"properties": [
+					"4d4 Slice or Pierce damage",
+					"Melee",
+					"Durability 3",
+					"Slot 4",
+					"Versatile",
+					"Precise"
+				]
+			},
+			{
+				"name": "Khopesh",
+				"price": 100,
+				"properties": [
+					"4d4 Slice damage",
+					"Melee",
+					"Durability 5",
+					"Slot 4",
+					"One-Handed",
+					"Defensive"
+				]
+			},
+			{
+				"name": "Longsword",
+				"price": 100,
+				"properties": [
+					"3d8 Slice or Pierce damage",
+					"Melee",
+					"Durability 5",
+					"Slot 5",
+					"Two-Handed"
+				]
+			},
+			{
+				"name": "Machete",
+				"price": 50,
+				"properties": [
+					"2d8 Slice damage",
+					"Melee",
+					"Durability 3",
+					"Slot 2",
+					"One-Handed",
+					"Light"
+				]
+			},
+			{
+				"name": "Rapier",
+				"price": 75,
+				"properties": [
+					"3d4 Slice or Pierce damage",
+					"Melee",
+					"Durability 3",
+					"Slot 3",
+					"One-Handed",
+					"Light",
+					"Accurate"
+				]
+			},
+			{
+				"name": "Sabre",
+				"price": 100,
+				"properties": [
+					"3d6 Slice or Pierce damage",
+					"Melee",
+					"Durability 5",
+					"Slot 4",
+					"One-Handed",
+					"Accurate"
+				]
+			},
+			{
+				"name": "Umbrella Sword",
+				"price": 75,
+				"properties": [
+					"3d4 Slice or Pierce damage",
+					"Melee",
+					"Durability 3",
+					"Slot 3",
+					"One-Handed",
+					"Light",
+					"Sneak"
+				]
+			},
+			{
+				"name": "Wakizashi",
+				"price": 75,
+				"properties": [
+					"3d4 Slice or Pierce damage",
+					"Melee",
+					"Durability 3",
+					"Slot 2",
+					"One-Handed",
+					"Light",
+					"Sneak",
+					"Precise"
+				]
+			},
+			{
+				"name": "Whip Sword",
+				"price": 150,
+				"properties": [
+					"3d6 Slice or Pierce damage",
+					"Melee 3m",
+					"Durability 3",
+					"Slot 3",
+					"One-Handed",
+					"Risky"
+				]
+			}
+		]
+	}
+}

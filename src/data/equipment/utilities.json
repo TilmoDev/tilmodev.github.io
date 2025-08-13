@@ -1,0 +1,283 @@
+{
+	"backpacks": {
+		"description": "Durable carriers that expand your equipment slots, letting you haul more weapons, tools, and supplies into the field.",
+		"items": [
+			{
+				"name": "Tiny Bag",
+				"price": 75,
+				"properties": [
+					"Your maximum Inventory Slot increases by 2",
+					"Durability 1",
+					"Sole"
+				]
+			},
+			{
+				"name": "Small Bag",
+				"price": 200,
+				"properties": [
+					"Your maximum Inventory Slot increases by 4",
+					"Durability 2",
+					"Sole"
+				]
+			},
+			{
+				"name": "Medium Bag",
+				"price": 600,
+				"properties": [
+					"Your maximum Inventory Slot increases by 8",
+					"Durability 3",
+					"Sole"
+				]
+			},
+			{
+				"name": "Large Bag",
+				"price": 1450,
+				"properties": [
+					"Your maximum Inventory Slot increases by 12",
+					"Durability 4",
+					"Sole"
+				]
+			},
+			{
+				"name": "Extra Large Bag",
+				"price": 3550,
+				"properties": [
+					"Your maximum Inventory Slot increases by 20",
+					"Durability 5",
+					"Sole"
+				]
+			}
+		]
+	},
+	"gears": {
+		"description": "Essential mission tools offering a range of functions adaptable for any challenge.",
+		"items": [
+			{
+				"name": "Assassin’s Gear",
+				"price": 500,
+				"properties": [
+					"Your weapons gain the Sneak property and any Loud property is removed (up to 10 uses per day only, replenishes after resting for at least 6 hours)",
+					"Durability 3",
+					"Slot 2",
+					"Unique"
+				]
+			},
+			{
+				"name": "Breathing Gear",
+				"price": 350,
+				"properties": [
+					"You can breathe normally up to 1 hour (replenishes after resting for at least 6 hours)",
+					"Durability 3",
+					"Slot 2",
+					"Unique"
+				]
+			},
+			{
+				"name": "Camping Gear",
+				"price": 350,
+				"properties": [
+					"You do not gain Exhausted and Fatigued after resting for 6 hours outdoors",
+					"Durability 3",
+					"Slot 2",
+					"Unique"
+				]
+			},
+			{
+				"name": "Cooking Set",
+				"price": 350,
+				"properties": [
+					"Your entire party gains 5 Soak after resting for at least 3 hours",
+					"Durability 3",
+					"Slot 2",
+					"Unique"
+				]
+			},
+			{
+				"name": "Comms Gear",
+				"price": 350,
+				"properties": [
+					"You can communicate with another person who is also equipped with this gear up to 50km",
+					"Durability 3",
+					"Slot 2",
+					"Unique"
+				]
+			},
+			{
+				"name": "Climbing Gear",
+				"price": 350,
+				"properties": [
+					"Action/Reaction Dice to difficult climbs is increased by 2 sizes, you can climb 5m per 1 Stamina",
+					"Durability 3",
+					"Slot 2",
+					"Unique"
+				]
+			},
+			{
+				"name": "Deciphering Tool",
+				"price": 350,
+				"properties": [
+					"Automatically succeed when solving puzzles and mysteries within 1m (up to 5 uses per day only, replenishes after resting for at least 6 hours)",
+					"Durability 3",
+					"Slot 2",
+					"Unique"
+				]
+			},
+			{
+				"name": "Disguise Kit",
+				"price": 350,
+				"properties": [
+					"Enemy Reaction Dice to notice or recognize you is decreased by 2 sizes",
+					"Durability 3",
+					"Slot 2",
+					"Unique"
+				]
+			},
+			{
+				"name": "Expedition Gear",
+				"price": 350,
+				"properties": [
+					"You can move normally through difficult terrain, including underwater",
+					"Durability 3",
+					"Slot 2",
+					"Unique"
+				]
+			},
+			{
+				"name": "Gliding Gear",
+				"price": 350,
+				"properties": [
+					"You glide and land safely from great heights",
+					"Durability 3",
+					"Slot 2",
+					"Unique"
+				]
+			},
+			{
+				"name": "Hacking Tool",
+				"price": 500,
+				"properties": [
+					"Automatically succeed when bypassing technological devices and security codes within 5m (up to 5 uses per day only, replenishes after resting for at least 6 hours)",
+					"Durability 3",
+					"Slot 2",
+					"Unique"
+				]
+			},
+			{
+				"name": "Healing Kit",
+				"price": 500,
+				"properties": [
+					"Restores 5 Health to a creature out of combat (up to 5 uses per day only, replenishes after resting for at least 6 hours)",
+					"Durability 3",
+					"Slot 2",
+					"Unique"
+				]
+			},
+			{
+				"name": "Hunting Gear",
+				"price": 350,
+				"properties": [
+					"Action Dice to harvest plants, minerals, and animals is increased by 2 sizes",
+					"Durability 3",
+					"Slot 2",
+					"Unique"
+				]
+			},
+			{
+				"name": "Language Tool",
+				"price": 350,
+				"properties": [
+					"You can speak and understand almost all languages",
+					"Durability 3",
+					"Slot 2",
+					"Unique"
+				]
+			},
+			{
+				"name": "Liquor Flask",
+				"price": 500,
+				"properties": [
+					"Your Attack and Defense Dice increases by 2 sizes but your maximum Focus is reduced by 3 until combat ends (up to 5 uses per day only, replenishes after resting for at least 6 hours)",
+					"Durability 3",
+					"Slot 2",
+					"Unique"
+				]
+			},
+			{
+				"name": "Navigation Gear",
+				"price": 350,
+				"properties": [
+					"Automatically succeed when locating directions and items within 100m (up to 5 uses per day only, replenishes after resting for at least 6 hours)",
+					"Durability 3",
+					"Slot 2",
+					"Unique"
+				]
+			},
+			{
+				"name": "Night Gear",
+				"price": 350,
+				"properties": [
+					"You can see normally in total darkness",
+					"Durability 3",
+					"Slot 2",
+					"Unique"
+				]
+			},
+			{
+				"name": "Repair Kit",
+				"price": 500,
+				"properties": [
+					"Restores 1d4 Durability or 1 Mitigation out of combat (up to 5 uses per day only, replenishes after resting for at least 6 hours)",
+					"Durability 3",
+					"Slot 2",
+					"Unique"
+				]
+			},
+			{
+				"name": "Scouting Gear",
+				"price": 350,
+				"properties": [
+					"You can see normally up to 1,500m",
+					"Durability 3",
+					"Slot 2",
+					"Unique"
+				]
+			},
+			{
+				"name": "Thieves’ Tools",
+				"price": 500,
+				"properties": [
+					"Automatically succeed when opening locks and disabling traps within 1m (up to 5 uses per day only, replenishes after resting for at least 6 hours)",
+					"Durability 3",
+					"Slot 2",
+					"Unique"
+				]
+			}
+		]
+	},
+	"trainings": {
+		"description": "Specialized instruction that boosts your potential, raising the maximum skill limits you can learn and master.",
+		"items": [
+			{
+				"name": "Proficiency Training",
+				"price": 5000,
+				"properties": [
+					"Increase your maximum capacity to learn Proficiencies by 1."
+				]
+			},
+			{
+				"name": "Expertise Training",
+				"price": 2000,
+				"properties": [
+					"Increase your maximum capacity to learn Expertise by 1."
+				]
+			},
+			{
+				"name": "Technique Training",
+				"price": 3500,
+				"properties": [
+					"Increase your maximum capacity to learn Techniques by 1."
+				]
+			}
+		]
+	}
+}

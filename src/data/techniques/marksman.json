@@ -1,0 +1,438 @@
+{
+	"difficulty": "Easy",
+	"description": "Marksmen are true masters of long-ranged combat, honing their skills to deliver precise shots with unwavering focus. Every bullet or arrow they unleash is a testament to their dedication to accuracy and efficiency on the battlefield. Through their expertise, Marksmen strike their targets with unparalleled precision, making each shot count.",
+	"tiers": [
+		{
+			"tier": 1,
+			"techniques": [
+				{
+					"name": "Far Shot",
+					"type": ["Passive", "Offensive"],
+					"description": "With a trained eye and steady aim, you gracefully engage your distant target, each shot propelled by the far-reaching prowess of your weapon, delivering devastating impact with every precise strike.",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "You gain a +1 bonus to Damage Dice for every 15m of distance between you and your target."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "The meter required is now 10 instead."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "The meter required is now 5 instead."
+						}
+					],
+					"special": "You also double the effective range of your weapon."
+				},
+				{
+					"name": "Headshot",
+					"type": ["Passive", "Utility"],
+					"description": "Your shot finds its mark with unparalleled accuracy, each well-aimed projectile effortlessly replenishing your focus as it strikes true.",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "Recover 1 Focus whenever at least one of your ranged weapon's Damage Dice rolls its maximum value (ignoring any additional rolls)."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "You recover 2 Focus instead."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "You recover 3 Focus instead."
+						}
+					],
+					"limit": "You can't recover more if you already have full Focus."
+				},
+				{
+					"name": "Pistolero",
+					"type": ["Passive", "Upgrade"],
+					"description": "With an effortless twirl of your pistols, you unleash a barrage of precision shots, each Turn carrying an extra sting as your fluid movements allow for seamless weapon transitions without a moment's hesitation.",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "As long as you have 3 Focus, your pistols gain the Precise property. You also do not need to spend Stamina when switching weapons to a pistol."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "As long as you have 3 Focus, your pistols lose the Malfunction property."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "As long as you have 5 Focus, your pistols gain the Light property."
+						}
+					]
+				},
+				{
+					"name": "Rapid Reload",
+					"type": ["Passive", "Upgrade"],
+					"description": "Your practiced finesse allows you to swiftly replenish your weapon with a seamless motion, ensuring your firepower remains uninterrupted even in the midst of relentless combat.",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "You reduce the Stamina required to reload your weapon by 1 (with a minimum of 1). Additionally, you can perform a reload even if your hands are full."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "The Stamina reduction is now 2, but it cannot go below 1. Additionally, you only need to spend 1 less Stamina to repair a Malfunction, but it cannot go below 1 as well."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "The Stamina reduction is now 3, but it cannot go below 1. Additionally, you only need to spend 2 less Stamina to repair a Malfunction, but it cannot go below 1 as well."
+						}
+					],
+					"special": "The Stamina requirement to reload a Bow or Launcher can be reduced to 0."
+				},
+				{
+					"name": "Sharpshooter",
+					"type": ["Passive", "Utility"],
+					"description": "Your shot, guided by unparalleled precision, finds its mark with unwavering accuracy, instilling you with renewed focus as your projectile meets its intended destination.",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "Recover 2 Focus when you roll maximum on your Attack Dice using a ranged weapon."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "You recover 3 Focus instead."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "You recover 4 Focus instead."
+						}
+					],
+					"limit": "You can't recover more if you already have full Focus."
+				},
+				{
+					"name": "Strafe",
+					"type": ["Active", "Utility"],
+					"description": "You seamlessly blend precision and mobility, fluidly maneuvering before or after each ranged attack, ensuring your strikes land true while constantly evading the enemy's reach.",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "Whenever you make an Attack Dice using a ranged weapon, you can move 1m before or after the attack."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "The movement is now 3m."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "The movement is now 5m."
+						}
+					],
+					"limit": "Movement takes Bulk into consideration."
+				}
+			]
+		},
+		{
+			"tier": 2,
+			"techniques": [
+				{
+					"name": "Akimbo",
+					"type": ["Active", "Offensive"],
+					"prerequisite": "Pistolero (Tier 1), Rapid Reload (Tier 1), or Sharpshooter (Tier 1)",
+					"required": "You must be wielding a one-handed ranged weapon in each hand.",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "You can spend 5 Stamina to make an attack with each weapon."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "The Stamina required is now reduced to 4."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "The Stamina required is now reduced to 3."
+						}
+					]
+				},
+				{
+					"name": "Charged Shot",
+					"type": ["Active", "Offensive"],
+					"prerequisite": "Headshot (Tier 1) or Sharpshooter (Tier 1)",
+					"required": "You must be using a bow or a throwing weapon.",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "You can spend Focus during an attack to improve your damage. For each Focus spent, add +1d4 bonus to your Damage Dice if the attack hits."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "The bonus to damage is now +1d6 instead."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "The bonus to damage is now +1d8 instead."
+						}
+					],
+					"limit": "The effect only applies to a single attack. If you can do multiple attacks, you have to apply the effect individually."
+				},
+				{
+					"name": "Evasive Shot",
+					"type": ["Active", "Utility"],
+					"prerequisite": "Rapid Reload (Tier 1) or Strafe (Tier 1)",
+					"required": "You must be wielding a ranged weapon.",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "Whenever an attack misses you, you can move 3m and your next Base Attack Dice increases by 1 size."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "The movement is now 5m."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "Your Base Dice increases by 2 sizes instead."
+						}
+					],
+					"limit": "Movement takes Bulk into consideration."
+				},
+				{
+					"name": "Quick Shot",
+					"type": ["Passive", "Upgrade"],
+					"prerequisite": "Pistolero (Tier 1), Rapid Reload (Tier 1), or Sharpshooter (Tier 1)",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "Whenever you use your Reflex to make an attack using a ranged weapon, your Base Dice increases by 1 size."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "You only need to spend 2 Reflex to make an attack, instead of 3."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "You only need to spend 1 Reflex to make an attack instead."
+						}
+					]
+				},
+				{
+					"name": "Spread Shot",
+					"type": ["Active", "Offensive"],
+					"prerequisite": "Far Shot (Tier 1), Headshot (Tier 1), or Sharpshooter (Tier 1)",
+					"required": "You must be using a bow or a throwing weapon.",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "Whenever you make an attack, you can also include a second target within 3m of your primary target."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "You can now include a third target to the attack but it must be within 3m of your primary target."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "You can now include a fourth target to the attack but it must be within 3m of your primary target."
+						}
+					],
+					"limit": "You cannot use this ability if you are lacking ammo."
+				},
+				{
+					"name": "Take Aim",
+					"type": ["Active", "Offensive"],
+					"prerequisite": "Far Shot (Tier 1), Headshot (Tier 1), or Sharpshooter (Tier 1)",
+					"required": "You must be wielding a ranged weapon.",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "You can spend Focus during an attack to improve your accuracy. For each Focus spent, you add +1d4 to your result."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "You add +1d6 to your result instead."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "you add +1d8 to your result instead."
+						}
+					],
+					"limit": "The effect only applies to a single attack. If you can do multiple attacks, you have to apply the effect individually."
+				}
+			]
+		},
+		{
+			"tier": 3,
+			"techniques": [
+				{
+					"name": "Barrage",
+					"type": ["Active", "Offensive"],
+					"prerequisite": "Akimbo (Tier 2), Quick Shot (Tier 2), or Take Aim (Tier 2)",
+					"required": "You must be wielding a ranged weapon.",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "After making a ranged attack, you can immediately spend 2 Focus to make an additional attack on the same target but its Base Dice is decreased by 1 size."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "You only need to spend 1 Focus."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "The extra attack’s Base Dice is no longer decreased."
+						}
+					],
+					"special": "You can continuously use this ability as long as you have the Focus to spare but you also cannot continue this ability if your weapon runs out of ammo or needs to be reloaded."
+				},
+				{
+					"name": "Crippling Shot",
+					"type": ["Active", "Offensive", "Utility"],
+					"prerequisite": "Akimbo (Tier 2), Quick Shot (Tier 2), or Take Aim (Tier 2)",
+					"required": "You must be wielding a ranged weapon.",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "You must spend 1 Turn aiming, during which you cannot take any other actions. If you choose to do something else before the Turn ends, the aim is lost and you must start over. After aiming for 1 Turn, your next ranged attack gains a +1d8 bonus to Attack Dice. If the attack hits, it deals critical damage and you choose one of the following effects to apply to the target: Disabled, Dizzied, Immobilized, Knocked Down, Staggered, or one piece of their equipment takes 3d4 Durability damage."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "The bonus to your next ranged attack becomes +1d10."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "The bonus to your next ranged attack becomes +1d12."
+						}
+					]
+				},
+				{
+					"name": "Piercing Shot",
+					"type": ["Passive", "Offensive"],
+					"prerequisite": "Charged Shot (Tier 2) or Take Aim (Tier 2)",
+					"required": "You must be wielding a ranged weapon.",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "If the damage from your ranged weapon eliminates your target, the subsequent enemy within 5m directly behind the primary target automatically suffers the remaining damage, equivalent to your total damage minus the primary target's remaining Health; this effect continues to further targets as long as there is remaining damage."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "The distance to the next enemy target is now 10m."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "The distance to the next enemy target is now 15m."
+						}
+					]
+				},
+				{
+					"name": "Ricochet",
+					"type": ["Active", "Offensive"],
+					"prerequisite": "Akimbo (Tier 2), Quick Shot (Tier 2), or Take Aim (Tier 2)",
+					"required": "You must be wielding a ranged weapon.",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "Your attacks ignore partial cover, and when facing enemies behind greater cover, you treat it as partial cover; similarly, when dealing with foes behind full cover, you treat it as greater cover."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "Your attacks ignore both partial and greater cover. You also treat enemies behind full cover as if they were behind partial cover."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "Whenever you miss a ranged weapon attack, immediately spend 1 Focus to repeat the attack on the same target or another target within 5m of the primary target."
+						}
+					]
+				},
+				{
+					"name": "Split Second",
+					"type": ["Active", "Defensive"],
+					"prerequisite": "Akimbo (Tier 2), Quick Shot (Tier 2), or Take Aim (Tier 2)",
+					"required": "You must be wielding a ranged weapon.",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "Whenever an enemy hits you or an ally with a ranged attack, spend 3 Reflex to roll an Attack Dice. If your result is equal to or higher than the enemy's, the enemy's attack is nullified."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "You only need to spend 2 Reflex instead."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "You only need to spend 1 Reflex instead."
+						}
+					],
+					"limit": "The effect only applies to a single attack. If there are multiple attacks, you have to apply the effect individually."
+				},
+				{
+					"name": "True Shot",
+					"type": ["Active", "Upgrade"],
+					"prerequisite": "Charged Shot (Tier 2), Spread Shot (Tier 2), or Take Aim (Tier 2)",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "When you use Instant Success with your ranged weapon, you only need to spend 4 Focus, instead of 5."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "You only need to spend 3 Focus instead."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "You only need to spend 2 Focus instead."
+						}
+					]
+				}
+			]
+		}
+	]
+}

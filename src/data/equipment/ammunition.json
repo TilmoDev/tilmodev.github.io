@@ -1,0 +1,276 @@
+{
+	"arrows": {
+		"description": "Arrows are finely crafted projectiles designed for use with bows, crossbows, and launchers, offering ranged precision and lethal impact.",
+		"items": [
+			{
+				"name": "Arrows (10 pcs)",
+				"price": 15,
+				"properties": ["Pierce damage", "Durability 3", "Slot 1", "Compact 50"]
+			},
+			{
+				"name": "Caustic Arrows (10 pcs)",
+				"price": 35,
+				"properties": [
+					"Corrosion damage",
+					"Durability 3",
+					"Slot 1",
+					"Compact 50"
+				]
+			},
+			{
+				"name": "Corruption Arrows (10 pcs)",
+				"price": 45,
+				"properties": [
+					"Corruption damage",
+					"Durability 3",
+					"Slot 1",
+					"Compact 50"
+				]
+			},
+			{
+				"name": "Fire Arrows (10 pcs)",
+				"price": 35,
+				"properties": ["Burn damage", "Durability 3", "Slot 1", "Compact 50"]
+			},
+			{
+				"name": "Poison Arrows (10 pcs)",
+				"price": 35,
+				"properties": ["Toxic damage", "Durability 3", "Slot 1", "Compact 50"]
+			}
+		]
+	},
+	"bullets": {
+		"description": "Bullets are ammunition designed for firearms and launchers, delivering a powerful and controlled burst to engage targets at a distance.",
+		"items": [
+			{
+				"name": "Bullets (10 pcs)",
+				"price": 25,
+				"properties": ["Pierce damage", "Durability 3", "Slot 1", "Compact 50"]
+			},
+			{
+				"name": "Cryo Bullets (10 pcs)",
+				"price": 45,
+				"properties": ["Frost damage", "Durability 3", "Slot 1", "Compact 50"]
+			},
+			{
+				"name": "Shock Bullets (10 pcs)",
+				"price": 45,
+				"properties": ["Shock damage", "Durability 3", "Slot 1", "Compact 50"]
+			},
+			{
+				"name": "Silver Bullets (10 pcs)",
+				"price": 65,
+				"properties": ["Pure damage", "Durability 3", "Slot 1", "Compact 50"]
+			},
+			{
+				"name": "Sonic Bullets (10 pcs)",
+				"price": 45,
+				"properties": ["Sonic damage", "Durability 3", "Slot 1", "Compact 50"]
+			}
+		]
+	},
+	"shells": {
+		"description": "Shells are munitions crafted for shotguns, providing a wide and destructive spread upon impact.",
+		"items": [
+			{
+				"name": "Flechette (10 pcs)",
+				"price": 35,
+				"properties": [
+					"Slice damage",
+					"Durability 3",
+					"Slot 1",
+					"15° spread at 5m",
+					"20° spread at 10m",
+					"Compact 50"
+				]
+			},
+			{
+				"name": "Buckshot (10 pcs)",
+				"price": 35,
+				"properties": [
+					"Pierce damage",
+					"Durability 3",
+					"Slot 1",
+					"15° spread at 5m",
+					"20° spread at 10m",
+					"Compact 50"
+				]
+			},
+			{
+				"name": "Flameshot (10 pcs)",
+				"price": 55,
+				"properties": [
+					"Burn damage",
+					"Durability 3",
+					"Slot 1",
+					"15° spread at 5m",
+					"20° spread at 10m",
+					"Compact 50"
+				]
+			},
+			{
+				"name": "Brightshot (10 pcs)",
+				"price": 55,
+				"properties": [
+					"Brilliant damage",
+					"Durability 3",
+					"Slot 1",
+					"15° spread at 5m",
+					"20° spread at 10m",
+					"Compact 50"
+				]
+			},
+			{
+				"name": "Slug (10 pcs)",
+				"price": 30,
+				"properties": ["Blunt damage", "Durability 3", "Slot 1", "Compact 50"]
+			}
+		],
+		"note": "This ammunition’s area of effect only affects the first target it hits and is not Continuous (see Continuous under Equipment Properties)"
+	},
+	"charges": {
+		"description": "Specialized ammunition packed with explosive force, designed for cannons to deliver maximum destruction to targets and fortifications.",
+		"items": [
+			{
+				"name": "Fragment Charge (1pc)",
+				"price": 105,
+				"properties": [
+					"Blunt-Slice damage",
+					"Durability 3",
+					"Slot 1",
+					"Area 3 sqm",
+					"Compact 5"
+				]
+			},
+			{
+				"name": "Concussive Charge (1pc)",
+				"price": 105,
+				"properties": [
+					"Sonic-Brilliant damage",
+					"Durability 3",
+					"Slot 1",
+					"Area 3 sqm",
+					"Compact 5"
+				]
+			},
+			{
+				"name": "Freezing Charge (1pc)",
+				"price": 105,
+				"properties": [
+					"Frost-Pierce damage",
+					"Durability 3",
+					"Slot 1",
+					"Area 3 sqm",
+					"Compact 5"
+				]
+			},
+			{
+				"name": "Incendiary Charge (1pc)",
+				"price": 105,
+				"properties": [
+					"Burn-Corrosion damage",
+					"Durability 3",
+					"Slot 1",
+					"Area 3 sqm",
+					"Compact 5"
+				]
+			},
+			{
+				"name": "Chemical Charge (1pc)",
+				"price": 135,
+				"properties": [
+					"Toxic-Corruption damage",
+					"Durability 3",
+					"Slot 1",
+					"Area 3 sqm",
+					"Compact 5"
+				]
+			},
+			{
+				"name": "Electric Charge (1pc)",
+				"price": 135,
+				"properties": [
+					"Shock-Pure damage",
+					"Durability 3",
+					"Slot 1",
+					"Area 3 sqm",
+					"Compact 5"
+				]
+			}
+		]
+	},
+	"canisters": {
+		"description": "Pressurized containers loaded with volatile chemicals, fueling chemthrowers to blanket areas with corrosive, incendiary, or toxic effects.",
+		"items": [
+			{
+				"name": "Flame Canister (5 pcs)",
+				"price": 125,
+				"properties": [
+					"Burn damage",
+					"Durability 3",
+					"Slot 1",
+					"15° spread at 5m",
+					"20° spread at 10m",
+					"Compact 25",
+					"Continuous",
+					"Lingering (Burned)"
+				]
+			},
+			{
+				"name": "Freeze Canister (5 pcs)",
+				"price": 125,
+				"properties": [
+					"Frost damage",
+					"Durability 3",
+					"Slot 1",
+					"15° spread at 5m",
+					"20° spread at 10m",
+					"Compact 25",
+					"Continuous",
+					"Lingering (Chilled)"
+				]
+			},
+			{
+				"name": "Electric Canister (5 pcs)",
+				"price": 125,
+				"properties": [
+					"Shock-Pure damage",
+					"Durability 3",
+					"Slot 1",
+					"15° spread at 5m",
+					"20° spread at 10m",
+					"Compact 25",
+					"Continuous"
+				]
+			},
+			{
+				"name": "Toxic Canister (5 pcs)",
+				"price": 125,
+				"properties": [
+					"Toxic damage",
+					"Durability 3",
+					"Slot 1",
+					"15° spread at 5m",
+					"20° spread at 10m",
+					"Compact 25",
+					"Continuous",
+					"Lingering (Poisoned)"
+				]
+			},
+			{
+				"name": "Acid Canister (5 pcs)",
+				"price": 125,
+				"properties": [
+					"Corrosion damage",
+					"Durability 3",
+					"Slot 1",
+					"15° spread at 5m",
+					"20° spread at 10m",
+					"Compact 25",
+					"Continuous",
+					"Lingering (Corrode)"
+				]
+			}
+		]
+	}
+}

@@ -1,0 +1,85 @@
+{
+	"description": "Scholastic experts are the keepers and seekers of wisdom, bridging gaps between past and present, magic and science, theory and practice. They decipher ancient texts, unravel complex urban networks, and reconstruct dead languages with equal proficiency. Their diverse expertise provides crucial insights in any situation, turning knowledge into a powerful asset.",
+	"expertise": [
+		{
+			"name": "Arcane",
+			"description": "You delve into the mysteries of magic, deciphering ancient texts and mastering complex arcane theories.",
+			"price": 750,
+			"options": [
+				"Spend 1 Focus to identify a magical effect or spell.",
+				"Spend 2 Focus to decipher an arcane text or artifact.",
+				"Spend 4 Focus to understand complex magical theory."
+			]
+		},
+		{
+			"name": "History",
+			"description": "You are a repository of the past, analyzing cultural shifts and uncovering hidden connections that shape the present.",
+			"price": 750,
+			"options": [
+				"Spend 1 Focus to recall significant historical events.",
+				"Spend 2 Focus to analyze cultural trends and societal changes.",
+				"Spend 4 Focus to uncover hidden connections between historical figures or events."
+			]
+		},
+		{
+			"name": "Linguistics",
+			"description": "You are a master of language, analyzing unknown tongues, creating and breaking codes, and reconstructing ancient forms of communication.",
+			"price": 750,
+			"options": [
+				"Spend 1 Focus to analyze the structure of an unknown language.",
+				"Spend 2 Focus to create or break a complex linguistic code.",
+				"Spend 4 Focus to reconstruct an ancient or dead language."
+			]
+		},
+		{
+			"name": "Nature",
+			"description": "From identifying flora and fauna to predicting natural phenomena, you possess an intimate understanding of the natural world.",
+			"price": 750,
+			"options": [
+				"Spend 1 Focus to identify flora and fauna, and to an extent, alien creatures.",
+				"Spend 2 Focus to predict natural phenomena.",
+				"Spend 4 Focus to understand complex ecosystems."
+			]
+		},
+		{
+			"name": "Occult",
+			"description": "Attuned to the supernatural, you recognize signs of otherworldly activity and interpret cryptic omens.",
+			"price": 750,
+			"options": [
+				"Spend 1 Focus to recognize signs of supernatural activity.",
+				"Spend 2 Focus to perform a minor divination using appropriate materials.",
+				"Spend 4 Focus to interpret cryptic prophecies or omens."
+			]
+		},
+		{
+			"name": "Religion",
+			"description": "With deep knowledge of faiths and rituals, you navigate the intricate world of religious hierarchies and politics.",
+			"price": 750,
+			"options": [
+				"Spend 1 Focus to recall details about a specific deity or religious practice.",
+				"Spend 2 Focus to interpret religious texts or symbols.",
+				"Spend 4 Focus to understand the intricacies of religious hierarchies and politics."
+			]
+		},
+		{
+			"name": "Science",
+			"description": "Applying scientific principles and conducting experiments, you solve complex problems through the power of analytical thinking.",
+			"price": 750,
+			"options": [
+				"Spend 1 Focus to recall basic scientific principles relevant to a situation.",
+				"Spend 2 Focus to design and conduct a simple experiment using appropriate materials.",
+				"Spend 4 Focus to apply advanced scientific knowledge to solve a complex problem."
+			]
+		},
+		{
+			"name": "Streets",
+			"description": "Navigating the urban jungle, you gather information from local sources and understand the intricacies of criminal networks.",
+			"price": 750,
+			"options": [
+				"Spend 1 Focus to gather information from local sources.",
+				"Spend 2 Focus to navigate complex urban environments.",
+				"Spend 4 Focus to understand criminal hierarchies and operations."
+			]
+		}
+	]
+}

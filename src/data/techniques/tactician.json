@@ -1,0 +1,416 @@
+{
+	"difficulty": "Hard",
+	"description": "Tacticians embody the essence of strategic leadership on the battlefield, orchestrating every move with precision and foresight to guide their team to victory. Masters of combat strategies and tactical acumen, they excel in analyzing the ebb and flow of battle, turning the tide in their favor with every calculated decision. Whether it's rallying their allies with inspiring speeches, devising cunning maneuvers to outsmart their foes, or sacrificing themselves for the greater good, Tacticians lead by example, earning the respect and admiration of all who fight alongside them.",
+	"tiers": [
+		{
+			"tier": 1,
+			"techniques": [
+				{
+					"name": "Commanding Presence",
+					"type": ["Passive", "Utility"],
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "All allies (except you) within 5m get +2 bonus to all Base Dice rolls, while enemies get a -1 penalty."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "The distance of the aura extends up to 10m instead."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "The distance of the aura extends up to 15m instead."
+						}
+					]
+				},
+				{
+					"name": "Emergency Aid",
+					"type": ["Passive", "Utility"],
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "When someone in your team falls unconscious or is reduced to 0 Health, you immediately gain 5 Reflex that lasts for 1 Round only."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "The Stamina needed to perform Resuscitate and Recover is reduced by 1 (minimum of 1)."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "The Stamina needed to perform Resuscitate and Recover is reduced by 2 instead (minimum of 1)."
+						}
+					]
+				},
+				{
+					"name": "Encouraging Words",
+					"type": ["Active", "Utility"],
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "You can spend 3 Stamina to allow all allies (except you) within 5m to gain 5 Soak."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "The distance of the ally extends up to 10m instead."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "The distance of the ally extends up to 15m instead."
+						}
+					]
+				},
+				{
+					"name": "Quick Thinking",
+					"type": ["Passive", "Utility"],
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "When you or an ally within 5m takes damage, that person can freely move up to 5m."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "The distance of the ally extends up to 10m instead."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "The distance of the ally extends up to 15m instead."
+						}
+					]
+				},
+				{
+					"name": "Strategic Maneuver",
+					"type": ["Active", "Utility"],
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "You can spend 3 Stamina to allow all allies (except you) within 5m to move up to 5m."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "The distance of the ally extends up to 10m instead."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "The distance of the ally extends up to 15m instead."
+						}
+					],
+					"special": "Enemies cannot use Reflex against your allies when they move."
+				},
+				{
+					"name": "Zeal",
+					"type": ["Passive", "Utility"],
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "Whenever you see an ally (including yourself) take at least 10 damage to Health from a single attack or drop to 0 Health, you recover 1 Focus."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "You recover 2 Focus instead."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "You recover 3 Focus instead."
+						}
+					],
+					"limit": "You can't recover more if you already have full Focus."
+				}
+			]
+		},
+		{
+			"tier": 2,
+			"techniques": [
+				{
+					"name": "Adaptive Tactics",
+					"type": ["Active", "Utility"],
+					"prerequisite": "Emergency Aid (Tier 1), Quick Thinking (Tier 1), or Strategic Maneuver (Tier 1)",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "Whenever an enemy attacks you or an ally, you can spend 2 Focus to perform a Finesse Action Dice against the attacking enemy's Sense Reaction Dice. If you succeed, you can choose another target for the enemy's attack as long as it is within the enemy's weapon's reach."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "You only need to spend 1 Focus instead."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "You double your Base Dice."
+						}
+					]
+				},
+				{
+					"name": "Efficient Arsenal",
+					"type": ["Passive", "Utility"],
+					"prerequisite": "Emergency Aid (Tier 1), Quick Thinking (Tier 1), or Strategic Maneuver (Tier 1)",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "All Slot Sizes of your carried equipment are reduced by 1 (minimum of 1)."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "All Slot Sizes of your carried equipment are reduced by 2 instead (minimum of 1)."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "You gain an additional +5 Equipment Slots, allowing you to carry more items without penalty."
+						}
+					]
+				},
+				{
+					"name": "Hold the Line",
+					"type": ["Passive", "Defensive"],
+					"prerequisite": "Encouraging Words (Tier 1), Commanding Presence (Tier 1), or Zeal (Tier 1)",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "Allies beside you gain Toughness 1 for every 3 Focus you have remaining."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "Allies beside you gain Toughness 1 for every 2 Focus you have remaining instead."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "Allies beside you gain Toughness 1 for every 1 Focus you have remaining instead."
+						}
+					],
+					"limit": "The Toughness bonus maxes out at 5."
+				},
+				{
+					"name": "Tactical Insight",
+					"type": ["Active", "Utility"],
+					"prerequisite": "Encouraging Words (Tier 1), Quick Thinking (Tier 1), or Strategic Maneuver (Tier 1)",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "You can spend 3 Stamina to impose a special condition called 'Exploited' on one enemy within 10m, lasting until consummated. The next ally who successfully strikes that enemy will consume the 'Exploited' status, automatically scoring a Critical Hit with their next attack."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "The distance of the enemy extends up to 20m instead."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "The distance of the enemy extends up to 30m instead."
+						}
+					]
+				},
+				{
+					"name": "Unified Effort",
+					"type": ["Passive", "Utility"],
+					"prerequisite": "Emergency Aid (Tier 1), Commanding Presence (Tier 1), or Zeal (Tier 1)",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "During group rolls, the lowest individual roll is treated as the highest result provided you have at least 3 Focus remaining."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "The two lowest rolls are treated as the highest result instead but you need at least 5 Focus remaining."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "The three lowest rolls are treated as the highest result instead but you need at least 7 Focus remaining."
+						}
+					]
+				},
+				{
+					"name": "Warpath",
+					"type": ["Passive", "Utility"],
+					"prerequisite": "Encouraging Words (Tier 1), Commanding Presence (Tier 1), or Zeal (Tier 1)",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "When an ally within 5m lands a killing blow on an enemy, that ally's Stamina and Reflex are fully replenished."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "The distance of the ally extends up to 10m instead."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "The distance of the ally extends up to 15m instead."
+						}
+					]
+				}
+			]
+		},
+		{
+			"tier": 3,
+			"techniques": [
+				{
+					"name": "Coordinated Assault",
+					"type": ["Active", "Offensive"],
+					"prerequisite": "Adaptive Tactics (Tier 2), Tactical Insight (Tier 2), or Unified Effort (Tier 2)",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "When you or an ally attack an enemy, you can spend 3 Reflex to allow one ally to perform a free Normal Attack against the same target, provided it is within their weapon's reach."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "You only need to spend 2 Reflex instead."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "You only need to spend 1 Reflex instead."
+						}
+					]
+				},
+				{
+					"name": "Exploit Weakness",
+					"type": ["Passive", "Offensive"],
+					"prerequisite": "Hold the Line (Tier 2), Tactical Insight (Tier 2), or Unified Effort (Tier 2)",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "Whenever you land a Critical Hit, spend 1 Reflex and one ally can make a free Normal Attack against the same target provided it is within their weapon's reach."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "Two allies can perform a free Normal Attack instead but you have to spend 2 Reflex."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "Three allies can perform a free Normal Attack instead but you have to spend 3 Reflex."
+						}
+					]
+				},
+				{
+					"name": "Heroic Sacrifice",
+					"type": ["Active", "Defensive", "Utility"],
+					"prerequisite": "Efficient Arsenal (Tier 2), Hold the Line (Tier 2), or Unified Effort (Tier 2)",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "If an enemy attacks an ally beside you, you can spend 1 Reflex to instantly designate yourself as the target instead. Should you take more than 5 damage from the attack, the ally that you protected gains +1d6 bonus to damage until your Side regains Momentum."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "The ally also restores 5 Health."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "The ally also restores 5 Focus."
+						}
+					]
+				},
+				{
+					"name": "Improvise",
+					"type": ["Passive", "Utility"],
+					"prerequisite": "Adaptive Tactics (Tier 2), Efficient Arsenal (Tier 2), or Tactical Insight (Tier 2)",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "Your Inflict combat maneuver now costs 1 less Stamina."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "You now deal full damage when using the Inflict combat maneuver instead of half."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "The negative conditions’ Risk thresholds from the Inflict combat maneuver increases by 2."
+						}
+					],
+					"limit": "The Stamina cost cannot go lower than 1."
+				},
+				{
+					"name": "Last Stand",
+					"type": ["Passive", "Defensive", "Utility"],
+					"prerequisite": "Hold the Line (Tier 2), Unified Effort (Tier 2), or Warpath (Tier 2)",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "When you or an ally is reduced to 0 health, choose one of the following effects: Your remaining allies gain Toughness 3 and also receive a +1d8 bonus to all Damage Dice until the fallen ally is revived back to at least 1 Health. Your remaining allies increase their Base Attack and Defense Dice by 2 sizes until the fallen ally is revived back to at least 1 Health."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "For the first choice, the bonus to Toughness is now 4 and damage bonus is now +1d10. While for the second choice, the Base Dice increases by 3 sizes instead."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "For the first choice, the bonus to Toughness is now 5 and damage bonus is now +1d12. While for the second choice, the Base Dice increases by 4 sizes instead."
+						}
+					],
+					"limit": "Bonuses from multiple fallen allies do not stack."
+				},
+				{
+					"name": "Preemptive Strike",
+					"type": ["Active", "Offensive"],
+					"prerequisite": "Adaptive Tactics (Tier 2), Tactical Insight (Tier 2), or Unified Effort (Tier 2)",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "When an enemy attacks you or an ally, you can spend 3 Reflex to enable one ally to perform a free Normal Attack against that enemy if it is within their weapon's reach."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "You only need to spend 2 Reflex instead."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "You only need to spend 1 Reflex instead."
+						}
+					]
+				}
+			]
+		}
+	]
+}

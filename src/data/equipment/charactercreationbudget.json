@@ -1,0 +1,70 @@
+{
+	"title": "Character Creation Budget",
+	"description": "In Sellswords Initiative, character progression is achieved through strategic purchases rather than traditional experience points or leveling up. This unique approach allows you to tailor your character's growth to your playstyle and narrative preferences.",
+	"currency": {
+		"name": "Credits",
+		"note": "Credits serve as a placeholder for any named currency. Substitute with your chosen currency for your setting."
+	},
+	"starting_budget": [
+		{
+			"rank": 0,
+			"name": "Novice",
+			"range": "1,000c to 2,499c"
+		},
+		{
+			"rank": 1,
+			"name": "Experienced",
+			"range": "2,500c to 3,999c"
+		},
+		{
+			"rank": 2,
+			"name": "Professional",
+			"range": "4,000c to 5,999c"
+		},
+		{
+			"rank": 3,
+			"name": "Veteran",
+			"range": "6,000c to 8,499c"
+		},
+		{
+			"rank": 4,
+			"name": "Heroic",
+			"range": "8,500c to 11,999c"
+		},
+		{
+			"rank": 5,
+			"name": "Badass",
+			"range": "12,000c to 20,000c"
+		}
+	],
+	"higher_rank_exploits": "Higher starting rank may require exploits to justify character's experience and budget. The higher the rank, the more grand or epic the exploit should be.",
+	"customization_options": [
+		"Equipment: Weapons, armor, and gear that suit your role and style.",
+		"Proficiencies: Combat skills for weapon types or scenarios.",
+		"Expertise: Background and training, influences roleplay.",
+		"Traits: Unique advantages, physical/mental attributes.",
+		"Techniques: Special abilities and tactical options.",
+		"Masteries: Ultimate specialization and legendary reputation."
+	],
+	"example": {
+		"description": "Example of creating a skilled sniper with a 3,500 Credit budget.",
+		"budget": 3500,
+		"choices": [
+			{
+				"category": "Equipment",
+				"item": "High-powered sniper rifle",
+				"cost": 800
+			},
+			{ "category": "Equipment", "item": "Light armor", "cost": 75 },
+			{
+				"category": "Proficiencies",
+				"item": "Rifles (Rank I)",
+				"cost": 500,
+				"perk": true
+			},
+			{ "category": "Expertise", "item": "Stealth", "cost": 750 },
+			{ "category": "Traits", "item": "Nightsight (Rank I)", "cost": 300 },
+			{ "category": "Techniques", "item": "Far Shot (Rank I)", "cost": 250 }
+		]
+	}
+}

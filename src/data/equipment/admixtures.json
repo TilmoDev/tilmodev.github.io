@@ -1,0 +1,291 @@
+{
+	"health": {
+		"description": "Health solutions are vital elixirs that swiftly restore the user's vitality, mending wounds and rejuvenating the body to ensure peak combat performance in the midst of adversity.",
+		"items": [
+			{
+				"name": "Healing Solution",
+				"price": 100,
+				"properties": [
+					"Restores 10 Health",
+					"Durability 2",
+					"Slot 1",
+					"Disposable",
+					"One-Handed",
+					"Compact 5"
+				]
+			},
+			{
+				"name": "Greater Healing Solution",
+				"price": 300,
+				"properties": [
+					"Restores 25 Health",
+					"Durability 2",
+					"Slot 1",
+					"Disposable",
+					"One-Handed",
+					"Compact 5"
+				]
+			},
+			{
+				"name": "Regeneration Solution",
+				"price": 500,
+				"properties": [
+					"Restores 3 Health every start of your Turn until combat ends",
+					"Durability 2",
+					"Slot 1",
+					"Disposable",
+					"One-Handed",
+					"Compact 5"
+				]
+			}
+		]
+	},
+	"focus": {
+		"description": "Focus solutions enhance mental acuity and concentration, providing users with heightened awareness and cognitive sharpness during critical moments in combat.",
+		"items": [
+			{
+				"name": "Focus Solution",
+				"price": 100,
+				"properties": [
+					"Restores 4 Focus",
+					"Durability 2",
+					"Slot 1",
+					"Disposable",
+					"One-Handed",
+					"Compact 5"
+				]
+			},
+			{
+				"name": "Greater Focus Solution",
+				"price": 300,
+				"properties": [
+					"Restores 10 Focus",
+					"Durability 2",
+					"Slot 1",
+					"Disposable",
+					"One-Handed",
+					"Compact 5"
+				]
+			},
+			{
+				"name": "Rejuvenation Solution",
+				"price": 500,
+				"properties": [
+					"Restores 1 Focus every start of your Turn until combat ends",
+					"Durability 2",
+					"Slot 1",
+					"Disposable",
+					"One-Handed",
+					"Compact 5"
+				]
+			}
+		]
+	},
+	"reflex": {
+		"description": "Reflex solutions grant users heightened agility and swiftness, allowing for quick and precise movements that are crucial in out-of-turn actions and outmaneuvering adversaries.",
+		"items": [
+			{
+				"name": "Reflex Solution",
+				"price": 100,
+				"properties": [
+					"Restores 2 Reflex",
+					"Durability 2",
+					"Slot 1",
+					"Disposable",
+					"One-Handed",
+					"Compact 5"
+				]
+			},
+			{
+				"name": "Greater Reflex Solution",
+				"price": 300,
+				"properties": [
+					"Restores 5 Reflex",
+					"Durability 2",
+					"Slot 1",
+					"Disposable",
+					"One-Handed",
+					"Compact 5"
+				]
+			},
+			{
+				"name": "Energizing Solution",
+				"price": 500,
+				"properties": [
+					"Restores 1 Reflex every start of your Turn until combat ends",
+					"Durability 2",
+					"Slot 1",
+					"Disposable",
+					"One-Handed",
+					"Compact 5"
+				]
+			}
+		]
+	},
+	"remedies": {
+		"description": "Remedies are versatile solutions that offer solutions to a variety of ailments and conditions, providing users with the means to overcome and adapt to the challenges presented in combat.",
+		"items": [
+			{
+				"name": "Lesser Remedy",
+				"price": 200,
+				"properties": [
+					"Removes mild negative conditions (Bleed, Crippled, Dazed, Distracted, Exposed, Flinched, Hindered, Impaired, Slowed) instantly",
+					"Durability 2",
+					"Slot 1",
+					"Disposable",
+					"One-Handed",
+					"Compact 5"
+				]
+			},
+			{
+				"name": "Greater Remedy",
+				"price": 250,
+				"properties": [
+					"Removes mild to moderate negative conditions (Blinded, Burned, Chilled, Deafened, Disabled, Fatigued, Immobilized, Poisoned, Sapped, Silenced, Vulnerable, Weakened) instantly",
+					"Durability 2",
+					"Slot 1",
+					"Disposable",
+					"One-Handed",
+					"Compact 5"
+				]
+			},
+			{
+				"name": "All Remedy",
+				"price": 500,
+				"properties": [
+					"Removes Mild to Severe Conditions (Asleep, Drained, Exhausted, Restrained, Rot, Staggered) instantly",
+					"Durability 2",
+					"Slot 1",
+					"Disposable",
+					"One-Handed",
+					"Compact 5"
+				]
+			}
+		]
+	},
+	"boosters": {
+		"description": "Boosters are potent concoctions that combine various effects, offering users a strategic advantage by providing a versatile array of benefits tailored to the demands of diverse combat scenarios.",
+		"items": [
+			{
+				"name": "Revival Solution",
+				"price": 500,
+				"properties": [
+					"Restores 10 Health instantly when your Health reaches 0",
+					"Durability 2",
+					"Slot 1",
+					"Disposable",
+					"One-Handed",
+					"Compact 5"
+				]
+			},
+			{
+				"name": "Adrenaline Solution",
+				"price": 500,
+				"properties": [
+					"All your Base Dice increases by 1 size until combat ends",
+					"Durability 2",
+					"Slot 1",
+					"Disposable",
+					"One-Handed",
+					"Compact 5"
+				]
+			},
+			{
+				"name": "Tough Solution",
+				"price": 500,
+				"properties": [
+					"Gain Toughness 5 until combat ends",
+					"Durability 2",
+					"Slot 1",
+					"Disposable",
+					"One-Handed",
+					"Compact 5"
+				]
+			},
+			{
+				"name": "Numb Solution",
+				"price": 500,
+				"properties": [
+					"Gain Resistance to Slice, Blunt, and Pierce damage until combat ends",
+					"Durability 2",
+					"Slot 1",
+					"Disposable",
+					"One-Handed",
+					"Compact 5"
+				]
+			},
+			{
+				"name": "Burn Solution",
+				"price": 300,
+				"properties": [
+					"Gain Immunity to Burn damage until combat ends",
+					"Durability 2",
+					"Slot 1",
+					"Disposable",
+					"One-Handed",
+					"Compact 5"
+				]
+			},
+			{
+				"name": "Frost Solution",
+				"price": 300,
+				"properties": [
+					"Gain Immunity to Frost damage until combat ends",
+					"Durability 2",
+					"Slot 1",
+					"Disposable",
+					"One-Handed",
+					"Compact 5"
+				]
+			},
+			{
+				"name": "Shock Solution",
+				"price": 300,
+				"properties": [
+					"Gain Immunity to Shock damage until combat ends",
+					"Durability 2",
+					"Slot 1",
+					"Disposable",
+					"One-Handed",
+					"Compact 5"
+				]
+			},
+			{
+				"name": "Toxic Solution",
+				"price": 300,
+				"properties": [
+					"Gain Immunity to Toxic damage until combat ends",
+					"Durability 2",
+					"Slot 1",
+					"Disposable",
+					"One-Handed",
+					"Compact 5"
+				]
+			},
+			{
+				"name": "Corruption Solution",
+				"price": 300,
+				"properties": [
+					"Gain Immunity to Corruption damage until combat ends",
+					"Durability 2",
+					"Slot 1",
+					"Disposable",
+					"One-Handed",
+					"Compact 5"
+				]
+			},
+			{
+				"name": "Stamina Solution",
+				"price": 500,
+				"properties": [
+					"Gain 1 extra Stamina until combat ends",
+					"Durability 2",
+					"Slot 1",
+					"Disposable",
+					"One-Handed",
+					"Compact 5"
+				]
+			}
+		]
+	}
+}

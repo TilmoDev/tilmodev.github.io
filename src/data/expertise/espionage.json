@@ -1,0 +1,85 @@
+{
+	"description": "Masters of espionage operate with precision and discretion, shaping events from the shadows. They blend seamlessly into any environment, extract vital information, and execute sneak takedowns. Whether crafting perfect disguises, sabotaging systems, or deciphering foreign tongues, they turn secrets into power.",
+	"expertise": [
+		{
+			"name": "Assassination",
+			"description": "You are a master of the sneak kill, striking from the shadows to eliminate targets with lethal efficiency and leaving no trace behind.",
+			"price": 750,
+			"options": [
+				"Spend 1 Focus to quietly incapacitate an unsuspecting target.",
+				"Spend 2 Focus to secretly administer a poison you possess.",
+				"Spend 4 Focus to create an 'accident' that eliminates a target."
+			]
+		},
+		{
+			"name": "Counterfeit",
+			"description": "Your keen eye for detail allows you to create and detect forgeries, manipulating documents and identities to suit your needs.",
+			"price": 750,
+			"options": [
+				"Spend 1 Focus to commit an image to memory.",
+				"Spend 2 Focus to detect a forgery.",
+				"Spend 4 Focus to create a forgery."
+			]
+		},
+		{
+			"name": "Disguise",
+			"description": "You have mastered the art of looking like somebody else, seamlessly transforming your appearance to blend in or deceive.",
+			"price": 750,
+			"options": [
+				"Spend 1 Focus to imitate a voice.",
+				"Spend 2 Focus to imitate mannerisms.",
+				"Spend 4 Focus to create a convincing disguise using appropriate materials."
+			]
+		},
+		{
+			"name": "Intelligence",
+			"description": "Your sharp mind and powers of observation make you an expert at gathering and analyzing information, uncovering secrets others wish to keep hidden.",
+			"price": 750,
+			"options": [
+				"Spend 1 Focus to eavesdrop on a conversation.",
+				"Spend 2 Focus to extract information from an unwitting source.",
+				"Spend 4 Focus to conduct thorough surveillance of a target."
+			]
+		},
+		{
+			"name": "Language",
+			"description": "You have a gift for understanding and communicating in multiple tongues, breaking down barriers and gathering information across cultures.",
+			"price": 750,
+			"options": [
+				"Spend 1 Focus to understand a new language, written.",
+				"Spend 2 Focus to understand a new language, spoken.",
+				"Spend 4 Focus to effectively communicate in a language you've studied."
+			]
+		},
+		{
+			"name": "Sabotage",
+			"description": "You possess the cunning ability to undermine and disrupt, sowing chaos and confusion among your enemies with calculated precision.",
+			"price": 750,
+			"options": [
+				"Spend 1 Focus to properly plant a device.",
+				"Spend 2 Focus to disable a mechanical, electronic, or magi-tech system.",
+				"Spend 4 Focus to cause a critical malfunction in a machine or infrastructure."
+			]
+		},
+		{
+			"name": "Stealth",
+			"description": "You move through the world unseen, a ghost slipping past guards and defenses to infiltrate even the most secure locations.",
+			"price": 750,
+			"options": [
+				"Spend 1 Focus to blend into your surroundings.",
+				"Spend 2 Focus to move undetected through an area.",
+				"Spend 4 Focus to bypass a specific security measure undetected."
+			]
+		},
+		{
+			"name": "Thievery",
+			"description": "Your nimble fingers and quick wit make you an expert at acquiring what isn't yours, be it through pickpocketing, lock-picking, or sleight of hand.",
+			"price": 750,
+			"options": [
+				"Spend 1 Focus to perform a basic sleight of hand trick or pickpocket.",
+				"Spend 2 Focus to steal an object on display without raising suspicion.",
+				"Spend 4 Focus to bypass a security measure (e.g., lockpicking, safe-cracking) using appropriate materials."
+			]
+		}
+	]
+}
