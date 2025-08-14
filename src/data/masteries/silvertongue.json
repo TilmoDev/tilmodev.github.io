@@ -1,0 +1,41 @@
+{
+	"name": "Silvertongue",
+	"description": "A master of blade and banter, the Silvertongue weaves words and steel into a deadly dance of misdirection and precision. Through clever quips, psychological manipulation, and masterful swordplay, they turn their enemies' aggression against each other while maintaining the grace and charm of a true duelist. Where others rely on brute force or stealth, the Silvertongue conquers through wit, style, and the art of making their opponents defeat themselves.",
+	"prerequisite": [
+		"Sword, Dagger, or Pistol Proficiency",
+		"Influence Proficiency",
+		"At least three Expertise under Persuasion"
+	],
+	"achievement": [
+		"Successfully convince an enemy to switch sides during combat through verbal persuasion alone",
+		"Win at least 3 duels without taking damage by using misdirection and wit rather than pure skill",
+		"Cause enemies to accidentally damage their own allies in at least 5 separate combat encounters",
+		"Complete a mission where you resolve the primary conflict through clever wordplay rather than violence"
+	],
+	"abilities": [
+		{
+			"name": "Master of Misdirection",
+			"type": "Passive",
+			"effect": "When an enemy's attack misses you, it automatically damages a nearby enemy instead. If it was a melee attack, it hits an enemy within 1m of the attacker. If it was a ranged attack, it hits an enemy within 10m of the attacker. Additionally, gain +1d6 bonus to Influence Action Dice during combat situations."
+		},
+		{
+			"name": "Verbal Riposte",
+			"type": "Active",
+			"cost": "1 Focus",
+			"effect": "Spend 1 Focus during combat to deliver a cutting remark that demoralizes a target. The target must pass an opposed Influence Reaction Dice roll against your Influence Action Dice or become Confused or Distracted (your choice). If you win by 5 or more, they also become Flinched. This ability can be used as an Interrupt."
+		},
+		{
+			"name": "Taunt and Parry",
+			"type": "Active",
+			"cost": "2 Stamina, 1 Focus",
+			"effect": "Spend 2 Stamina and 1 Focus to provoke an enemy into a reckless attack while positioning yourself advantageously. Choose one enemy within 10m, they must attack you on their next turn (if possible). Then your Base Defense Dice increases by 2 sizes against their attack. If their attack misses, you may immediately move up to 5m and make a Normal Attack for free with a +1d6 bonus to Attack Dice."
+		},
+		{
+			"name": "Manipulator’s Gambit",
+			"type": "Ultimate",
+			"limit": "Once per mission",
+			"cost": "5 Stamina",
+			"effect": "Deliver such a masterful display of psychological warfare that you temporarily turn the entire battlefield to your advantage. For the next 5 Turns, all enemy attacks that miss any member of your team automatically hit a random enemy instead, enemies suffer -1d6 penalty to Attack Dice due to confusion and doubt, and you may use your Influence Action Dice in place of Attack Dice for all weapon attacks."
+		}
+	]
+}
