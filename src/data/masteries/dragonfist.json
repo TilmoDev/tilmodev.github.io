@@ -1,0 +1,40 @@
+{
+	"name": "Dragonfist",
+	"description": "A master of martial arts, the Dragonfist transforms their body into a living weapon, striking with lightning speed and devastating power. Their disciplined mind and conditioned body move as one, turning combat into an elegant yet lethal dance where fists and feet become extensions of pure will.",
+	"prerequisite": [
+		"Brawling Proficiency",
+		"Finesse Proficiency",
+		"Strength Proficiency",
+		"At least two Tier 2 or Tier 3 Adept Techniques"
+	],
+	"achievement": [
+		"Defeat 200 enemies using unarmed attacks or brawling weapons",
+		"Defeat a martial arts master in single combat or complete specialized training under a recognized master"
+	],
+	"abilities": [
+		{
+			"name": "Iron Body",
+			"type": "Passive",
+			"effect": "Unarmed attacks count as Light weapons for Quick Attacks. You also gain Toughness 5 only if you have Bulk 0 and while not unconscious or incapacitated. When an enemy misses you with a melee attack, you can immediately counterattack with an unarmed strike that automatically deals half damage without spending Stamina."
+		},
+		{
+			"name": "Flurry of Blows",
+			"type": "Active",
+			"cost": "5 Stamina, 1 Focus",
+			"effect": "Unleash a rapid series of strikes, attacking up to three enemies (or one enemy three times) within melee range for full Damage Dice each. If all attacks hit, regain 3 Stamina or Reflex (your choice). Each successful hit inflicts Flinched on the target."
+		},
+		{
+			"name": "Flowing Water",
+			"type": "Active",
+			"cost": "2 Stamina, 1 Focus",
+			"effect": "Enter a defensive stance for 3 Turns. While in this stance, your Defense Dice increases by 2 sizes, and any enemy that misses you with a melee attack is automatically Knocked Down."
+		},
+		{
+			"name": "Dragon's Wrath",
+			"type": "Ultimate",
+			"limit": "Once per mission",
+			"cost": "All remaining Stamina",
+			"effect": "Deliver a single devastating unarmed strike that deals triple Damage Dice in a 30° spread at 5m and inflicts Knocked Down on all affected targets. For each point of Stamina spent, add +1d12 to your damage total."
+		}
+	]
+}
