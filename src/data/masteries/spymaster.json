@@ -1,0 +1,42 @@
+{
+	"name": "Spymaster",
+	"description": "A master of shadows and secrets, the Spymaster weaves intricate webs of deception, manipulating reality itself to achieve their goals. Their very presence can alter the course of events, turning enemies into unwitting pawns and transforming the impossible into the inevitable.",
+	"prerequisite": [
+		"Influence Proficiency",
+		"Disguise Expertise",
+		"Intelligence, Language, or Seduction Expertise",
+		"Counterfeit or Sabotage Expertise",
+		"Stealth or Deception Expertise"
+	],
+	"achievement": [
+		"Successfully infiltrate high-security locations in at least three missions without detection",
+		"Use Disguise successfully in three separate missions",
+		"Extract critical intelligence from a heavily guarded facility without raising alarms",
+		"Orchestrate a major political or corporate upheaval through manipulation and misinformation"
+	],
+	"abilities": [
+		{
+			"name": "Master of Disguise",
+			"type": "Passive",
+			"effect": "Gain +1d6 bonus to Action Dice when impersonating others or blending into crowds. You can change your appearance completely with basic materials in 1 minute. This ability requires the Disguise Kit gear in your possession. When in disguise, enemies searching for you suffer a -1d6 penalty to their Sense Reaction Dice rolls. You can maintain multiple false identities simultaneously, switching between them seamlessly."
+		},
+		{
+			"name": "Silent Saboteur",
+			"type": "Active",
+			"cost": "2 Focus",
+			"effect": "Disable a mechanical or electronic device within 10m without leaving any trace of tampering. This includes traps, security systems, or vehicles. This ability requires the Hacking Tool gear in your possession and consumes one of its uses. You can also reprogram devices to malfunction at a later time or trigger under specific conditions. When sabotaging computer systems, you can plant false data or create backdoor access for future use."
+		},
+		{
+			"name": "Puppet Master",
+			"type": "Active",
+			"cost": "1 Focus (per target)",
+			"effect": "Implant a subtle suggestion in a target's mind. They will carry out a simple action or believe a piece of information without realizing it's not their own idea. This effect lasts for up to 24 hours or until the suggested action is completed. You can affect multiple targets by spending additional Focus points."
+		},
+		{
+			"name": "Web of Lies",
+			"type": "Ultimate",
+			"limit": "Once per mission",
+			"effect": "Create a false identity or scenario so convincing that enemies must pass an opposed Sense Reaction Dice with a -1d6 penalty against your Influence Action Dice to detect your deception. This ability requires the Disguise Kit gear in your possession. While active, you cannot be targeted directly by enemies unless you attack or your deception is uncovered. This effect can extend to your entire team if desired, creating elaborate false scenarios or identities for group infiltration. The deception persists for the duration of the current scene or until deliberately dispelled."
+		}
+	]
+}
