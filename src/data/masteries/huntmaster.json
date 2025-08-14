@@ -1,0 +1,41 @@
+{
+	"name": "Huntmaster",
+	"description": "A master of tracking and hunting, the Huntmaster turns the wilderness into a weapon. Their intimate knowledge of prey behavior, terrain advantages, and lethal precision makes them nature's perfect predator. When a Huntmaster marks their quarry, escape becomes impossible—the hunt has already ended.",
+	"prerequisite": [
+		"Bow, Crossbow, Launcher, Rifle, or Shotgun Proficiency",
+		"Stealth Expertise",
+		"Tracking Expertise",
+		"At least two Tier 2 or Tier 3 Marksman, Scoundrel, or Tactician Techniques"
+	],
+	"achievement": [
+		"Successfully track and eliminate 10+ targets during missions",
+		"Complete a hunting mission where you take down a dangerous creature",
+		"Deal 500+ damage to creatures classified as 'beasts' or 'monsters'",
+		"Earn recognition from a legendary hunter for your skills"
+	],
+	"abilities": [
+		{
+			"name": "Predator's Mark",
+			"type": "Passive",
+			"effect": "You can mark a creature as your quarry for free once per combat. Gain +1d6 bonus to Attack Dice against it. Allies gain +1d4 bonus to Attack Dice against your marked target. You can track marked targets across any terrain. Only one target can be marked at a time."
+		},
+		{
+			"name": "Anatomical Analysis",
+			"type": "Active",
+			"cost": "1 Focus",
+			"effect": "Analyze a creature's anatomy, revealing its vulnerabilities. You and your allies deal +2d6 bonus damage of the appropriate type against this target for 3 Turns. If the target has Resistance to a damage type, that Resistance is negated for the duration."
+		},
+		{
+			"name": "Wilderness Adaptation",
+			"type": "Active",
+			"cost": "1 Focus",
+			"effect": "Gain environmental advantages for 3 Turns. In natural environments, your Defense Dice increases by 2 sizes and you gain Resistance to environmental damage (cold, heat, etc.). You can move through difficult terrain without penalty and gain +1d8 to all stealth-related Action Dice. If you remain stationary for a full Turn while the effect persists, you become Hidden to enemies beyond 10m."
+		},
+		{
+			"name": "Trophy Kill",
+			"type": "Ultimate",
+			"limit": "Once per mission",
+			"effect": "When you hit with any attack, you may choose to roll triple the normal damage dice for that attack. The attack’s damage type becomes Pure. If you deal 20+ damage with the attack, you gain Toughness equal to its size category (3 for Small, 5 for Medium, 10 for Large) and Resistance to one damage type it possessed for the remainder of combat. You can harvest a trophy from the kill that provides a permanent +1 to Influence Action Dice against similar creatures."
+		}
+	]
+}
