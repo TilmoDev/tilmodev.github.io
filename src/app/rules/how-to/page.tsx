@@ -4,6 +4,17 @@ export default function Page() {
 	return (
 		<div className="grid md:grid-cols-1 gap-6">
 			<div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
+				<h2 className="text-2xl font-semibold text-blue-700 mb-3">
+					How to Play Sellswords Initiative
+				</h2>
+				<p className="text-gray-700">
+					Think of this game like making a movie together. You've got two
+					groups: the Players (the stars on screen) and the Director (the person
+					running the show behind the scenes). Both need to work together to
+					create an action-packed story you'll be talking about for years.
+				</p>
+			</div>
+			<div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
 				<h3 className="text-xl font-semibold text-blue-700 mb-3">The Player</h3>
 				<p className="text-gray-700">
 					As a Player, you&apos;re basically an actor playing a badass mercenary
