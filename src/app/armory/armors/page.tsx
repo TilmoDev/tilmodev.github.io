@@ -3,7 +3,7 @@
 import { Title1 } from "@fluentui/react-components";
 import EquipmentSection from "@/templates/EquipmentSection/EquipmentSection";
 
-export const equipmentData = {
+const equipmentData = {
 	category: "Equipment",
 	itemsBySubcategory: {
 		"Melee Weapons": [
