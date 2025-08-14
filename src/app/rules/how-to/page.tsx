@@ -386,11 +386,12 @@ export default function Page() {
 				</p>
 				<h4 className="font-semibold text-gray-700 mt-4">Fumbles</h4>
 				<p className="text-gray-700">
-					These are the flip side — those “oh no” moments that make everyone
-					groan or laugh. Roll a natural 1 on your Attack Dice? Flip a coin. On
-					tails, your weapon loses 1 Durability. Roll a natural 1 on your
-					Defense Dice? Same deal — coin flip, tails means your armor just took
-					a beating and drops 1 Durability.
+					These are the flip side — those &quot;oh no&quot; moments that make
+					everyone groan or laugh. If you roll a natural 1 on your Attack Dice,
+					you must flip a coin. On tails, your weapon loses 1 Durability. And,
+					if you roll a natural 1 on your Defense Dice, same deal — do a coin
+					flip. If it&apos;s tails, it means your armor just took a beating and
+					drops 1 Durability.
 				</p>
 				<p className="text-gray-700 mt-4">
 					<strong>Note:</strong> You can still use Focus to turn a blown roll
