@@ -1,0 +1,41 @@
+{
+	"name": "Alpha Commander",
+	"description": "A paragon of leadership and combat prowess, the Alpha Commander stands as the immovable center of any battlefield. Through sheer force of will and tactical brilliance, they inspire those around them to achieve the impossible while personally weathering storms that would break lesser warriors.",
+	"prerequisite": [
+		"Influence Proficiency",
+		"Leader Trait",
+		"Strategy Expertise",
+		"At least two Tier 2 or 3 Tactician Techniques"
+	],
+	"achievement": [
+		"Survive a combat encounter while below 10 Health in at least 3+ missions",
+		"Successfully lead a team through a high-risk mission without losing any allies",
+		"Personally defeat an enemy commander or elite unit in direct combat",
+		"Rally a demoralized force to victory against overwhelming odds"
+	],
+	"abilities": [
+		{
+			"name": "Battlefield Presence",
+			"type": "Passive",
+			"effect": "When you remain above 10 Health, allies within 5m of you gain a +1d4 bonus to both their Attack and Defense Dice. If your Health drops below 10, your allies receive Toughness equal to twice your current Injury points. Furthermore, while you are conscious, allies within your aura are immune to being Distracted, Flinched, and Frightened and cannot be Flanked."
+		},
+		{
+			"name": "Rallying Cry",
+			"type": "Active",
+			"cost": "3 Stamina, 2 Focus",
+			"effect": "Activate Rallying Cry, restoring 5 Health and 5 Reflex to all allies within a 10m radius. Additionally, this ability removes all Mild and Moderate negative conditions from affected allies. If you use Rallying Cry while your Health is below 10, the restoration values are doubled."
+		},
+		{
+			"name": "Tactical Override",
+			"type": "Active",
+			"cost": "3 Stamina, 1 Focus",
+			"effect": "Mark a target within line of sight as a priority target for 3 Turns. During this time, all allies gain a +1d4 bonus to their Attack Dice when targeting the marked enemy. If the marked target is defeated while Tactical Override is active, you and all allies within 10m immediately regain 3 Reflex points."
+		},
+		{
+			"name": "Omega Protocol",
+			"type": "Ultimate",
+			"limit": "Once per mission",
+			"effect": "Enter a berserk state for 10 Turns without spending any Stamina. During this time, you gain a +1d6 bonus to both Attack and Defense Dice, and a +2d6 bonus to Damage Dice. Additionally, you gain Resistance to all damage types. However, you lose 1 Health per Turn while in this state. Allies who can see you benefit from a +1 size increase to all their Base Dice. When Omega Protocol ends, you suffer 1 Injury point."
+		}
+	]
+}
