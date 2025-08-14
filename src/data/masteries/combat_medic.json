@@ -1,0 +1,43 @@
+{
+	"name": "Combat Medic",
+	"description": "A master of battlefield medicine, the Combat Medic delivers life-saving treatment from a distance. Their specialized knowledge of anatomy and advanced delivery systems allows them to stabilize allies without abandoning their position. When others fall, the Combat Medic ensures the team stays in the fight.",
+	"prerequisite": [
+		"Bow, Crossbow, Launcher, Pistol, or Rifle Proficiency",
+		"Diagnosis Expertise",
+		"First-Aid Expertise",
+		"Pharmaceutics Expertise",
+		"At least one Marksman or Tactician Ability"
+	],
+	"achievement": [
+		"Restore 100+ Health to allies",
+		"Successfully complete 1 mission where no ally was reduced to 0 Health",
+		"Synthesize a new medicine or antidote to counteract a rare poison or disease",
+		"Perform a critical emergency medical intervention"
+	],
+	"abilities": [
+		{
+			"name": "Healing Projectiles",
+			"type": "Passive",
+			"effect": "You can convert regular ammunition (arrows or bullets) into healing projectiles that restore 2d6 Health to allies on hit. Creating healing ammunition requires a Healing Solution (1 vial creates 3 healing projectiles) or Greater Healing Solution (1 vial creates 5 healing projectiles). This skill requires the Healing Kit gear in your possession and must be done out of combat. These projectiles deal no damage. When you roll a critical hit with healing projectiles, the healing effect is doubled."
+		},
+		{
+			"name": "Triage Protocol",
+			"type": "Active",
+			"cost": "1 Focus",
+			"effect": "Analyze all allies within line of sight. For the next 3 Turns, your healing projectiles restore an additional 1d6 Health to allies below 10 Health. Additionally, you can see allies' exact Health values through walls or obstacles within 30m."
+		},
+		{
+			"name": "Stimulant Delivery",
+			"type": "Active",
+			"cost": "5 Stamina",
+			"effect": "Fire 3 Healing Projectiles at an ally. When hit, the target restores 6d6 Health and also gains +1d4 Reflex regeneration for 3 Turns. If the target is suffering from a Mild or Moderate condition, it is immediately removed."
+		},
+		{
+			"name": "Crisis Response",
+			"type": "Ultimate",
+			"limit": "Once per mission",
+			"cost": "3 Stamina",
+			"effect": "Fire a specialized emergency treatment projectile within 30m that creates a 5m healing field around the impact point for 5 Turns. All allies within this field (including those who enter it later) immediately recover 3d8 Health and are cured of all Mild and Moderate conditions. The effect continues at the start of every Turn. Allies who are at 0 Health when hit by this projectile or who enter the field while at 0 Health are immediately stabilized and restored to 1 Health. While the field is active, allies within it gain Resistance to Blunt, Pierce, and Slice damage."
+		}
+	]
+}
