@@ -136,7 +136,7 @@ export default function Page() {
 					under your door. Whatever the setup, they&apos;ll tell you what needs
 					doing. And let&apos;s be real - you&apos;re mercenaries, not heroes.
 					Sometimes you&apos;re rescuing hostages, sometimes you&apos;re
-					stealing priceless artifacts, and sometimes you&apos;re taking out
+					stealing priceless artifacts, and sometimes you&apos;gire taking out
 					that politician nobody likes. Hey, a job&apos;s a job.
 				</p>
 				<p className="text-gray-700 mt-4">
