@@ -1,0 +1,42 @@
+{
+	"name": "Drunken Master",
+	"description": "A master of unpredictable combat, the Drunken Master harnesses controlled intoxication to transform apparent weakness into devastating advantage. Their fluid, chaotic movements confuse enemies while their liquid courage enhances their combat prowess beyond normal limits.",
+	"prerequisite": [
+		"Finesse Proficiency",
+		"Influence Proficiency",
+		"Deception or Entertainment Expertise",
+		"At least two Tier 2 or Tier 3 Adept or Scoundrel Techniques"
+	],
+	"achievement": [
+		"Successfully complete 3 combat encounters while under the effects of a Liquor Flask",
+		"Win a combat encounter using only evasion and counter-attacks for the first 3 Turns while intoxicated",
+		"Cause enemies to attack each other due to your deceptive positioning in at least 2 separate encounters",
+		"Survive a combat against multiple enemies (5+) while using your Liquor Flask at least 3 times in a single encounter"
+	],
+	"abilities": [
+		{
+			"name": "Liquid Courage",
+			"type": "Passive",
+			"effect": "Your mastery of controlled intoxication reduces the negative effects of the Liquor Flask. When you consume from a Liquor Flask, your maximum Focus is only reduced by 2 instead of 3. Additionally, while under the effects of a Liquor Flask, enemies suffer -1d4 penalty to Attack Dice when targeting you due to your unpredictable movements."
+		},
+		{
+			"name": "Drunken Reflexes",
+			"type": "Active",
+			"cost": "1 Focus",
+			"effect": "Enter a state of enhanced reflexive combat for 3 Turns. During this time, whenever an enemy misses you with an attack, you may immediately spend 1 Reflex to make a Normal Attack against that enemy with a +1d6 bonus to Attack Dice. If you are currently under the effects of a Liquor Flask, this counter-attack automatically inflicts the Confused condition. You cannot use other Active abilities while in this state."
+		},
+		{
+			"name": "Drunken Foolery",
+			"type": "Active",
+			"cost": "3 Stamina, 1 Focus",
+			"effect": "Perform a seemingly clumsy series of movements that create tactical advantages. Choose up to 3 enemies within 10m that can see you. Each must pass a Sense Reaction Dice against your Influence or Finesse Action Dice or suffer one of the following effects (your choice per target): Confused, Dazed, or Exposed. If you are under the effects of a Liquor Flask when using this ability, you may move up to 10m and each affected enemy also becomes Weakened from laughing."
+		},
+		{
+			"name": "Drunken Fury",
+			"type": "Ultimate",
+			"limit": "Once per mission",
+			"cost": "5 Stamina, 5 uses of Liquor Flask",
+			"effect": "Consume 5 uses of your Liquor Flask to enter an uncontrolled state of liquid-fueled combat fury. For the remainder of the current combat encounter, your movement doesn't provoke any counterattacks; any time you take damage, you may immediately move up to 5m and make a free Normal Attack against any enemy within range; and enemies who attack you must roll a Sense Reaction Dice against your Influence or Finesse Action Dice or become Confused. When combat ends, you gain 1 Injury point from the extreme strain and become unconscious for 12 hours."
+		}
+	]
+}
