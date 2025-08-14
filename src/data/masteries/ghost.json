@@ -1,0 +1,43 @@
+{
+	"name": "Ghost",
+	"description": "A phantom in the digital realm, the Ghost moves unseen through both physical and virtual spaces. Their mastery of stealth and technology allows them to manipulate reality itself, becoming a whisper that enemies fear but can never catch. Where others see barriers, the Ghost sees only opportunities.",
+	"prerequisite": [
+		"Stealth Expertise",
+		"Electronics Expertise",
+		"Robotics Expertise",
+		"Software Expertise",
+		"At least one Tier 2 or Tier 3 Adept, Marksman, or Scoundrel Ability"
+	],
+	"achievement": [
+		"Complete 3+ missions without being detected by enemies",
+		"Successfully hack 15+ electronic systems",
+		"Complete a high-risk infiltration mission without detection",
+		"Successfully extract sensitive data from a heavily guarded facility"
+	],
+	"abilities": [
+		{
+			"name": "Phantom Cloak",
+			"type": "Passive",
+			"effect": "When attacking from stealth, gain Invisibility for 3 Turns after your attack. You remain undetectable unless you choose to attack again. This skill requires the Hacking Tool gear in your possession and consumes one of its uses. When in stealth, your Finesse Action Dice increases by 2 sizes for all stealth-related rolls. Enemies searching for you roll their Sense Reaction Dice with a -1d4 penalty."
+		},
+		{
+			"name": "Neural Overclock",
+			"type": "Active",
+			"cost": "1 Focus",
+			"effect": "See through walls and auto-dodge the next attack. This skill requires the Hacking Tool gear in your possession and consumes one of its uses. While Neural Overclock is active, you can identify all electronic devices, security systems, and mechanical enemies within 30m, including their weaknesses and connections. This effect lasts for 5 Turns."
+		},
+		{
+			"name": "Digital Phantom",
+			"type": "Active",
+			"cost": "2 Focus",
+			"effect": "Create a holographic duplicate of yourself that lasts for 5 Turns. This skill requires the Hacking Tool gear in your possession and consumes one of its uses. The duplicate can move up to 10m per Turn and appears completely real to electronic sensors and living creatures alike. The duplicate has 10 Health, 0 Mitigation, and uses Defense and Reaction Dice. The duplicate cannot attack and deals no damage. Any enemy who attacks the duplicate becomes Exposed."
+		},
+		{
+			"name": "System Crash",
+			"type": "Ultimate",
+			"limit": "Once per mission",
+			"cost": "3 Stamina",
+			"effect": "Disable all electronics within a 20m radius, dealing 5d12 Shock damage to mechanical enemies and Incapacitating them. This skill requires the Hacking Tool gear in your possession and consumes one of its uses. Security systems malfunction, doors unlock, lights fail, and communications are severed. You gain Momentum immediately after using this ability, regardless of whose Turn it currently is."
+		}
+	]
+}
