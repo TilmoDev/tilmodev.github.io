@@ -1,0 +1,41 @@
+{
+	"name": "Catburglar",
+	"description": "A master of infiltration and theft, the Catburglar moves through the world's most secure locations with supernatural grace. Their nimble fingers and acrobatic prowess allow them to acquire treasures others can only dream of possessing, all while leaving nothing but whispers and legends in their wake.",
+	"prerequisite": [
+		"Finesse Proficiency",
+		"Sense Proficiency",
+		"Intelligence Expertise",
+		"Stealth Expertise",
+		"Thievery Expertise"
+	],
+	"achievement": [
+		"Successfully infiltrate 3+ high-security locations without detection",
+		"Steal 10+ valuable items",
+		"Successfully steal a legendary item from an 'impossible' location (e.g., a heavily guarded museum, corporate vault, or royal treasury)"
+	],
+	"abilities": [
+		{
+			"name": "Preternatural Perception",
+			"type": "Passive",
+			"effect": "Gain +2 bonus to Sense Action/Reaction Dice when attempting to detect traps, alarms, or security measures. Also, when in stealth, you can sense the location of all security systems and guards within 20m without needing line of sight. Lastly, once per mission, you can ask the Director one yes/no question about a security system or patrol pattern and receive a truthful answer."
+		},
+		{
+			"name": "Impossible Leap",
+			"type": "Active",
+			"cost": "2 Stamina, 1 Focus",
+			"effect": "Perform an extraordinary feat of acrobatics, reaching locations up to 10m above or across gaps that would normally be impossible to traverse. While using this ability, you can briefly run along walls, swing from fixtures, or balance on impossibly narrow surfaces. If you use this ability to reach a position above enemies, your next attack from this position deals critical damage."
+		},
+		{
+			"name": "Perfect Theft",
+			"type": "Active",
+			"cost": "2 Focus",
+			"effect": "Steal an item from a person or secured location without triggering alarms or alerting the target, even if they are actively watching the item. This ability can bypass standard locks, display cases, or personal security (such as items in pockets or worn as jewelry). The theft isn't noticed until you are well away from the scene or choose to reveal it."
+		},
+		{
+			"name": "Ghost Protocol",
+			"type": "Ultimate",
+			"limit": "Once per mission",
+			"effect": "Become completely undetectable to all forms of surveillance and security for 30 minutes. During this time, you leave no traces of your passage—no footprints, fingerprints, scent, or heat signatures. Security cameras, motion sensors, pressure plates, and even magical wards fail to register your presence. If you perform a theft during Ghost Protocol, the stolen item appears to still be in place until someone physically interacts with it."
+		}
+	]
+}
