@@ -1,0 +1,40 @@
+{
+	"name": "Knight-Templar",
+	"description": "A paragon of unwavering devotion, the Knight-Templar stands as a beacon of hope on the battlefield, inspiring allies with their presence while shielding them from harm. Their sacred oaths and indomitable spirit turn the tide of battle, transforming certain defeat into glorious victory.",
+	"prerequisite": [
+		"Medium Armor or Heavy Armor Proficiency",
+		"Light Shield or Heavy Shield Proficiency",
+		"Vitality Proficiency",
+		"At least two Tier 2 or Tier 3 Warden or Tactician Techniques"
+	],
+	"achievement": [
+		"Restore 100+ Health to allies",
+		"Complete three missions where you prevent all allies from dropping below 5 Health",
+		"Successfully protect a VIP during an escort mission without them taking damage"
+	],
+	"abilities": [
+		{
+			"name": "Shield of Faith",
+			"type": "Passive",
+			"effect": "Allies within 3m gain 1d6 Soak at the start of their Turn. Whenever you heal an ally above their maximum Health, the excess healing is converted to Soak, shielding them from harm (Soak does not stack; only the highest value applies)."
+		},
+		{
+			"name": "Protector’s Resolve",
+			"type": "Active",
+			"cost": "3 Reflex",
+			"effect": "Move until you are 1m beside an ally within 5m and intercept an attack targeting them. Halve the incoming damage and redirect the remainder to yourself. If this reduces you to 0 Health, you remain standing—immune to all conditions and death effects—until the end of your next Turn or until your side loses Momentum, whichever comes first."
+		},
+		{
+			"name": "Radiant Rally",
+			"type": "Active",
+			"cost": "5 Stamina, 2 Focus",
+			"effect": "Restore 10 Health to all allies within 5m and grant them +1d6 bonus to Defense Dice until your Side regains Momentum."
+		},
+		{
+			"name": "Sanctuary",
+			"type": "Ultimate",
+			"limit": "Once per mission",
+			"effect": "Create a 5m aura for 10 Turns. All allies within the aura gain +1d6 bonus to Defense Dice, restore 5 Health at the start of their Turn, and become Immune to all conditions."
+		}
+	]
+}
