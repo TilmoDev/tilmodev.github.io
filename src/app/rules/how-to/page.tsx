@@ -8,10 +8,10 @@ export default function Page() {
 					How to Play Sellswords Initiative
 				</h2>
 				<p className="text-gray-700">
-					Think of this game like making a movie together. You've got two
+					Think of this game like making a movie together. You&apos;ve got two
 					groups: the Players (the stars on screen) and the Director (the person
 					running the show behind the scenes). Both need to work together to
-					create an action-packed story you'll be talking about for years.
+					create an action-packed story you&apos;ll be talking about for years.
 				</p>
 			</div>
 			<div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
