@@ -1,0 +1,41 @@
+{
+	"name": "Blademaster",
+	"description": "A true master of melee combat, the Blademaster turns every strike into an art form, wielding blades with unmatched precision and devastating power. Whether facing hordes or dueling a single foe, their skill ensures victory is inevitable.",
+	"prerequisite": [
+		"Axe Proficiency",
+		"Pole Proficiency",
+		"Sword Proficiency",
+		"At least two Tier 2 or 3 Warrior Techniques"
+	],
+	"achievement": [
+		"Defeat 50 enemies in melee combat using blades (axe, pole, or sword)",
+		"Survive a melee encounter against multiple (3+) enemies while at 5 Health or lower",
+		"Successfully eliminate a high-value target in single combat during a mission (e.g., duel a boss enemy without assistance)."
+	],
+	"abilities": [
+		{
+			"name": "Swift Riposte",
+			"type": "Passive",
+			"effect": "Drawing or holstering axes, poles, or swords no longer costs Stamina. Additionally, after successfully defending against a melee attack while wielding an axe, pole, or sword, you automatically counterattack for half damage using your equipped blade weapon without spending Stamina. This counterattack can only be used against targets within reach."
+		},
+		{
+			"name": "Blade Dance",
+			"type": "Active",
+			"cost": "5 Stamina and 1 Focus (Normal Attack) or 3 Stamina and 1 Focus (Quick Attack)",
+			"effect": "You can unleash a flurry of blade strikes against multiple enemies. This ability requires you to be wielding an axe, pole, or sword. Make a Normal Attack against all enemies within melee range, or a Quick Attack for reduced cost."
+		},
+		{
+			"name": "Blade Barrier",
+			"type": "Active",
+			"cost": "5 Stamina and 1 Focus",
+			"effect": "This ability requires you to be wielding an axe, pole, or sword. Enter a defensive stance for 5 Turns. During this time, any enemy that moves within melee range automatically takes damage from your equipped blade weapon."
+		},
+		{
+			"name": "Final Strike",
+			"type": "Ultimate",
+			"limit": "Once per mission",
+			"cost": "5 Stamina",
+			"effect": "You can execute a single, devastating strike with a blade weapon. This ability requires you to be wielding an axe, pole, or sword. Unleash this attack, which deals five times your Damage Dice and inflicts Vulnerable (Slice and Pierce) on the target."
+		}
+	]
+}
