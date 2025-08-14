@@ -1,0 +1,40 @@
+{
+	"name": "Shadowblade",
+	"description": "A master of stealth and precision, the Shadowblade operates in the spaces between light and darkness, using cover, distraction, and tactical awareness to eliminate targets without ever being seen. Their blades are swift, silent, and lethal—striking from concealment and vanishing into the environment just as quickly. Where others see obstacles, the Shadowblade sees opportunities, turning every corner, doorway, and blind spot into a tactical advantage.",
+	"prerequisite": [
+		"Axe, Dagger, or Sword Proficiency",
+		"Finesse Proficiency",
+		"At least three Tier 2 or Tier 3 Scoundrel or Warrior Techniques"
+	],
+	"achievement": [
+		"Complete 3+ missions without being detected by enemies",
+		"Eliminate 25+ targets with sneak attacks or critical hits",
+		"Assassinate a heavily-guarded VIP target without being seen or leaving any trace"
+	],
+	"abilities": [
+		{
+			"name": "Silent Killer",
+			"type": "Passive",
+			"effect": "When using daggers or one-handed swords or axes, gain the following bonuses: gain +10 bonus to Damage Dice against unaware targets; critical hits automatically inflict Bleed condition; sneak attacks no longer make noise, allowing for multiple silent takedowns in succession; and, you can move at full speed while maintaining stealth without penalty."
+		},
+		{
+			"name": "Shadowstep",
+			"type": "Active",
+			"cost": "2 Stamina, 1 Focus",
+			"effect": "Rapidly move up to 20 meters using available cover, concealment, or blind spots without being detected by enemies currently aware of your presence. You must have a clear path through areas of concealment (shadows, cover, crowds, etc.). Gain +1d6 bonus to Attack Dice on your next attack after using this ability. If you eliminate a target within the same Turn as using Shadowstep, regain 3 Stamina."
+		},
+		{
+			"name": "Precision Strike",
+			"type": "Active",
+			"cost": "1 Focus",
+			"effect": "Study your target's defenses and strike with surgical precision for 3 Turns. While active, your dagger or one-handed sword or axe attacks ignore Mitigation as you target weak points in armor and strike between protective gear. Your attacks can target enemies around corners or through small openings as long as you can perceive them (representing ricochets, angled strikes, or throwing techniques). Attacks made with Precision Strike active cannot be parried or deflected."
+		},
+		{
+			"name": "Death's Whisper",
+			"type": "Ultimate",
+			"limit": "Once per mission",
+			"cost": "5 Stamina (unaware target), 5 Stamina and 5 Focus (aware target)",
+			"effect": "Attempt a devastating assassination using your dagger or one-handed sword or axe that targets vital points with lethal precision. Against unaware targets, the target must make an opposed Vitality Action Dice against your Attack Dice with a -1d6 penalty as you strike without warning at vital points. Against aware targets, you must first spend 5 Focus to create an opening, then the target makes an opposed Vitality Action Dice against your Attack Dice with no penalty. If your Attack Dice result is higher, the target is immediately reduced to 0 Health as your blade finds a lethal vital point. If the target's Vitality roll is within 3 points of your Attack Dice result, they survive the assassination attempt but take triple damage instead and become Weakened as your strike inflicts serious but non-fatal injuries."
+		}
+	]
+}
