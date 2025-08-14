@@ -1,0 +1,41 @@
+{
+	"name": "Gunslinger",
+	"description": "A master of firearms, the Gunslinger dominates the battlefield with precision, speed, and devastating firepower. Their bullets are an extension of their will, and no enemy is safe from their sights.",
+	"prerequisite": [
+		"Pistol Proficiency",
+		"Rifle Proficiency",
+		"Shotgun Proficiency",
+		"At least two Tier 2 or Tier 3 Marksman Techniques"
+	],
+	"achievement": [
+		"Land 25+ critical hits using firearms (pistols, rifles, or shotguns)",
+		"Complete a mission using only firearms (no melee weapons)",
+		"Successfully eliminate a high-value target in a single shot during a mission (e.g., headshot a boss enemy)"
+	],
+	"abilities": [
+		{
+			"name": "Quickdraw",
+			"type": "Passive",
+			"effect": "Gain +1d8 bonus to Attack Dice when attacking first in combat or during ambushes. Drawing or holstering firearms no longer costs Stamina. For 2 Reflex, you may interrupt an enemy’s attack by shooting their weapon out of their hand (Opposed Roll: Attack Dice vs. Reaction Dice)."
+		},
+		{
+			"name": "Trick Shot",
+			"type": "Active",
+			"cost": "1 Focus",
+			"effect": "When you hit with a ranged attack using a pistol or rifle, ricochet bullets off surfaces, hitting up to 2 additional targets within line of sight for half damage. If the ricocheted attack rolls a critical hit, deal full damage instead."
+		},
+		{
+			"name": "Bullet Time",
+			"type": "Active",
+			"limit": "Once per combat",
+			"effect": "Slow time for yourself: replenish all Reflex and take two Turns back-to-back before passing Momentum."
+		},
+		{
+			"name": "Deadeye",
+			"type": "Ultimate",
+			"limit": "Once per mission",
+			"cost": "5 Stamina",
+			"effect": "Empty your magazine to attack all enemies within your weapon's range. Roll 1d12 for each bullet fired; each roll of 5+ hits a target, and each roll of 8+ deals critical damage. If you roll a natural 12 on this attack, reload your weapon instantly without spending Stamina."
+		}
+	]
+}
