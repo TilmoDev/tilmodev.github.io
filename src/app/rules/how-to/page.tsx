@@ -24,8 +24,8 @@ export default function Page() {
 					you&apos;re also the scriptwriter, narrator, every NPC, rule keeper,
 					and action sequence choreographer all rolled into one. Here&apos;s the
 					thing - your main goal isn&apos;t to memorize every rule or kill the
-					players. It&apos;s to create those "holy crap!" moments that get
-					everyone at the table fired up. Don&apos;t get bogged down in rule
+					players. It&apos;s to create those &quot;holy crap!&quot; moments that
+					get everyone at the table fired up. Don&apos;t get bogged down in rule
 					books - focus on telling an awesome story that might even get some
 					emotional reactions!
 				</p>
@@ -45,11 +45,11 @@ export default function Page() {
 			<div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
 				<h3 className="text-xl font-semibold text-blue-700 mb-3">The Table</h3>
 				<p className="text-gray-700">
-					We say "table" but with Zoom and Discord, that might just mean
-					wherever everyone&apos;s connecting from. The table is wherever the
-					Director and Players gather to play, bringing their imagination, maybe
-					some notes, and definitely snacks. Oh, and dice - can&apos;t forget
-					the dice!
+					We say &quot;table&quot; but with Zoom and Discord, that might just
+					mean wherever everyone&apos;s connecting from. The table is wherever
+					the Director and Players gather to play, bringing their imagination,
+					maybe some notes, and definitely snacks. Oh, and dice - can&apos;t
+					forget the dice!
 				</p>
 			</div>
 			<div className="bg-blue-50 p-6 rounded-lg border-l-4 border-blue-500">
@@ -63,9 +63,10 @@ export default function Page() {
 					.
 				</p>
 				<p className="text-gray-700 mt-4">
-					<strong>Reminder:</strong> If you&apos;re new to this, the "d" means
-					"die" and the number is how many sides it has. So a d6 is your
-					standard six-sided die like you&apos;d find in Monopoly.
+					<strong>Reminder:</strong> If you&apos;re new to this, the
+					&quot;d&quot; means &quot;die&quot; and the number is how many sides
+					it has. So a d6 is your standard six-sided die like you&apos;d find in
+					Monopoly.
 				</p>
 				<p className="text-gray-700 mt-4">
 					<strong>Pro Tip:</strong> No dice? No problem! There are tons of free
@@ -140,12 +141,12 @@ export default function Page() {
 					that politician nobody likes. Hey, a job&apos;s a job.
 				</p>
 				<p className="text-gray-700 mt-4">
-					<strong>Quick Note:</strong> We call them "Missions" but if your game
-					has more of a swords-and-sorcery vibe, feel free to call them "Quests"
-					instead. We won&apos;t send the RPG police after you. Once you
-					successfully finish a mission, your team will be rewarded Credits (and
-					whatever your Director thinks should be added). If you fail,
-					that&apos;s up to your Director what to do with it.
+					<strong>Quick Note:</strong> We call them &quot;Missions&quot; but if
+					your game has more of a swords-and-sorcery vibe, feel free to call
+					them &quot;Quests&quot; instead. We won&apos;t send the RPG police
+					after you. Once you successfully finish a mission, your team will be
+					rewarded Credits (and whatever your Director thinks should be added).
+					If you fail, that&apos;s up to your Director what to do with it.
 				</p>
 				<h4 className="font-semibold text-gray-700 mt-4">
 					Credits and Character Progression
@@ -179,10 +180,11 @@ export default function Page() {
 				</h4>
 				<p className="text-gray-700">
 					The Dice Pool refers to all the dice rolled collectively for a single
-					action or event. While the term "Dice Pool" isn&apos;t officially used
-					in Sellswords gameplay, the concept helps explain how rolls are
-					structured and scaled. Sellswords uses incremental dice sizes (d4, d6,
-					d8, d10, d12) to represent increasing levels of power or proficiency.
+					action or event. While the term &quot;Dice Pool&quot; isn&apos;t
+					officially used in Sellswords gameplay, the concept helps explain how
+					rolls are structured and scaled. Sellswords uses incremental dice
+					sizes (d4, d6, d8, d10, d12) to represent increasing levels of power
+					or proficiency.
 				</p>
 				<h4 className="font-semibold text-gray-700 mt-4">
 					The Structure of a Roll
@@ -279,9 +281,9 @@ export default function Page() {
 				</ol>
 				<h4 className="font-semibold text-gray-700 mt-4">Opposed Rolls</h4>
 				<p className="text-gray-700">
-					Sellswords runs on what we call "Opposed Rolls”. Basically, you roll
-					dice against someone else&apos;s dice to see who wins. It keeps things
-					moving and makes sure nobody falls asleep during combat.
+					Sellswords runs on what we call &quot;Opposed Rolls&quot;. Basically,
+					you roll dice against someone else&apos;s dice to see who wins. It
+					keeps things moving and makes sure nobody falls asleep during combat.
 				</p>
 				<p className="text-gray-700 mt-4">There are two main types of rolls:</p>
 				<h4 className="font-semibold text-gray-700 mt-4">
