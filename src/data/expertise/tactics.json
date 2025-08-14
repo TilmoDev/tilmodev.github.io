@@ -1,0 +1,85 @@
+{
+	"description": "Tactical experts are the masterminds behind successful missions, turning chaos into order with their strategic brilliance. They assess battlefields, predict enemy movements, and profile adversaries with uncanny accuracy. Their ability to adapt and devise effective plans ensures no challenge is insurmountable.",
+	"expertise": [
+		{
+			"name": "Adaptation",
+			"description": "You are adept at managing resources, supplies, and personnel, ensuring that all necessary elements are in place to support operations and adapt to changing circumstances.",
+			"price": 750,
+			"options": [
+				"Spend 1 Focus to efficiently allocate mission resources.",
+				"Spend 2 Focus to optimize equipment loadout for a specific operation.",
+				"Spend 4 Focus to improvise solutions with limited supplies."
+			]
+		},
+		{
+			"name": "Competition",
+			"description": "You are a highly trained athlete and fighter, capable of engaging in competitions with precision, efficiency, and adaptability.",
+			"price": 750,
+			"options": [
+				"Spend 1 Focus to demonstrate physical or competitive prowess.",
+				"Spend 2 Focus to dominate a staged or choreographed fight.",
+				"Spend 4 Focus to triumph in a high-stakes contest."
+			]
+		},
+		{
+			"name": "Deduction",
+			"description": "You possess strong analytical and problem-solving skills, enabling you to identify patterns, connect seemingly unrelated information, and draw accurate conclusions from limited data.",
+			"price": 750,
+			"options": [
+				"Spend 1 Focus to notice a crucial physical detail in a complex situation.",
+				"Spend 2 Focus to connect seemingly unrelated pieces of information.",
+				"Spend 4 Focus to solve a complex puzzle or reconstruct a series of events."
+			]
+		},
+		{
+			"name": "Insight",
+			"description": "You have a keen understanding of human behavior and motivations, allowing you to discern hidden intentions and navigate complex social interactions effectively.",
+			"price": 750,
+			"options": [
+				"Spend 1 Focus to detect a lie or inconsistency in someone's statement or actions.",
+				"Spend 2 Focus to uncover hidden motives or schemes in a situation.",
+				"Spend 4 Focus to anticipate potential dangers in an upcoming situation."
+			]
+		},
+		{
+			"name": "Piloting",
+			"description": "You possess the ability to operate and control various types of vehicles, from basic to advanced, optimizing their performance and handling challenging situations.",
+			"price": 750,
+			"options": [
+				"Spend 1 Focus to expertly control a basic vehicle or mount (e.g., horse, car, small boat).",
+				"Spend 2 Focus to perform advanced maneuvers with specialized vehicles (e.g., motorcycle stunts, chariot racing, ship navigation).",
+				"Spend 4 Focus to operate complex or military-grade vehicles in extreme conditions (e.g., tanks in combat, aircraft in storms)."
+			]
+		},
+		{
+			"name": "Profiling",
+			"description": "You can analyze and interpret human behavior, personality traits, and psychological patterns, using this knowledge to predict actions and make informed decisions.",
+			"price": 750,
+			"options": [
+				"Spend 1 Focus to identify key personality traits from observed behavior.",
+				"Spend 2 Focus to predict likely actions of a group or organization.",
+				"Spend 4 Focus to create a comprehensive psychological profile for tactical advantage."
+			]
+		},
+		{
+			"name": "Security",
+			"description": "You are skilled in assessing and mitigating various threats, implementing effective security measures to protect people, assets, and information.",
+			"price": 750,
+			"options": [
+				"Spend 1 Focus to quickly assess the tactical layout of an area.",
+				"Spend 2 Focus to identify potential ambush points or hidden threats.",
+				"Spend 4 Focus to pinpoint optimal defensive positions and enemy vulnerabilities."
+			]
+		},
+		{
+			"name": "Strategy",
+			"description": "You excel in strategic thinking and decision-making, anticipating enemy actions and coordinating team efforts to achieve objectives on the battlefield.",
+			"price": 750,
+			"options": [
+				"Spend 1 Focus to analyze an opponent's plans and formation.",
+				"Spend 2 Focus to predict an enemy's likely next move.",
+				"Spend 4 Focus to formulate an effective counter-strategy."
+			]
+		}
+	]
+}

@@ -1,0 +1,41 @@
+{
+	"name": "Shieldbreaker",
+	"description": "A master of brute force, the Shieldbreaker crushes defenses with relentless power, reducing even the toughest armor to rubble. No shield, no wall, and no enemy can withstand their devastating blows.",
+	"prerequisite": [
+		"Axe or Bludgeon Proficiency",
+		"Medium Armor or Heavy Armor Proficiency",
+		"Strength Proficiency",
+		"At least two Tier 2 or Tier 3 Warrior or Warden Techniques"
+	],
+	"achievement": [
+		"Deal 500+ Blunt damage",
+		"Destroy an enemy’s armor or shield in combat",
+		"Survive a siege or defensive mission where you hold off waves of enemies while protecting an objective."
+	],
+	"abilities": [
+		{
+			"name": "Armor Crusher",
+			"type": "Passive",
+			"effect": "Axe and Bludgeon attacks reduce enemy Mitigation by 2 permanently if you deal at least 15 damage."
+		},
+		{
+			"name": "Shockwave Slam",
+			"type": "Active",
+			"cost": "5 Stamina, 1 Focus",
+			"effect": "Perform a special Heavy Attack. Roll your Attack Dice against all enemies within a 5m radius. Any enemy that fails their Defense Dice is struck by a shockwave, taking 2d12 Blunt and 2d10 Sonic damage and suffering the Slowed and Exposed conditions."
+		},
+		{
+			"name": "Bulldozer",
+			"type": "Active",
+			"cost": "5 Stamina, 1 Focus",
+			"effect": "Charge up to 10m in a straight line, automatically dealing 2d10 Blunt damage to all enemies in your path and pushing them back 3m. If an enemy is pushed into another enemy or object, both take additional 1d8 damage."
+		},
+		{
+			"name": "Wallbreaker",
+			"type": "Ultimate",
+			"limit": "Once per mission",
+			"cost": "5 Stamina",
+			"effect": "Deliver a single devastating strike against a heavily armored enemy or any target with Bulk 3 or higher. This attack deals double Damage Dice and treats the target’s Mitigation and Toughness as Soak—damage is subtracted from these values first. If either Mitigation or Toughness is reduced to 0 by this attack, that defense is broken and no longer provides protection for the remainder of the encounter."
+		}
+	]
+}

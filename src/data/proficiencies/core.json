@@ -1,0 +1,149 @@
+{
+	"tooltip": "What are Core Proficiencies? Combat is typically straightforward, with creatures making Attack Dices and defending creatures responding with Defense Dices. However, certain scenarios (especially outside of combat) arise that the rules may not explicitly cover, such as breaking a door or resisting the effects of cold or poison, or even avoiding or stopping a falling chandelier. In such instances, Core Proficiencies come into play, providing room for creativity and collaboration between you and the Director.",
+	"proficiencies": [
+		{
+			"name": "Finesse",
+			"description": "Your movements radiate precision and grace, deftly weaving through danger with agility, nimble reflexes, and effortless control.",
+			"ranks": [
+				{
+					"rank": "I",
+					"price": 500,
+					"effect": "Your Base Action and Reaction Dice when encountering finesse-based scenarios is now d8."
+				},
+				{
+					"rank": "II",
+					"price": 1500,
+					"requires": "Rank I",
+					"effect": "Your Base Action and Reaction Dice when encountering finesse-based scenarios is now d10."
+				},
+				{
+					"rank": "III",
+					"price": 2500,
+					"requires": "Rank II",
+					"effect": "Your Base Action and Reaction Dice when encountering finesse-based scenarios is now d12."
+				}
+			],
+			"special": "Draw and Holster maneuvers are now free. The Stamina cost for the Administer and Hide maneuvers is reduced by 1. Additionally, the Stamina cost for the Stand maneuver is reduced to 1."
+		},
+		{
+			"name": "Influence",
+			"description": "Your magnetic charm effortlessly influences the unfolding scenario, subtly swaying the tides of combat in your favor.",
+			"ranks": [
+				{
+					"rank": "I",
+					"price": 500,
+					"effect": "Your Base Action and Reaction Dice when encountering influence-based scenarios is now d8."
+				},
+				{
+					"rank": "II",
+					"price": 1500,
+					"requires": "Rank I",
+					"effect": "Your Base Action and Reaction Dice when encountering influence-based scenarios is now d10."
+				},
+				{
+					"rank": "III",
+					"price": 2500,
+					"requires": "Rank II",
+					"effect": "Your Base Action and Reaction Dice when encountering influence-based scenarios is now d12."
+				}
+			],
+			"special": "When using the Distract maneuver, subtract -2 from the target’s next Attack Dice per point of Stamina spent instead of -1. Additionally, when using the Defend maneuver, add +2 to Defense Dice per point of Stamina spent instead of +1."
+		},
+		{
+			"name": "Intellect",
+			"description": "With heightened intellectual acuity, you navigate the chaos of combat, swiftly analyzing situations and devising strategic maneuvers to outsmart your opponents.",
+			"ranks": [
+				{
+					"rank": "I",
+					"price": 500,
+					"effect": "Your Base Action and Reaction Dice when encountering intellect-based scenarios is now d8."
+				},
+				{
+					"rank": "II",
+					"price": 1500,
+					"requires": "Rank I",
+					"effect": "Your Base Action and Reaction Dice when encountering intellect-based scenarios is now d10."
+				},
+				{
+					"rank": "III",
+					"price": 2500,
+					"requires": "Rank II",
+					"effect": "Your Base Action and Reaction Dice when encountering intellect-based scenarios is now d12."
+				}
+			],
+			"special": "The Stamina cost of the Assist maneuver is reduced by 1. Additionally, when performing the Interact maneuver, you can perform complex interactions (e.g., hacking, disarming traps) at no additional Stamina cost."
+		},
+		{
+			"name": "Sense",
+			"description": "Your sharpened perception heightens every moment, keenly attuned to the world as you spot subtle details and react to threats before they strike.",
+			"ranks": [
+				{
+					"rank": "I",
+					"price": 500,
+					"effect": "Your Base Action and Reaction Dice when encountering sense-based scenarios is now d8."
+				},
+				{
+					"rank": "II",
+					"price": 1500,
+					"requires": "Rank I",
+					"effect": "Your Base Action and Reaction Dice when encountering sense-based scenarios is now d10."
+				},
+				{
+					"rank": "III",
+					"price": 2500,
+					"requires": "Rank II",
+					"effect": "Your Base Action and Reaction Dice when encountering sense-based scenarios is now d12."
+				}
+			],
+			"special": "The Stamina cost of the Concentrate maneuver is reduced by 1. Additionally, when using the Assess maneuver, roll two dice instead but choose the highest result."
+		},
+		{
+			"name": "Strength",
+			"description": "Your every move exudes unmatched might, effortlessly toppling adversaries and seamlessly navigating through challenges with raw power.",
+			"ranks": [
+				{
+					"rank": "I",
+					"price": 500,
+					"effect": "Your Base Action and Reaction Dice when encountering strength-based scenarios is now d8."
+				},
+				{
+					"rank": "II",
+					"price": 1500,
+					"requires": "Rank I",
+					"effect": "Your Base Action and Reaction Dice when encountering strength-based scenarios is now d10."
+				},
+				{
+					"rank": "III",
+					"price": 2500,
+					"requires": "Rank II",
+					"effect": "Your Base Action and Reaction Dice when encountering strength-based scenarios is now d12."
+				}
+			],
+			"special": "The Stamina cost of the Heavy Attack combat maneuver is reduced by 1 when using melee weapons. Additionally, when performing Climb, Jump, or Swim, you move 4 meters per 1 Stamina spent instead of 2."
+		},
+		{
+			"name": "Vitality",
+			"description": "Your resilience and endurance shine, allowing you to face adversity head-on with newfound vigor and determination.",
+			"ranks": [
+				{
+					"rank": "I",
+					"price": 500,
+					"effect": "Your Base Action and Reaction Dice when encountering vitality-based scenarios is now d8."
+				},
+				{
+					"rank": "II",
+					"price": 1500,
+					"requires": "Rank I",
+					"effect": "Your Base Action and Reaction Dice when encountering vitality-based scenarios is now d10."
+				},
+				{
+					"rank": "III",
+					"price": 2500,
+					"requires": "Rank II",
+					"effect": "Your Base Action and Reaction Dice when encountering vitality-based scenarios is now d12."
+				}
+			],
+			"special": "The Stamina cost for the Recover maneuver is reduced by 1. Additionally, you can move up to 7 meters per point of Stamina spent."
+		}
+	]
+}

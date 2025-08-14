@@ -1,0 +1,39 @@
+{
+	"name": "Bloodreaver",
+	"description": "A master of blood sacrifice and primal fury, the Bloodreaver turns pain into power. Their strength grows as their lifeblood ebbs, transforming mortal wounds into devastating attacks. Where others falter from injury, the Bloodreaver ascends to terrifying heights of destructive potential.",
+	"prerequisite": [
+		"Strength Proficiency",
+		"Vitality Proficiency",
+		"At least three Tier 2 or Tier 3 Warrior Techniques"
+	],
+	"achievement": [
+		"Survive 5+ combat encounters while below 5 Health",
+		"Deal a total of 500+ damage with melee weapons",
+		"Win a battle against multiple opponents (15+)",
+		"Defeat a legendary foe in single combat while grievously wounded"
+	],
+	"abilities": [
+		{
+			"name": "Blood Frenzy",
+			"type": "Passive",
+			"effect": "For every 5 points of Health you are missing, gain +1 bonus to Attack Dice and +2 bonus to Damage Dice. Additionally, when you drop below 10 Health, gain Resistance to Pierce and Slice damage."
+		},
+		{
+			"name": "Blood Sacrifice",
+			"type": "Active",
+			"effect": "When you make a melee attack, you can sacrifice up to 25 Health to add twice that amount as bonus damage to your next attack. This bonus damage ignores Mitigation. If this attack reduces an enemy to 0 Health, immediately regain Health equal to half the amount sacrificed."
+		},
+		{
+			"name": "Bloodthirst",
+			"type": "Active",
+			"cost": "3 Stamina",
+			"effect": "Enter a bloodthirsty state for 5 Turns. While in this state, each successful attack grants +1 bonus to Attack Dice and +1d6 damage to your next attack (stacking up to 5 times). However, you take 3 damage at the end of each of your Turns while this effect is active."
+		},
+		{
+			"name": "Blood Pact",
+			"type": "Ultimate",
+			"limit": "Once per mission, when reduced to 5 Health or lower, you may activate Blood Pact for free.",
+			"effect": "For the next 5 Turns, you gain the following benefits: Double all bonuses from Blood Frenzy; Gain Immunity to Blunt, Pierce, and Slice damage; Your attacks deal double damage; You cannot be reduced below 1 Health. When Blood Pact ends, you immediately gain 1 Injury point and are Weakened."
+		}
+	]
+}

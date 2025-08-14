@@ -1,7 +1,11 @@
-import styles from "./Header.module.css";
+import { Display } from "@fluentui/react-components";
 
-const Header = () => {
-	return <div className={styles.header}>SELLSWORDS Initiative</div>;
+interface HeaderProps {
+	text: string;
+}
+
+const Header: React.FC<HeaderProps> = ({ text }) => {
+	return <Display>{text}</Display>;
 };
 
 export default Header;

@@ -1,0 +1,429 @@
+{
+	"difficulty": "Medium",
+	"description": "Adepts embody physical prowess, forsaking weapons for mastering hand-to-hand combat and martial techniques. Through disciplined training, they harness their bodies as lethal tools, moving with grace and power to strike precisely and unleash devastating combinations. As paragons of physical excellence, Adepts conquer foes through their mastery of combat techniques.",
+	"tiers": [
+		{
+			"tier": 1,
+			"techniques": [
+				{
+					"name": "Grappler",
+					"type": ["Active", "Utility"],
+					"description": "You unleash your grappling expertise, swiftly seizing your opponent with a tenacious hold that renders them helpless, caught in the vice of your unyielding grip until they muster the strength to break free or succumb to your dominating restraint.",
+					"required": "You must have a free hand to initiate or maintain your grab.",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "Spend 5 Stamina to roll a Strength Action Dice to grab your target. If you succeed, deal unarmed damage and the target is grabbed until you release them, are forcibly moved away, or become incapacitated. While grabbed, the target is temporarily Immobilized and Restrained. They can spend 3 Stamina to roll any Reaction Dice to break free on their Turn."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "You only need to spend 4 Stamina points to grab instead."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "You only need to spend 3 Stamina points to grab instead."
+						}
+					],
+					"limit": "You cannot use this skill against a target that is twice as large than you.",
+					"special": "You are Slowed for the duration of the grab and your target moves together with you. You can also let go of your target without spending any Stamina."
+				},
+				{
+					"name": "Iron Fists",
+					"type": ["Passive", "Upgrade"],
+					"description": "Your fists transform into formidable weapons, each strike a versatile onslaught capable of delivering a mix of lethal force, ensuring that every punch is a devastating symphony of martial prowess.",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "As long as you have 3 Focus, your unarmed attacks now deal 2d6 damage."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "Your unarmed attacks now deal 4d4 damage instead."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "Your unarmed attacks now deal 5d4 damage instead."
+						}
+					],
+					"special": "Your attacks deal Slice, Blunt, or Pierce damage per strike. You choose."
+				},
+				{
+					"name": "Like Water",
+					"type": ["Passive", "Defensive"],
+					"description": "As your strikes find their mark in the dance of combat, a fluid grace envelopes you, akin to water responding to the touch of a skilled sculptor, enhancing your defensive finesse with each precise melee blow.",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "Each time you damage a target in melee, your Base Defense Dice increases by 1 size until your Side regains Momentum."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "The size increase is now 2 instead."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "The size increase is now 3 instead."
+						}
+					]
+				},
+				{
+					"name": "Refocus",
+					"type": ["Passive", "Utility"],
+					"description": "As the last ember of your concentration flickers out, an internal surge reignites your mental fortitude, restoring a renewed clarity that propels you back into the fray with unwavering focus.",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "When your Focus reaches zero, you gain 5 Focus."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "You can activate this skill twice before resting."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "You can activate this skill thrice before resting."
+						}
+					],
+					"limit": "After using this skill, you must rest for 6 hours before using it again."
+				},
+				{
+					"name": "Snake Bite",
+					"type": ["Passive", "Offensive"],
+					"description": "Like a coiled serpent, you effortlessly evade the oncoming assault, your every nimble maneuver channeling the latent energy of each missed strike into a retaliatory strike.",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "Each time a melee attack misses you, your next melee Damage Dice has a bonus of +1d4."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "The bonus is now +1d6 instead."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "The bonus is now +1d8 instead."
+						}
+					]
+				},
+				{
+					"name": "Weapon Master",
+					"type": ["Passive", "Upgrade"],
+					"description": "Your mastery over brawling weapons transforms each strike into a deadly dance, your proficiency allowing you to seamlessly shift between dealing bone-crushing blows and penetrating strikes, all executed with a fluid finesse that leaves adversaries reeling.",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "As long as you have 3 Focus, all your Base Damage Dice for brawling weapons have an extra +1d4 bonus damage. You also do not need to spend Stamina when switching weapons to a brawling weapon."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "The damage bonus is now +1d6."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "The damage bonus is now +1d8."
+						}
+					]
+				}
+			]
+		},
+		{
+			"tier": 2,
+			"techniques": [
+				{
+					"name": "Beatdown",
+					"type": ["Passive", "Offensive"],
+					"prerequisite": "Grappler (Tier 1)",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "You have a +1d6 bonus to Damage Dice against your grabbed target."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "The damage bonus is now +1d8 instead."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "The damage bonus is now +1d10 instead."
+						}
+					]
+				},
+				{
+					"name": "Blade Block",
+					"type": ["Active", "Defensive"],
+					"prerequisite": "Iron Fists (Tier 1) or Weapon Master (Tier 1)",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "Spend 1 Focus to automatically roll your melee weapon's Damage Dice to reduce incoming damage against you. Subtract the result from the attacker's total damage."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "You can spend a second Focus to add another set of your weapon's Damage Dice."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "You can spend a third Focus to add another set of your weapon's Damage Dice."
+						}
+					]
+				},
+				{
+					"name": "Gun-Fu",
+					"type": ["Active", "Offensive"],
+					"prerequisite": "Grappler (Tier 1) or Iron Fists (Tier 1)",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "You can immediately make a free Unarmed attack after attacking with a ranged weapon, or vice versa. Also, you ignore any ranged weapon's Awkward property."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "Your ranged weapon's Pierce threshold is reduced by 5 if your target is just 1m beside you."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "If you hit with both attacks, the target is Staggered."
+						}
+					]
+				},
+				{
+					"name": "Intercepting Strike",
+					"type": ["Active", "Offensive", "Utility"],
+					"prerequisite": "Snake Bite (Tier 1), Iron Fists (Tier 1), or Like Water (Tier 1)",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "Spend 1 Focus to counterattack against an enemy's Attack Dice using your own Attack Dice. If you succeed, their attack is canceled and you also deal bonus damage equal to the difference between your Attack Dice and theirs."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "You can spend another Focus to make a second attack."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "You can spend another Focus to make a third attack."
+						}
+					],
+					"limit": "This ability works for ranged attacks against melee but not vice versa (unless both of you are in melee range)."
+				},
+				{
+					"name": "Serpent Dance",
+					"type": ["Passive", "Defensive"],
+					"prerequisite": "Snake Bite (Tier 1), Iron Fists (Tier 1), or Like Water (Tier 1)",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "Your Base Defense Dice against ranged attacks is increased by 1 size."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "Your Base Dice is increased by 2 sizes instead."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "Your Base Dice is increased by 3 sizes instead."
+						}
+					]
+				},
+				{
+					"name": "Takedown",
+					"type": ["Active", "Offensive", "Utility"],
+					"prerequisite": "Grappler (Tier 1)",
+					"required": "You must be grabbing a target.",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "Spend 5 Stamina to throw a grabbed target into an unoccupied space or towards another target within 3m. If thrown into an unoccupied space, the grabbed target makes a Finesse Reaction Dice against your Strength Action Dice. If they fail, they suffer 4d4 Blunt damage and are Knocked Down. If thrown at another target, that target rolls a Defense Dice against your Attack Dice. If they fail, both the grabbed target and the new target take 4d4 Blunt damage and are Knocked Down. Alternatively, spend 5 Stamina to attempt to choke your grabbed target. Roll a Strength Action Dice against their Reaction Dice. If you succeed, your target is Staggered."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "You only need to spend 4 Stamina to attempt the throw or choke."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "You only need to spend 3 Stamina to attempt the throw or choke."
+						}
+					],
+					"limit": "You cannot use this skill against a target that is twice as large than you.",
+					"special": "If your target rolls a natural 1 on their Defense or Reaction Dice, they are also Crippled."
+				}
+			]
+		},
+		{
+			"tier": 3,
+			"techniques": [
+				{
+					"name": "Chi Strikes",
+					"type": ["Active", "Offensive", "Utility"],
+					"prerequisite": "Gun-Fu (Tier 2) or Intercepting Strike (Tier 2)",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "When you hit with an unarmed attack, immediately spend 1 Focus to inflict Confused, Crippled, Impaired, Exposed, Flinched, or Hindered to your target."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "Or you can spend 2 Focus to add one of the following conditions: Dazed, Disabled, Dizzied, Immobilized, Silenced, Slowed, or Weakened."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "Or you can spend 3 Focus to add one of the following conditions: Fatigued, Knocked Down, Restrained, or Staggered."
+						}
+					],
+					"special": "You can repeatedly spend more Focus to add more conditions."
+				},
+				{
+					"name": "Flurry of Strikes",
+					"type": ["Active", "Offensive"],
+					"prerequisite": "Gun-Fu (Tier 2) or Intercepting Strike (Tier 2)",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "Spend 5 Stamina for an unarmed attack that deals +1d4 bonus damage. If it hits, follow with a second unarmed attack that deals +1d6 bonus damage. If that hits, follow with a third unarmed attack that deals +1d8 bonus damage."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "If the third strike hits, follow with a fourth unarmed attack that deals +1d10 bonus damage."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "If the fourth strike hits, follow with a fifth unarmed attack that deals +1d12 bonus damage."
+						}
+					]
+				},
+				{
+					"name": "God Fist",
+					"type": ["Active", "Offensive"],
+					"prerequisite": "Gun-Fu (Tier 2) or Intercepting Strike (Tier 2)",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "When you hit with an unarmed attack, immediately spend Focus to inflict additional +1d6 bonus damage per point spent. The target is pushed 1m away from you for every 5 damage the bonus dice inflicts."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "The target is Crippled and Dazed if you deal at least 15 damage with the bonus dice (if the target is twice as large as you, the damage requirement is 30)."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "The damage threshold needed to inflict the conditions is now 10 instead (if the target is twice as large as you, the damage requirement is 20)."
+						}
+					],
+					"limit": "The effect only applies to a single attack. If you can do multiple attacks, you have to apply the effect individually."
+				},
+				{
+					"name": "Mind Over Matter",
+					"type": ["Passive", "Defensive"],
+					"prerequisite": "Blade Block (Tier 2) or Serpent Dance (Tier 2)",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "As long as you have 5 Focus left, you gain Resistance against Slice, Blunt, and Pierce damage."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "The resistance extends to Fire, Frost, Shock, Toxic, and Corruption damage."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "You only need to maintain 3 Focus instead."
+						}
+					]
+				},
+				{
+					"name": "Subdue",
+					"type": ["Active", "Offensive", "Utility"],
+					"prerequisite": "Beatdown (Tier 2) or Takedown (Tier 2)",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "Spend 5 Stamina to subdue a grabbed target. Roll a Strength Action Dice against their Reaction Dice. If you succeed, your target is Knocked Down. You then occupy its space. While you occupy its space, the target is also Disabled."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "You only need to spend 4 Stamina to attempt the subjugation."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "You only need to spend 3 Stamina to attempt the subjugation."
+						}
+					],
+					"limit": "You cannot use this skill against a target that is twice as large than you."
+				},
+				{
+					"name": "Zephyr Strike",
+					"type": ["Active", "Upgrade"],
+					"prerequisite": "Intercepting Strike (Tier 2) or Serpent Dance (Tier 2)",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "Whenever you pass adjacent to an enemy during your movement, you can spend 2 Focus to automatically roll your melee weapon’s Damage Dice against them."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "You can spend 3 Focus instead to roll your weapon’s Critical Hit damage."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "The amount of Focus needed to activate the ability is reduced by 1."
+						}
+					]
+				}
+			]
+		}
+	]
+}

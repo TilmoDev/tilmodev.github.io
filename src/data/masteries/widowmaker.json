@@ -1,0 +1,41 @@
+{
+	"name": "Widowmaker",
+	"description": "A master of precision elimination, the Widowmaker specializes in the surgical removal of high-value targets from extreme range. Through a combination of unparalleled marksmanship, exotic poisons, and psychological warfare, they create chaos by eliminating key figures, leaving behind only grief and questions. Where others see armies, the Widowmaker sees the single thread that, when cut, unravels everything.",
+	"prerequisite": [
+		"Crossbow or Rifle Proficiency",
+		"Sense Proficiency",
+		"Stealth Expertise",
+		"Chemistry Expertise",
+		"one Tier 3 Marksman Ability"
+	],
+	"achievement": [
+		"Successfully eliminate a target with a single shot from over 100m away in at least 3 separate missions",
+		"Kill a high-value target (leader, commander, or key figure) whose death significantly alters the mission outcome",
+		"Complete a mission using only ranged attacks without being detected by any enemy",
+		"Successfully poison a target and eliminate them without direct combat"
+	],
+	"abilities": [
+		{
+			"name": "Death Mark",
+			"type": "Passive",
+			"effect": "When you spend at least 1 Turn observing a target before attacking them, your first attack that hits against that target gains +5d6 bonus damage. Additionally, successful elimination of marked targets causes all enemies within 10m to roll Influence Reaction Dice vs Risk 10 or become Frightened as they witness the precision of your work."
+		},
+		{
+			"name": "Venomous Rounds",
+			"type": "Active",
+			"effect": "Out of combat, you may craft special poisoned bullets or arrows to aid your assassinations. To do so, you must purchase Raw Poison (75 credits per dose; the Director determines availability). You may carry up to 12 doses at a time, and all 12 fit in a single Equipment Slot. When crafting, choose one poison type per dose. Each dose creates a single poisoned ammunition. The following options are available: Paralytic Venom (Disabled or Immobilized), Hemorrhagic Toxin (Bleeding), Neurotoxin (Confused and Hindered), Cardiac Poison (Staggered). Each additional poisoned bullet that hits the same target increases the Risk threshold of all active poison effects on that target by 1."
+		},
+		{
+			"name": "Widow’s Touch",
+			"type": "Active",
+			"cost": "2 Stamina, 1 Focus",
+			"effect": "Make an unarmed attack against a target within reach. If the attack hits, it deals no damage, but the target must roll Vitality Reaction Dice against your Sense Action Dice. On a failure, the target becomes Disabled, Immobilized, Restrained, or Silenced (you can choose to add 1 more Focus to the hit to add one of the remaining negative conditions before the target rolls his Reaction Dice)."
+		},
+		{
+			"name": "Kiss of Death",
+			"type": "Ultimate",
+			"limit": "Once per mission",
+			"effect": "You can deliver a strike of absolute lethality using any weapon. This attack automatically hits and deals triple Damage Dice. If the target dies from this attack, all enemies who fail your Death Mark effect are also Vulnerable to all damage."
+		}
+	]
+}

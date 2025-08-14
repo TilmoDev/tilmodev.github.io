@@ -1,0 +1,58 @@
+{
+	"chapter": "Starting with Equipment",
+	"description": "To begin your character creation, it's fundamental to choose your equipment first—especially your weapon and armor. These choices will greatly influence your mercenary's identity and role.",
+	"heroic_archetypes": [
+		{
+			"archetype": "Hunter",
+			"weapon": ["Bows", "Crossbows", "Snares", "Axes", "Swords"],
+			"armor": ["Light", "Medium"],
+			"others": ["Camping Gear", "Expedition Gear"]
+		},
+		{
+			"archetype": "Gunslinger",
+			"weapon": ["Pistols", "Rifles", "Shotguns"],
+			"armor": ["Light"],
+			"others": ["Repair Kit", "Assassin’s Gear"]
+		},
+		{
+			"archetype": "Infiltrator",
+			"weapon": ["Daggers", "Crossbows", "Grenades", "Snares"],
+			"armor": ["Light"],
+			"others": ["Thievery Kit", "Disguise Kit", "Climbing Gear"]
+		},
+		{
+			"archetype": "Knight",
+			"weapon": ["Swords", "Hammers"],
+			"armor": ["Medium", "Heavy", "Shields"],
+			"others": ["Healing Kit", "Cooking Gear"]
+		},
+		{
+			"archetype": "Martial Artist",
+			"weapon": ["Swords", "Brawling", "Poles"],
+			"armor": ["Light", "Medium"],
+			"others": ["Healing Kit", "Liquor Flask"]
+		},
+		{
+			"archetype": "Savage",
+			"weapon": ["Axes", "Swords"],
+			"armor": ["Light", "Medium"],
+			"others": ["Expedition Gear", "Hunting Gear"]
+		},
+		{
+			"archetype": "Soldier",
+			"weapon": ["Rifles", "Shotguns", "Pistols"],
+			"armor": ["Light", "Medium", "Heavy"],
+			"others": ["Healing Kit", "Scouting Gear"]
+		}
+	],
+	"customizing_loadout": "Equipment is where character customization truly shines. This is your opportunity to have fun shopping and personalizing your character. Every piece of equipment is unique and comes with various properties. While it might be easy to forget what a piece of equipment does in the heat of combat, that's perfectly fine. Feel free to go wild with your loadout and create a character that excites you.",
+	"equipment_slots": {
+		"total_slots": 20,
+		"description": "Your character has twenty (20) Equipment Slots to fill with additional items, which can be purchased during character creation or at a later time.",
+		"tooltip": "Are you familiar with Diablo’s inventory system? In Sellswords, this mirrors the Equipment Slots, where each piece of inventory occupies designated slot sizes. You can increase your Equipment Slots by purchasing Backpacks, Traits, Expertise, or Techniques."
+	},
+	"genre_setting_technology": {
+		"description": "The game assumes that all presented equipment can be used at your table. However, if your game's genre, setting, or technology prohibits certain items, it's acceptable. Ensure everyone at the table understands these limitations for immersive purposes.",
+		"example": "For instance, in a classic sword and sorcery world, the purchase and use of assault rifles and revolver pistols can be banned in the rulebook (unless you find a creative way to justify their existence, like being dwarven forged)."
+	}
+}

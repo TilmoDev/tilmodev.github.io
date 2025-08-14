@@ -1,0 +1,424 @@
+{
+	"difficulty": "Easy",
+	"description": "Warriors epitomize the art of combat and the complexities of warfare, seamlessly merging their weapons with their very selfs. Their sharp mental insight matches the precision of their physical prowess, establishing them as formidable contenders in battle. Through battle-hardened expertise and strategic acumen, they wield their skills to influence the tide of conflict with each calculated move.",
+	"tiers": [
+		{
+			"tier": 1,
+			"techniques": [
+				{
+					"name": "Adrenaline Rush",
+					"type": ["Active", "Utility"],
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "You can choose to increase your total Stamina during your turn to 7 but after you end your turn, you are then Dazed."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "Your Stamina increases to 8 instead."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "Your Stamina increases to 9 instead."
+						}
+					]
+				},
+				{
+					"name": "Battle Surge",
+					"type": ["Passive", "Utility"],
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "Recover 1 Focus whenever at least one of your melee weapon's Damage Dice rolls its maximum value (ignoring any additional rolls)."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "You recover 2 Focus instead."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "You recover 3 Focus instead."
+						}
+					],
+					"limit": "You can't recover more if you already have full Focus."
+				},
+				{
+					"name": "Combat Clarity",
+					"type": ["Passive", "Utility"],
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "Recover 2 Focus when you roll maximum on your Attack Dice using a melee weapon."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "You recover 3 Focus instead."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "You recover 4 Focus instead."
+						}
+					],
+					"limit": "You can't recover more if you already have full Focus."
+				},
+				{
+					"name": "Combat Veteran",
+					"type": ["Passive", "Upgrade"],
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "When you use Focus to artificially increase your Attack Dice result, each point counts as +2, instead of +1."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "Each point counts as +3 instead."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "Each point counts as +4 instead."
+						}
+					]
+				},
+				{
+					"name": "Experienced",
+					"type": ["Passive", "Utility"],
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "At the start of combat, choose one category: Attack Dice, Defense Dice, Action Dice, Reaction Dice, Damage Dice. You gain a +1d4 bonus to all rolls of the chosen category. Switching categories costs 3 Stamina."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "Your bonus increases to +1d6. Additionally, switching categories now costs 2 Stamina."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "Your bonus increases to +1d8. Additionally, switching categories now costs 1 Stamina."
+						}
+					]
+				},
+				{
+					"name": "Master of Arms",
+					"type": ["Passive", "Offensive"],
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "Whenever you roll maximum on your Attack Dice with a melee weapon, you deal Critical Damage."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "The effect also applies to ranged weapons."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "Whenever you roll a natural 1 on your Attack Dice, you can make a free reroll but only once."
+						}
+					]
+				}
+			]
+		},
+		{
+			"tier": 2,
+			"techniques": [
+				{
+					"name": "Brutal Charge",
+					"type": ["Active", "Offensive"],
+					"prerequisite": "Adrenaline Rush (Tier 1), Battle Surge (Tier 1), or Master of Arms (Tier 1)",
+					"required": "You must be wielding a melee weapon.",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "If you moved prior to an attack, you have a bonus to Damage Dice equal to half the distance traveled (Round Up)."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "The bonus to damage is now equal to the distance traveled."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "The target is also Knocked Down."
+						}
+					],
+					"limit": "The accumulated damage caps at 10 and dissipates once combat ends."
+				},
+				{
+					"name": "Counterstrike",
+					"type": ["Passive", "Upgrade"],
+					"prerequisite": "Combat Veteran (Tier 1), Master of Arms (Tier 1), or Experienced (Tier 1)",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "Whenever you use your Reflex to make an attack using a melee weapon, your Base Dice increases by 1 size."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "You only need to spend 2 Reflex to make an attack, instead of 3."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "You only need to spend 1 Reflex to make an attack instead."
+						}
+					]
+				},
+				{
+					"name": "Dual Wield",
+					"type": ["Active", "Offensive"],
+					"prerequisite": "Combat Veteran (Tier 1), Master of Arms (Tier 1), or Experienced (Tier 1)",
+					"required": "You must be wielding a one-handed melee weapon in each hand.",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "You can spend 5 Stamina to make an attack with each weapon."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "The Stamina required is now reduced to 4."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "The Stamina required is now reduced to 3."
+						}
+					]
+				},
+				{
+					"name": "Grit",
+					"type": ["Active", "Offensive"],
+					"prerequisite": "Adrenaline Rush (Tier 1), Experienced (Tier 1), or Combat Clarity (Tier 1)",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "Whenever you suffer Health loss, you have a +1d4 bonus to Damage Dice until your Side loses Momentum."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "The damage bonus is now +1d6."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "The damage bonus is now +1d8."
+						}
+					]
+				},
+				{
+					"name": "Heavy Strikes",
+					"type": ["Passive", "Offensive"],
+					"prerequisite": "Adrenaline Rush (Tier 1), Battle Surge (Tier 1), or Master of Arms (Tier 1)",
+					"required": "You must be wielding a weapon.",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "If you deal at least 12 damage with a weapon, the target is also Crippled."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "If you deal at least 15 damage with a weapon, the target is also Staggered."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "If you deal at least 20 damage with a weapon, the target is also Knocked Down."
+						}
+					]
+				},
+				{
+					"name": "Second Wind",
+					"type": ["Active", "Utility"],
+					"prerequisite": "Adrenaline Rush (Tier 1), Battle Surge (Tier 1), or Combat Clarity (Tier 1)",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "During your Turn, you can spend Focus to recover back Health. For every 1 Focus spent, you recover 1d6 Health points."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "The dice used to recover Health points is now 1d8 instead."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "The dice used to recover Health points is now 1d10 instead."
+						}
+					],
+					"limit": "After using this skill, you must rest for 3 hours before using it again."
+				}
+			]
+		},
+		{
+			"tier": 3,
+			"techniques": [
+				{
+					"name": "Challenging Taunt",
+					"type": ["Active", "Offensive", "Utility"],
+					"prerequisite": "Counterstrike (Tier 2), Grit (Tier 2), or Second Wind (Tier 2)",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "Spend 3 Stamina to roll an Influence Action Dice against a target within 10m. If you succeed, the target is Restrained until it attacks you."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "You can now spend 4 Stamina to taunt two enemies within 10m."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "You can now spend 5 Stamina to taunt three enemies within 10m."
+						}
+					],
+					"limit": "Further use against the same targets becomes less effective, making their Influence Reaction Dice increase by 1 size every time."
+				},
+				{
+					"name": "Heroic Moment",
+					"type": ["Active", "Utility"],
+					"prerequisite": "Brutal Charge (Tier 2), Grit (Tier 2), or Second Wind (Tier 2)",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "When you make an Attack, Defense, Action, or Reaction Dice, you can spend 1 Focus point to roll two extra Base Dice and then take the better result."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "You roll three extra dice instead."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "You roll four extra dice instead."
+						}
+					],
+					"limit": "You can only use this ability once per instance of rolling."
+				},
+				{
+					"name": "Mighty Blow",
+					"type": ["Active", "Offensive"],
+					"prerequisite": "Brutal Charge (Tier 2), Dual Wield (Tier 2), or Heavy Strikes (Tier 2)",
+					"required": "You must be wielding a melee weapon.",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "When you hit with a melee attack, immediately spend 3 Focus to push your target 1d4m back and inflict 1d8 Bleeding to your target's Health. While the Bleeding persists, the target is Restrained."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "The push distance is now 1d6m and the Bleeding now starts at 1d10."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "The push distance is now 1d8m and the Bleeding now starts at 1d12."
+						}
+					],
+					"limit": "The Bleeding effect shrinks each Turn (d12 to d4), disappearing after it reaches d4."
+				},
+				{
+					"name": "Relentless Assault",
+					"type": ["Active", "Offensive"],
+					"prerequisite": "Counterstrike (Tier 2), Dual Wield (Tier 2), or Heavy Strikes (Tier 2)",
+					"required": "You must be wielding a melee weapon.",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "After making a melee attack, you can immediately spend 3 Focus to make an additional Normal Attack on the same target but its Base Dice is decreased by 1 size."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "You only need to spend 2 Focus."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "You only need to spend 1 Focus."
+						}
+					],
+					"special": "You can continuously use this ability as long as you have the Focus to spare."
+				},
+				{
+					"name": "True Strike",
+					"type": ["Active", "Upgrade"],
+					"prerequisite": "Counterstrike (Tier 2) or Heavy Strikes (Tier 2)",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "When you use Instant Success with your melee weapon, you only need to spend 4 Focus, instead of 5."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "You only need to spend 3 Focus instead."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "You only need to spend 2 Focus instead."
+						}
+					]
+				},
+				{
+					"name": "Whirlwind Attack",
+					"type": ["Active", "Offensive"],
+					"prerequisite": "Brutal Charge (Tier 2), Dual Wield (Tier 2), or Heavy Strikes (Tier 2)",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "If the damage from your melee weapon eliminates your target, the subsequent enemy within 1m beside the primary target automatically suffers the remaining damage equivalent to your total damage minus the primary target's remaining Health; this effect continues to more targets as long as there is remaining damage."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "You can spend 3 Focus to apply another of your weapon’s Damage Dice to continue your assault if your remaining damage is depleted."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "You only need to spend 2 Focus to continue your assault."
+						}
+					]
+				}
+			]
+		}
+	]
+}

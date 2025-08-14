@@ -1,0 +1,76 @@
+{
+	"proficiencies": [
+		{
+			"name": "Admixtures",
+			"description": "A practiced hand with admixtures, you expertly concoct and carry potent brews and salves, enhancing their effects and never lacking vital remedies when they’re needed most.",
+			"ranks": [
+				{
+					"rank": "I",
+					"price": 500,
+					"effect": "Your maximum Compact size for this equipment type increases to 6."
+				},
+				{
+					"rank": "II",
+					"price": 1500,
+					"requires": "Rank I",
+					"effect": "Your maximum Compact size for this equipment type increases to 7."
+				},
+				{
+					"rank": "III",
+					"price": 2500,
+					"requires": "Rank II",
+					"effect": "Your maximum Compact size for this equipment type increases to 8."
+				}
+			],
+			"special": "Your restoration potency for Health, Focus, and Reflex Admixtures increases to 150% (round up)."
+		},
+		{
+			"name": "Grenades",
+			"description": "Your skill with grenades lets you launch explosives farther and with greater control, raining havoc on the enemy from a safe distance.",
+			"ranks": [
+				{
+					"rank": "I",
+					"price": 500,
+					"effect": "Your throwing range for all explosives increases by 5m."
+				},
+				{
+					"rank": "II",
+					"price": 1500,
+					"requires": "Rank I",
+					"effect": "Your throwing range for all explosives increases by 10m."
+				},
+				{
+					"rank": "III",
+					"price": 2500,
+					"requires": "Rank II",
+					"effect": "Your throwing range for all explosives increases by 15m."
+				}
+			],
+			"special": "All of your Explosives’ Durability increases by 2 and their area of effect by 1 sqm."
+		},
+		{
+			"name": "Snares",
+			"description": "As a trap specialist, you lay snares with masterful subtlety, making them harder to spot and ensuring unwary foes stumble right into your carefully laid plans.",
+			"ranks": [
+				{
+					"rank": "I",
+					"price": 500,
+					"effect": "The Risk Threshold to detect or disarm your snares increases by 1."
+				},
+				{
+					"rank": "II",
+					"price": 1500,
+					"requires": "Rank I",
+					"effect": "The Risk Threshold to detect or disarm your snares increases by 2."
+				},
+				{
+					"rank": "III",
+					"price": 2500,
+					"requires": "Rank II",
+					"effect": "The Risk Threshold to detect or disarm your snares increases by 3."
+				}
+			],
+			"special": "The Stamina requirement and the Risk Threshold to set your snares is reduced by 1."
+		}
+	]
+}

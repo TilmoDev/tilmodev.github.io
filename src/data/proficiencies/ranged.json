@@ -1,0 +1,148 @@
+{
+	"proficiencies": [
+		{
+			"name": "Bows",
+			"description": "Proficient in bows, you become a deadly archer, launching arrows with pinpoint accuracy and deadly intent.",
+			"ranks": [
+				{
+					"rank": "I",
+					"price": 500,
+					"effect": "Your Base Attack Dice for this weapon type is now d8."
+				},
+				{
+					"rank": "II",
+					"price": 1500,
+					"requires": "Rank I",
+					"effect": "Your Base Attack Dice for this weapon type is now d10."
+				},
+				{
+					"rank": "III",
+					"price": 2500,
+					"requires": "Rank II",
+					"effect": "Your Base Attack Dice for this weapon type is now d12."
+				}
+			],
+			"special": "If your attack hits, you can spend 1 Focus to pin the target in place. They are Immobilized."
+		},
+		{
+			"name": "Crossbows",
+			"description": "Adept in crossbows, you are a master of ranged precision, delivering powerful and accurate shots with the lethal force.",
+			"ranks": [
+				{
+					"rank": "I",
+					"price": 500,
+					"effect": "Your Base Attack Dice for this weapon type is now d8."
+				},
+				{
+					"rank": "II",
+					"price": 1500,
+					"requires": "Rank I",
+					"effect": "Your Base Attack Dice for this weapon type is now d10."
+				},
+				{
+					"rank": "III",
+					"price": 2500,
+					"requires": "Rank II",
+					"effect": "Your Base Attack Dice for this weapon type is now d12."
+				}
+			],
+			"special": "Whenever you land a critical hit with this weapon type, you roll triple your Damage Dice instead."
+		},
+		{
+			"name": "Launchers",
+			"description": "With launchers, you strike from afar with uncanny accuracy, sending projectiles sailing true and catching your targets off guard.",
+			"ranks": [
+				{
+					"rank": "I",
+					"price": 500,
+					"effect": "Your Base Attack Dice for this weapon type is now d8."
+				},
+				{
+					"rank": "II",
+					"price": 1500,
+					"requires": "Rank I",
+					"effect": "Your Base Attack Dice for this weapon type is now d10."
+				},
+				{
+					"rank": "III",
+					"price": 2500,
+					"requires": "Rank II",
+					"effect": "Your Base Attack Dice for this weapon type is now d12."
+				}
+			],
+			"special": "Whenever you land a critical hit with this weapon type, the target is also Staggered."
+		},
+		{
+			"name": "Pistols",
+			"description": "With a proficiency in pistols, you are a quick-draw expert, delivering rapid and precise shots with deadly accuracy.",
+			"ranks": [
+				{
+					"rank": "I",
+					"price": 500,
+					"effect": "Your Base Attack Dice for this weapon type is now d8."
+				},
+				{
+					"rank": "II",
+					"price": 1500,
+					"requires": "Rank I",
+					"effect": "Your Base Attack Dice for this weapon type is now d10."
+				},
+				{
+					"rank": "III",
+					"price": 2500,
+					"requires": "Rank II",
+					"effect": "Your Base Attack Dice for this weapon type is now d12."
+				}
+			],
+			"special": "You deal an extra +2 damage whenever you hit a target within 5m."
+		},
+		{
+			"name": "Rifles",
+			"description": "As a rifle expert, you control the battlefield from a distance, picking off targets with calculated and powerful shots.",
+			"ranks": [
+				{
+					"rank": "I",
+					"price": 500,
+					"effect": "Your Base Attack Dice for this weapon type is now d8."
+				},
+				{
+					"rank": "II",
+					"price": 1500,
+					"requires": "Rank I",
+					"effect": "Your Base Attack Dice for this weapon type is now d10."
+				},
+				{
+					"rank": "III",
+					"price": 2500,
+					"requires": "Rank II",
+					"effect": "Your Base Attack Dice for this weapon type is now d12."
+				}
+			],
+			"special": "If you did not move on your last Turn, roll twice on your next Attack Dice and take the highest result."
+		},
+		{
+			"name": "Shotguns",
+			"description": "Proficient in shotguns, you dominate close-quarters combat, delivering devastating blasts that leave your enemies in disarray.",
+			"ranks": [
+				{
+					"rank": "I",
+					"price": 500,
+					"effect": "Your Base Attack Dice for this weapon type is now d8."
+				},
+				{
+					"rank": "II",
+					"price": 1500,
+					"requires": "Rank I",
+					"effect": "Your Base Attack Dice for this weapon type is now d10."
+				},
+				{
+					"rank": "III",
+					"price": 2500,
+					"requires": "Rank II",
+					"effect": "Your Base Attack Dice for this weapon type is now d12."
+				}
+			],
+			"special": "On a successful hit, you can push the target 1m directly away from you if your damage is at least 5 (cumulative)."
+		}
+	]
+}

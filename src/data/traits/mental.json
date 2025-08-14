@@ -1,0 +1,200 @@
+{
+	"traits": [
+		{
+			"name": "Defiant",
+			"category": "Mental",
+			"description": "Through any force of nature, your character remains a stalwart sentinel in the face of great danger.",
+			"required": "You can purchase base Traits during character creation only.",
+			"ranks": [
+				{ "rank": "I", "price": 300, "effect": "Your Death Threshold is 15." },
+				{
+					"rank": "II",
+					"price": 600,
+					"requires": "Rank I",
+					"effect": "Your Death Threshold is 20."
+				},
+				{
+					"rank": "III",
+					"price": 900,
+					"requires": "Rank II",
+					"effect": "Whenever you are Resuscitated, Gain 5 Health and Soak."
+				}
+			]
+		},
+		{
+			"name": "Gifted",
+			"category": "Mental",
+			"description": "Possessing superhuman abilities and surpassing the prowess of your kin, your character stands as an extraordinary and gifted exemplar among their kind.",
+			"required": "You can purchase base Traits during character creation only.",
+			"ranks": [
+				{
+					"rank": "I",
+					"price": 300,
+					"effect": "Your maximum Focus increases by 2."
+				},
+				{
+					"rank": "II",
+					"price": 600,
+					"requires": "Rank I",
+					"effect": "Your maximum Reflex increases by 2."
+				},
+				{
+					"rank": "III",
+					"price": 900,
+					"requires": "Rank II",
+					"effect": "Your maximum Luck increases by 1."
+				}
+			]
+		},
+		{
+			"name": "Hawkeye",
+			"category": "Mental",
+			"description": "Naturally gifted with keen vision and steady aim, your character excels with ranged weapons, landing precise shots at distances others wouldn’t even attempt.",
+			"required": "You can purchase base Traits during character creation only.",
+			"ranks": [
+				{
+					"rank": "I",
+					"price": 300,
+					"effect": "Your Quick Attacks using ranged weapons now deal +1d4 bonus damage."
+				},
+				{
+					"rank": "II",
+					"price": 600,
+					"requires": "Rank I",
+					"effect": "Your Normal Attacks using ranged weapons now deal +1d6 bonus damage."
+				},
+				{
+					"rank": "III",
+					"price": 900,
+					"requires": "Rank II",
+					"effect": "Your Heavy Attacks using ranged weapons now cost 4 Stamina instead."
+				}
+			]
+		},
+		{
+			"name": "Sixth Sense",
+			"category": "Mental",
+			"description": "Endowed with psionic prowess, your character possesses the ability to detect presence, emotions, thoughts, and even glimpse into the future with profound psychic insight.",
+			"required": "You can purchase base Traits during character creation only.",
+			"ranks": [
+				{
+					"rank": "I",
+					"price": 300,
+					"effect": "Your maximum Reflex increases by 2."
+				},
+				{
+					"rank": "II",
+					"price": 600,
+					"requires": "Rank I",
+					"effect": "You cannot be surprised as long as you have 2 Focus."
+				},
+				{
+					"rank": "III",
+					"price": 900,
+					"requires": "Rank II",
+					"effect": "Your Base Dice cannot be lowered when spending Stamina."
+				}
+			]
+		},
+		{
+			"name": "Leader",
+			"category": "Mental",
+			"description": "Commanding yet inspiring, your character rallies allies in moments of crisis, guiding groups with steady confidence and turning the tide through teamwork.",
+			"required": "You can purchase base Traits during character creation only.",
+			"ranks": [
+				{
+					"rank": "I",
+					"price": 300,
+					"effect": "At the start of combat, teammates gain 5 Soak if they are either within your line of sight or earshot. This effect can only occur once per combat."
+				},
+				{
+					"rank": "II",
+					"price": 600,
+					"requires": "Rank I",
+					"effect": "At the start of combat, teammates gain temporary Focus if they are either within your line of sight or earshot. This effect can only occur once per combat."
+				},
+				{
+					"rank": "III",
+					"price": 900,
+					"requires": "Rank II",
+					"effect": "At the start of combat, teammates gain 3 temporary Reflex if they are either within your line of sight or earshot. This effect can only occur once per combat."
+				}
+			]
+		},
+		{
+			"name": "Observant",
+			"category": "Mental",
+			"description": "Exceptionally perceptive, your character notices what others overlook, catching subtle details and detecting trouble before it strikes.",
+			"required": "You can purchase base Traits during character creation only.",
+			"ranks": [
+				{
+					"rank": "I",
+					"price": 300,
+					"effect": "Add a 1d4 Bonus Die when rolling Sense Action Dice."
+				},
+				{
+					"rank": "II",
+					"price": 600,
+					"requires": "Rank I",
+					"effect": "Your maximum Focus increases by 2."
+				},
+				{
+					"rank": "III",
+					"price": 900,
+					"requires": "Rank II",
+					"effect": "At the End of a Turn, you can either convert your leftover Stamina into Reflex or Focus (but Focus needs 2 Stamina per conversion instead)."
+				}
+			]
+		},
+		{
+			"name": "Charismatic",
+			"category": "Mental",
+			"description": "With effortless charm and magnetic presence, your character wins trust, sways crowds, and navigates social situations with grace and persuasion.",
+			"required": "You can purchase base Traits during character creation only.",
+			"ranks": [
+				{
+					"rank": "I",
+					"price": 300,
+					"effect": "Add a 1d4 Bonus Die when rolling Influence Action Dice."
+				},
+				{
+					"rank": "II",
+					"price": 600,
+					"requires": "Rank I",
+					"effect": "Targets you influence have -1d4 Penalty when rolling Reaction Dice."
+				},
+				{
+					"rank": "III",
+					"price": 900,
+					"requires": "Rank II",
+					"effect": "Enemies within 3m have a -2 penalty to their Defense Dice against you."
+				}
+			]
+		},
+		{
+			"name": "Bright",
+			"category": "Mental",
+			"description": "Quick-witted and clever, your character solves problems and puzzles with ease, always ready with a smart solution or a sharp retort.",
+			"required": "You can purchase base Traits during character creation only.",
+			"ranks": [
+				{
+					"rank": "I",
+					"price": 300,
+					"effect": "Add a 1d4 Bonus Die when rolling Intellect Action Dice."
+				},
+				{
+					"rank": "II",
+					"price": 600,
+					"requires": "Rank I",
+					"effect": "Increase All Action/Reaction Dice when Making an Intellect Roll by 2 sizes."
+				},
+				{
+					"rank": "III",
+					"price": 900,
+					"requires": "Rank II",
+					"effect": "Reduce any Risk Threshold you encounter by half."
+				}
+			]
+		}
+	]
+}

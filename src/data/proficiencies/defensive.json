@@ -1,0 +1,149 @@
+{
+	"proficiencies": [
+		{
+			"name": "Evasion",
+			"description": "Proficient in evasion, you effortlessly elude attacks with a nimble finesse, enhancing your defense as you seamlessly navigate through combat.",
+			"ranks": [
+				{
+					"rank": "I",
+					"price": 500,
+					"effect": "Your Base Defense Dice is now d8."
+				},
+				{
+					"rank": "II",
+					"price": 1500,
+					"requires": "Rank I",
+					"effect": "Your Base Defense Dice is now d10."
+				},
+				{
+					"rank": "III",
+					"price": 2500,
+					"requires": "Rank II",
+					"effect": "Your Base Defense Dice is now d12."
+				}
+			],
+			"special": "You can spend 1 Focus to double your Base Defense Dice when rolling. You can spend additional Focus to keep adding more Defense Dice.",
+			"limit": "You must maintain a Bulk value of 0."
+		},
+		{
+			"name": "Light Armor",
+			"description": "Proficient in light armor, you move with unmatched agility, benefiting from enhanced speed and flexibility in combat situations.",
+			"ranks": [
+				{
+					"rank": "I",
+					"price": 500,
+					"effect": "Your armor's Mitigation value improves by 1."
+				},
+				{
+					"rank": "II",
+					"price": 1500,
+					"requires": "Rank I",
+					"effect": "Your armor's Mitigation value improves by 2."
+				},
+				{
+					"rank": "III",
+					"price": 2500,
+					"requires": "Rank II",
+					"effect": "Your armor's Mitigation value improves by 3."
+				}
+			],
+			"special": "The effect of Slice damage no longer applies while you’re wearing Light Armor."
+		},
+		{
+			"name": "Medium Armor",
+			"description": "Skilled in medium armor, you strike a balance between protection and mobility, allowing you to endure hits while maintaining a versatile combat stance.",
+			"ranks": [
+				{
+					"rank": "I",
+					"price": 500,
+					"effect": "Your armor's Mitigation value improves by 1."
+				},
+				{
+					"rank": "II",
+					"price": 1500,
+					"requires": "Rank I",
+					"effect": "Your armor's Mitigation value improves by 2."
+				},
+				{
+					"rank": "III",
+					"price": 2500,
+					"requires": "Rank II",
+					"effect": "Your armor's Mitigation value improves by 3."
+				}
+			],
+			"special": "The effect of Pierce damage no longer applies while you’re wearing Medium Armor."
+		},
+		{
+			"name": "Heavy Armor",
+			"description": "Mastering heavy armor, you become an indomitable force on the battlefield, absorbing blows with resilience and presenting an imposing front against adversaries.",
+			"ranks": [
+				{
+					"rank": "I",
+					"price": 500,
+					"effect": "Your armor's Mitigation value improves by 1."
+				},
+				{
+					"rank": "II",
+					"price": 1500,
+					"requires": "Rank I",
+					"effect": "Your armor's Mitigation value improves by 2."
+				},
+				{
+					"rank": "III",
+					"price": 2500,
+					"requires": "Rank II",
+					"effect": "Your armor's Mitigation value improves by 3."
+				}
+			],
+			"special": "The effect of Blunt damage no longer applies while you’re wearing Heavy Armor."
+		},
+		{
+			"name": "Light Shields",
+			"description": "With a light shield in hand, you deflect attacks with finesse, quickly repositioning to block threats while keeping your movements swift and agile.",
+			"ranks": [
+				{
+					"rank": "I",
+					"price": 500,
+					"effect": "Your shield's Durability value increases by 1."
+				},
+				{
+					"rank": "II",
+					"price": 1500,
+					"requires": "Rank I",
+					"effect": "Your shield's Durability value increases by 2."
+				},
+				{
+					"rank": "III",
+					"price": 2500,
+					"requires": "Rank II",
+					"effect": "Your shield's Durability value increases by 3."
+				}
+			],
+			"special": "You can use your light shield as a melee weapon, dealing 1d12 Blunt damage and possessing the Light property."
+		},
+		{
+			"name": "Heavy Shields",
+			"description": "Wielding a heavy shield, you become an unyielding bulwark, absorbing brutal assaults and anchoring yourself as an immovable force on the battlefield.",
+			"ranks": [
+				{
+					"rank": "I",
+					"price": 500,
+					"effect": "Your shield's Durability value increases by 1."
+				},
+				{
+					"rank": "II",
+					"price": 1500,
+					"requires": "Rank I",
+					"effect": "Your shield's Durability value increases by 2."
+				},
+				{
+					"rank": "III",
+					"price": 2500,
+					"requires": "Rank II",
+					"effect": "Your shield's Durability value increases by 3."
+				}
+			],
+			"special": "Whenever you roll for Defense Dice, you now roll twice and take the highest."
+		}
+	]
+}

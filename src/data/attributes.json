@@ -1,0 +1,216 @@
+{
+	"chapter": "Attributes",
+	"description": "Attributes are your character's core stats - the numbers that tell you how tough, sharp, and energetic they are. They answer basic questions like 'How healthy am I?' or 'Am I about to die?' To keep things simple and balanced, every character starts with six pre-set attributes.",
+	"attributes": [
+		{
+			"name": "Health",
+			"starting_value": 25,
+			"description": "Your life meter. Shows how far you are from getting knocked out. Drops when hit. At 0, you start dying (1d4 damage/Turn until -10). Regain 1 Health/hour of rest, full recharge after Mission.",
+			"mechanics": {
+				"damage": "Lose Health when hit by enemy (Attack > Defense).",
+				"dying": "At 0 Health, take 1d4 damage/Turn until -10 (death).",
+				"stabilize": "Regain at least 1 Health to stabilize.",
+				"recovery": "1 Health/hour of rest, full after Mission."
+			},
+			"example": "Enemy hits for 4 damage. 25 Health → 21 Health."
+		},
+		{
+			"name": "Focus",
+			"starting_value": 10,
+			"description": "Mental energy and concentration. Spend Focus to boost dice rolls, reroll, or achieve Instant Success. Recharges at 2 points/hour of rest, full after Mission.",
+			"mechanics": {
+				"boost": "+1 to any dice roll per Focus spent.",
+				"reroll": "Spend 2 Focus to reroll one die.",
+				"instant_success": "Spend 5 Focus for automatic success/critical.",
+				"recovery": "2 Focus/hour of rest, full after Mission."
+			},
+			"example": "Spend 2 Focus to boost Attack from 3 to 5, or reroll. Spend 5 Focus for Instant Success."
+		},
+		{
+			"name": "Stamina",
+			"starting_value": 5,
+			"description": "Physical energy. Spend Stamina for actions in combat. Refills every Turn.",
+			"mechanics": {
+				"refill": "Full Stamina every Turn.",
+				"maneuvers": [
+					{
+						"name": "Administer",
+						"cost": 3,
+						"description": "Apply item to self/ally within 1m."
+					},
+					{
+						"name": "Assess",
+						"cost": "1+",
+						"description": "Gather info. Roll Sense Action Dice vs. Risk Threshold."
+					},
+					{
+						"name": "Assist",
+						"cost": "2+",
+						"description": "Aid ally within 5m. 2 Stamina: +1 dice size. More Stamina = higher bonus."
+					},
+					{
+						"name": "Attack",
+						"cost": "2-5",
+						"description": "Normal (3): Attack vs. Defense, roll damage. Quick (2): half damage. Heavy (5): double damage."
+					},
+					{
+						"name": "Concentrate",
+						"cost": "2+",
+						"description": "Increase next dice size. More Stamina = higher bonus. Can use defensively."
+					},
+					{
+						"name": "Defend",
+						"cost": "1+",
+						"description": "+1 to next Defense Dice per Stamina spent."
+					},
+					{
+						"name": "Distract",
+						"cost": "1+",
+						"description": "-1 to enemy's next Attack Dice per Stamina spent."
+					},
+					{
+						"name": "Draw/Holster",
+						"cost": 1,
+						"description": "Draw or sheathe weapon/item."
+					},
+					{
+						"name": "Hide",
+						"cost": 3,
+						"description": "Conceal behind cover. Roll Finesse vs. Sense."
+					},
+					{
+						"name": "Inflict Condition",
+						"cost": "3-5",
+						"description": "Impose negative condition, half damage. 3: mild, 4: moderate, 5: severe."
+					},
+					{
+						"name": "Interact",
+						"cost": "1+",
+						"description": "Explore, manipulate, or talk. Cost increases with complexity."
+					},
+					{
+						"name": "Move",
+						"cost": "1+",
+						"description": "Move up to 5m per Stamina spent."
+					},
+					{
+						"name": "Recover",
+						"cost": "2+",
+						"description": "Remove negative condition by rolling Action Dice."
+					},
+					{
+						"name": "Resuscitate",
+						"cost": 4,
+						"description": "Stabilize dying ally. Roll Intellect vs. Risk Threshold."
+					},
+					{
+						"name": "Stand",
+						"cost": 3,
+						"description": "Stand up from prone."
+					}
+				],
+				"special_moves": [
+					{ "name": "Climb", "cost": 1, "description": "Move 2m vertically." },
+					{ "name": "Crawl", "description": "Slowed, silent movement." },
+					{
+						"name": "Crouch",
+						"cost": 1,
+						"description": "Move 2m crouched, silent."
+					},
+					{
+						"name": "Jump",
+						"cost": 1,
+						"description": "Jump 1m. If moving 5m before, jump 2m per Stamina."
+					},
+					{
+						"name": "Shimmy",
+						"description": "Slowed, silent on ledges/tight spaces."
+					},
+					{ "name": "Swim", "cost": 1, "description": "Move 2m in water." }
+				],
+				"pro_tip": "Director may assign Stamina cost for unlisted actions (default: 3)."
+			},
+			"example": "Start with 5 Stamina. Spend 2 to run 10m, 3 to attack. Out of Stamina, turn ends."
+		},
+		{
+			"name": "Reflex",
+			"starting_value": 5,
+			"description": "Combat awareness and reaction. Spend Reflex for Interrupts on others' Turns. Leftover Stamina becomes Reflex. Restores at 1/hour.",
+			"mechanics": {
+				"interrupt": "Spend Reflex to act on another's Turn. Must directly respond to their action.",
+				"combo": "Allies can combine Reflex for coordinated actions.",
+				"conversion": "Leftover Stamina becomes Reflex after Turn.",
+				"recovery": "1 Reflex/hour of rest.",
+				"substitute": "Any Stamina action can use Reflex during Interrupts."
+			},
+			"example": "Spend Reflex to dash and attack during enemy's Turn. Roll opposed dice to resolve."
+		},
+		{
+			"name": "Injury",
+			"starting_value": 0,
+			"description": "Tracks lasting damage. Each time you drop to 0 Health but survive, gain 1 Injury. Each point reduces max Health by 5, Focus by 2. Every 2 Injury: -1 max Stamina/Reflex. Every 3 Injury: lose body part or sanity.",
+			"mechanics": {
+				"gain": "Gain 1 Injury when dropping to 0 Health and surviving.",
+				"penalties": {
+					"health": "-5 max Health per Injury",
+					"focus": "-2 max Focus per Injury",
+					"stamina_reflex": "-1 max Stamina/Reflex per 2 Injury",
+					"body_sanity": "Lose body part/sanity per 3 Injury"
+				},
+				"healing": "Requires specialized medical care (Director sets cost).",
+				"body_injury_system": [
+					{
+						"body_part": "Face",
+						"effect": "Scarred Beauty",
+						"impact": "Reduce Influence Dice by 3, permanently Blinded/Deafened/Muted (Director's discretion)"
+					},
+					{
+						"body_part": "Head",
+						"effect": "Brain Injury",
+						"impact": "Reduce Intellect/Sense Dice by 3, cannot recover Reflex"
+					},
+					{
+						"body_part": "Chest",
+						"effect": "Punctured Lung",
+						"impact": "Reduce Vitality Dice by 3, Stamina regen -50%"
+					},
+					{
+						"body_part": "Arm",
+						"effect": "Severed Limb",
+						"impact": "Reduce Strength Dice by 3, cannot dual-wield or use two-handed weapons"
+					},
+					{
+						"body_part": "Leg",
+						"effect": "Shattered Knee",
+						"impact": "Reduce Finesse Dice by 3, movement -50%"
+					},
+					{
+						"body_part": "Mental",
+						"effect": "Severe Trauma",
+						"impact": "Cannot use Focus, panic attacks in high-stress situations"
+					}
+				],
+				"director_note": "Director determines body part affected at 3 Injury based on narrative. Multiple injuries possible as Injury increases."
+			},
+			"example": "Knocked out at 0 Health, stabilized by allies. Gain 1 Injury, max Health -5, max Focus -2 until healed."
+		},
+		{
+			"name": "Luck",
+			"starting_value": 1,
+			"description": "Emergency button to change the story. Director can veto. Regenerates after Mission.",
+			"mechanics": {
+				"uses": [
+					"Recover: Fully restore Health, Focus, Stamina, Reflex.",
+					"Negate: Negate incoming damage.",
+					"Critical: Turn attack into Critical Hit.",
+					"Find: Luckily find needed equipment.",
+					"Maximize: Convert all damage to maximum value.",
+					"Succeed: Instantly succeed on a problem.",
+					"Misfortune: Enemy suffers misfortune (creative use)."
+				],
+				"regeneration": "After completing a Mission."
+			},
+			"example": "Use Luck to avoid trap, cure disease, or turn enemy into ally (Director approval required)."
+		}
+	]
+}

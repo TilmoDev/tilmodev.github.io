@@ -1,0 +1,16 @@
+{
+	"description": "Techniques represent your character's combat prowess. Unlike Proficiencies which provide static bonuses, Techniques are specific and dynamic, offering tactical opportunities for players. Techniques are what set your character apart as extraordinary or supernatural, making them stand out from regular individuals.",
+	"details": "Techniques are further categorized into archetypes, facilitating easy navigation for you to build the character you aim for. Note that these archetypes are not 'classes' in the conventional RPG sense but serve as a simple categorization. You can freely mix and match techniques from any archetype to realize your desired hero concept.",
+	"acquisition": "Your character can acquire up to a maximum of ten (10) Techniques at any time. You can purchase additional Techniques during character creation or at a later time.",
+	"archetypes": [
+		{ "name": "Adept", "description": "Hand-to-hand combat and grappling." },
+		{ "name": "Marksman", "description": "Heavy emphasis on ranged combat." },
+		{
+			"name": "Scoundrel",
+			"description": "Stealth, evasion, precision, and trickery."
+		},
+		{ "name": "Tactician", "description": "Risk-and-reward strategies." },
+		{ "name": "Warden", "description": "Defense and crowd control." },
+		{ "name": "Warrior", "description": "Specializes in melee combat." }
+	]
+}

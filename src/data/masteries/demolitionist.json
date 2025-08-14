@@ -1,0 +1,42 @@
+{
+	"name": "Demolitionist",
+	"description": "A master of controlled chaos, the Demolitionist transforms the battlefield through calculated destruction. Their intimate knowledge of explosives allows them to shape devastating blasts with surgical precision, turning volatile compounds into extensions of their tactical vision. Where others see random destruction, they see a canvas of perfectly timed chain reactions.",
+	"prerequisite": [
+		"Explosives Proficiency",
+		"Sabotage Expertise",
+		"Chemical Expertise",
+		"Electronics Expertise",
+		"At least one Marksman or Scoundrel Ability"
+	],
+	"achievement": [
+		"Successfully destroy enemy fortifications or equipment in at least 3 missions",
+		"Eliminate 50+ enemies using explosives",
+		"Complete a mission where you demolish a critical structure (e.g., bridge, tower, or facility)",
+		"Earn recognition for a particularly impressive or technically challenging demolition that changed the course of a major conflict"
+	],
+	"abilities": [
+		{
+			"name": "Controlled Blast",
+			"type": "Passive",
+			"effect": "Explosives deal +3d4 bonus damage and do not harm allies within their area of effect. Additionally, you can choose which objects within the blast radius are affected, allowing you to preserve specific structures or items while destroying others. When setting explosives, you can designate 'safe zones' that receive only 25% of the normal damage."
+		},
+		{
+			"name": "Remote Detonation",
+			"type": "Active",
+			"cost": "1 Reflex",
+			"effect": "Your placed grenades and explosives can be detonated at any moment you choose, ignoring their usual delayed explosion timing. Instantly detonate any explosive device or grenade you have placed, regardless of its normal delay. You may trigger explosives at any distance, as long as you have line of sight or a pre-established remote link. If you are undetected, using this ability does not reveal your position. If you detonate an explosive while enemies are within its blast radius, gain +1d6 bonus to your Attack Dice on your next Turn as foes are disoriented by the sudden blast. Requires a Hacking Tool, Repair Kit, or Thieves’ Tools gear and consumes one use per detonation."
+		},
+		{
+			"name": "Blast Engineer",
+			"type": "Active",
+			"cost": "1 Focus",
+			"effect": "Expertly modify a grenade or explosive device, altering its area of effect and damage output. When using this ability, you may adjust the grenade’s area (default 5 sqm) as follows: For each 1 sqm you reduce the area, add +2d4 damage to the grenade’s total damage. For each 1 sqm you expand the area, subtract -1d4 damage from the grenade’s total damage. You may choose the final area and damage at the time of placement. All other properties of the grenade remain unchanged."
+		},
+		{
+			"name": "Chain Reaction",
+			"type": "Ultimate",
+			"limit": "Once per mission",
+			"effect": "Cause all explosives within a 50m radius to detonate simultaneously, doubling their area of effect and dealing maximum damage. This synchronized detonation creates structural weaknesses in the environment, potentially collapsing buildings, creating cover, or opening new pathways. Enemies caught in the blast must make an opposed Vitality Reaction Dice against your Explosives Proficiency or be Knocked Down and Dazed from the concussive force."
+		}
+	]
+}

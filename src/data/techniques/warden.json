@@ -1,0 +1,427 @@
+{
+	"difficulty": "Medium",
+	"description": "Wardens are dedicated protectors who prioritize practical methods over flashy tactics, putting themselves at risk to ensure the safety of others. Their unwavering commitment to safeguarding allies makes them stalwart defenders on the battlefield. With a focus on solid techniques and selfless actions, Wardens stand as pillars of protection for their companions.",
+	"tiers": [
+		{
+			"tier": 1,
+			"techniques": [
+				{
+					"name": "Defensive Expert",
+					"type": ["Passive", "Upgrade"],
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "When you use Focus to artificially increase your Defense Dice result, each point counts as +2, instead of +1."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "Each point counts as +3 instead."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "Each point counts as +4 instead."
+						}
+					]
+				},
+				{
+					"name": "Endure",
+					"type": ["Active", "Defensive"],
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "When you lose Health, you can use Focus to artificially decrease the damage. Each 1 Focus used reduces damage by 2."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "Each 1 Focus used reduces damage by 3 instead."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "Each 1 Focus used reduces damage by 4 instead."
+						}
+					]
+				},
+				{
+					"name": "Heavy Lifter",
+					"type": ["Passive", "Utility"],
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "When you equip armors and shields, you can disregard the penalties and limitations of Bulk (up to 1) but you do not reduce its value."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "The penalties you can ignore are now up to 2 instead."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "The penalties you can ignore are now up to 3 instead."
+						}
+					]
+				},
+				{
+					"name": "Sentinel",
+					"type": ["Active", "Utility"],
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "Spend 1 Focus to Mark one enemy within 5m from you until the battle ends or the target dies. While Marked, the target's Attack and Action Dice against your allies receive a -1d4 penalty (You can only Mark one enemy at a time)."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "The Marked target receives a -1d4 penalty to its Defense and Reaction Dice against your attacks."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "You can now Mark up to 2 targets."
+						}
+					]
+				},
+				{
+					"name": "Shield Bash",
+					"type": ["Active", "Offensive"],
+					"required": "You must be wielding a shield.",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "When you hit with a melee attack within 1m, you can immediately spend 1 Focus to bash them and inflict Exposed to your target."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "You can choose to spend 2 Focus instead after your melee attack hits to inflict Daze to your target."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "You can choose to spend 3 Focus instead after your melee attack hits to inflict Stagger to your target."
+						}
+					]
+				},
+				{
+					"name": "Vanguard",
+					"type": ["Passive", "Defensive"],
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "After making an attack, you gain Toughness 1 until your Side regains Momentum."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "The Toughness you gain per attack is now 2 instead."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "The Toughness you gain per attack is now 3 instead."
+						}
+					],
+					"note": "The bonus to Toughness is cumulative for multiple attacks.",
+					"limit": "The Toughness bonus maxes out at 5."
+				}
+			]
+		},
+		{
+			"tier": 2,
+			"techniques": [
+				{
+					"name": "Bulwark",
+					"type": ["Passive", "Utility", "Defensive"],
+					"prerequisite": "Defensive Expert (Tier 1), Sentinel (Tier 1), or Vanguard (Tier 1)",
+					"required": "You must be wielding a shield.",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "Every ally next to you gains Toughness 1 for every 4 points of Bulk you possess."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "The Bulk required to gain the Toughness bonus is now 3 instead."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "The Bulk required to gain the Toughness bonus is now 2 instead."
+						}
+					],
+					"limit": "Bastions from multiple sources do not stack and the Toughness bonus maxes out at 5."
+				},
+				{
+					"name": "Deflect",
+					"type": ["Passive", "Defensive"],
+					"prerequisite": "Defensive Expert (Tier 1) or Shield Bash (Tier 1)",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "If total damage against you results in 4 (if with a shield, it is 5) before mitigation, you reduce it to zero."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "The damage threshold is now 5 instead (if with a shield, it is 6)."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "The damage threshold is now 6 instead (if with a shield, it is 7)."
+						}
+					],
+					"special": "You can spend Focus to increase the damage threshold by 1 per point spent."
+				},
+				{
+					"name": "Intercept",
+					"type": ["Active", "Upgrade", "Defensive"],
+					"prerequisite": "Sentinel (Tier 1) or Vanguard (Tier 1)",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "You can spend Reflex to swiftly position yourself beside an ally, redirecting an incoming attack meant for them to target you instead; the distance you cover using this ability is increased by 3m per Reflex spent."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "You gain Toughness 3 (if with a shield, it is 5) when you become the new target of the attack."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "You double your Defense Dice when you become the new target of the attack."
+						}
+					]
+				},
+				{
+					"name": "Interrupting Strike",
+					"type": ["Active", "Defensive", "Utility"],
+					"prerequisite": "Sentinel (Tier 1) or Shield Bash (Tier 1)",
+					"required": "You must be wielding a shield or a melee weapon.",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "You can spend 3 Reflex to make an attack against a target attempting to move away from you; upon a successful hit, the target is Knocked Down and takes either 1d8 Blunt damage per Bulk value your shield possesses or the Damage Dice of your melee weapon."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "The target is also Dazed."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "You only need to spend 2 Reflex to make the attack instead."
+						}
+					]
+				},
+				{
+					"name": "Shield Throw",
+					"type": ["Active", "Offensive"],
+					"prerequisite": "Sentinel (Tier 1) or Shield Bash (Tier 1)",
+					"required": "You must be wielding a shield.",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "You can use your shield to make a ranged attack against a target within 5m, inflicting 1d8 Blunt damage for each point of Bulk value it possesses. If it lands a Critical Hit, the target is also Knocked Down."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "The range of the throw is now 10m."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "The range of the throw is now 15m."
+						}
+					],
+					"special": "You can spend 1 Reflex to return the shield back to your hand; otherwise, it drops to a location 1m beside your target."
+				},
+				{
+					"name": "Tenacity",
+					"type": ["Passive", "Utility"],
+					"prerequisite": "Endure (Tier 1) or Heavy Lifter (Tier 1)",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "Whenever you take 10 damage or more from a single attack, you recover 1 Focus."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "You recover 2 Focus instead."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "You recover 3 Focus instead."
+						}
+					],
+					"limit": "You can't recover more if you already have full Focus."
+				}
+			]
+		},
+		{
+			"tier": 3,
+			"techniques": [
+				{
+					"name": "Bastion",
+					"type": ["Passive", "Utility", "Defensive"],
+					"prerequisite": "Bulwark (Tier 2), Deflect (Tier 2), or Tenacity (Tier 2)",
+					"required": "You must be wielding a shield.",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "Every ally next to you increases their Base Defense Dice by 1 size for every 4 points of Bulk you have."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "The Bulk required to gain the defense bonus is now 3 instead."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "The Bulk required to gain the defense bonus is now 2 instead."
+						}
+					],
+					"limit": "Bulwark from multiple sources does not stack and the defense bonus maxes out at 3."
+				},
+				{
+					"name": "Immovable",
+					"type": ["Passive", "Defensive"],
+					"prerequisite": "Bulwark (Tier 2), Deflect (Tier 2), or Tenacity (Tier 2)",
+					"required": "You must have a Bulk value of at least 1.",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "When you are forcibly moved by a push, pull, or lift effect, you have a bonus to Strength Reaction Dice to resist it equal to your Bulk value."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "The bonus to Reaction Dice is now equal to twice your Bulk value."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "The bonus to Reaction Dice is now equal to thrice your Bulk value."
+						}
+					]
+				},
+				{
+					"name": "Poise",
+					"type": ["Active", "Defensive"],
+					"prerequisite": "Deflect (Tier 2), Intercept (Tier 2), or Interrupting Strike (Tier 2)",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "You can spend Stamina to gain Soak that lasts until combat ends or depleted. For every Stamina spent, gain 2 Soak."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "You now gain 3 Soak per Stamina spent instead."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "You now gain 4 Soak per Stamina spent instead."
+						}
+					]
+				},
+				{
+					"name": "Resolute",
+					"type": ["Active", "Utility"],
+					"prerequisite": "Bulwark (Tier 2) or Tenacity (Tier 2)",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "Upon reaching 0 Health, spend 5 Focus immediately to revive yourself to 1 Health; simultaneously, your Reflex is fully replenished."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "You revive yourself to 5 Health instead."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "You revive yourself to 10 Health instead."
+						}
+					],
+					"limit": "After using this skill, you must rest for 6 hours before using it again."
+				},
+				{
+					"name": "Shield Counter",
+					"type": ["Passive", "Offensive"],
+					"prerequisite": "Deflect (Tier 2) or Shield Throw (Tier 2)",
+					"required": "You must be wielding a shield.",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "Whenever you roll maximum on your Base Defense Dice against a melee attacker that is using a melee weapon, immediately inflict 1d8 Blunt damage for each point of Bulk your shield possesses."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "The counterattack now includes attacks from ranged weapons but it uses the range weapon’s Damage Dice instead."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "The counterattack now includes attacks from spells and magical abilities but it uses their Damage Dice instead."
+						}
+					]
+				},
+				{
+					"name": "Vengeance",
+					"type": ["Active", "Offensive"],
+					"prerequisite": "Interrupting Strike (Tier 2) or Tenacity (Tier 2)",
+					"price": [250, 750, 1500],
+					"ranks": [
+						{
+							"rank": "I",
+							"effect": "Whenever you take enemy damage, tally the amount. On your next Damage Dice, you gain a bonus to damage equal to half of the damage taken (Round Up). Then the accumulated damage reverts back to zero."
+						},
+						{
+							"rank": "II",
+							"requires": "Rank I",
+							"effect": "If the damage taken reduces your Health, double the sum of that damage."
+						},
+						{
+							"rank": "III",
+							"requires": "Rank II",
+							"effect": "Your next Damage Dice is empowered equal to the total damage you have tallied instead."
+						}
+					],
+					"limit": "The accumulated damage caps at 20 and dissipates once combat ends."
+				}
+			]
+		}
+	]
+}

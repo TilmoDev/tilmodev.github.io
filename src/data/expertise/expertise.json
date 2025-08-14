@@ -1,0 +1,6 @@
+{
+	"description": "Expertise represents what your character excels in due to long and focused practice, essentially serving as your character’s profession.",
+	"details": "Expertise primarily influences storytelling rather than combat. If a player specializes in, for instance, Assassination, the Director must clarify that it's for narrative purposes, not necessarily combat effectiveness. When it comes to combat skills, players should concentrate on Proficiencies and Techniques aligned with their expertise’s theme, though it's not mandatory.",
+	"acquisition": "Your character can acquire up to a maximum of five (5) Expertise at any time. You can purchase additional Expertise during character creation or at a later time.",
+	"pro_tip": "Several Expertise may have overlapping effects or influences, similar to real-life careers with shared job descriptions. The final decision on the feasibility or permissibility of your application rests with the Director based on the current situation."
+}

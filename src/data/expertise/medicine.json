@@ -1,0 +1,85 @@
+{
+	"description": "Medical experts stand between their allies and the grave, pushing the boundaries of preservation and restoration. They brew potent elixirs, perform miraculous surgeries, and cure both physical and magical ailments. Their expertise in treating wounds and mending broken minds often makes the difference between life and death.",
+	"expertise": [
+		{
+			"name": "Alchemy",
+			"description": "With a keen understanding of mystical concoctions and chemical reactions, you transform mundane ingredients into potent elixirs and potions.",
+			"price": 750,
+			"options": [
+				"Spend 1 Focus to identify a potion, concoction, or poison.",
+				"Spend 2 Focus to brew a simple remedy from appropriate ingredients.",
+				"Spend 4 Focus to create a complex elixir using rare components."
+			]
+		},
+		{
+			"name": "Diagnosis",
+			"description": "By observing subtle symptoms and analyzing complex ailments, you unravel the mysteries of the body and identify the root of any illness.",
+			"price": 750,
+			"options": [
+				"Spend 1 Focus to identify symptoms of a disease.",
+				"Spend 2 Focus to determine the cause of an ailment.",
+				"Spend 4 Focus to predict the progression of an illness."
+			]
+		},
+		{
+			"name": "First-Aid",
+			"description": "Your quick thinking and steady hands stabilize the wounded, providing a lifeline in the heat of battle.",
+			"price": 750,
+			"options": [
+				"Spend 1 Focus to temporarily stabilize a critically wounded creature.",
+				"Spend 2 Focus to treat minor injuries and ailments using appropriate materials.",
+				"Spend 4 Focus to assist in emergency resuscitation."
+			]
+		},
+		{
+			"name": "Herbalism",
+			"description": "Your knowledge of medicinal plants and natural remedies allows you to harness the healing power of nature itself.",
+			"price": 750,
+			"options": [
+				"Spend 1 Focus to identify medicinal plants and their properties.",
+				"Spend 2 Focus to create a healing salve from appropriate ingredients.",
+				"Spend 4 Focus to locate and safely harvest rare medicinal herbs."
+			]
+		},
+		{
+			"name": "Mysticism",
+			"description": "You delve into the arcane arts of healing, wielding ritual and prayer to cleanse the body and soul of malevolent influences.",
+			"price": 750,
+			"options": [
+				"Spend 1 Focus to identify a magical ailment.",
+				"Spend 2 Focus to perform a ritual cleansing using appropriate materials and instruments.",
+				"Spend 4 Focus to exorcize a malevolent entity using appropriate materials and instruments."
+			]
+		},
+		{
+			"name": "Pharmaceutics",
+			"description": "Your mastery of medicinal compounds and their intricate interactions enables you to craft remedies for even the most perplexing afflictions.",
+			"price": 750,
+			"options": [
+				"Spend 1 Focus to identify the effects and side effects of a modern drug.",
+				"Spend 2 Focus to determine safe and effective dosages for complex treatments.",
+				"Spend 4 Focus to synthesize a pharmaceutical compound using appropriate materials and equipment."
+			]
+		},
+		{
+			"name": "Psychiatry",
+			"description": "With a gentle touch and understanding ear, you mend the wounds of the mind, guiding others through their darkest thoughts and memories.",
+			"price": 750,
+			"options": [
+				"Spend 1 Focus to calm a distressed individual.",
+				"Spend 2 Focus to bolster an individual’s mental resilience.",
+				"Spend 4 Focus to help an individual overcome psychological trauma."
+			]
+		},
+		{
+			"name": "Surgery",
+			"description": "With precise incisions and unwavering focus, you navigate the intricacies of the human form, mending wounds and saving lives on the operating table.",
+			"price": 750,
+			"options": [
+				"Spend 1 Focus to perform a minor surgical procedure using appropriate materials.",
+				"Spend 2 Focus to conduct a complex operation using appropriate materials.",
+				"Spend 4 Focus to attempt a high-risk, experimental surgery using appropriate materials."
+			]
+		}
+	]
+}

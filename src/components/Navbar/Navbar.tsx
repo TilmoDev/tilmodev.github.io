@@ -2,7 +2,6 @@ import * as React from "react";
 import Link from "next/link";
 import {
 	Button,
-	makeStyles,
 	Menu,
 	MenuTrigger,
 	MenuList,
@@ -10,118 +9,150 @@ import {
 	MenuPopover,
 } from "@fluentui/react-components";
 
-const useStyles = makeStyles({
-	nav: {
-		display: "flex",
-		justifyContent: "space-between",
-		alignItems: "center",
-		padding: "10px 0",
+// Menu data config for maintainability
+const menuConfig = {
+	rules: {
+		title: "Rules",
+		items: [
+			{
+				label: "Character Creation",
+				submenu: [
+					{
+						label: "Proficiencies",
+						href: "/rules/character-creation/proficiencies",
+					},
+					{ label: "Traits", href: "/rules/character-creation/traits" },
+				],
+			},
+			{ label: "How To", href: "/rules/how-to" },
+		],
 	},
-	navOptions: {
-		display: "flex",
-		gap: "10px",
+	armory: {
+		title: "Armory",
+		items: [
+			{ label: "Armors", href: "/armory/armors" },
+			{ label: "Consumables", href: "/armory/consumables" },
+			{ label: "Utilities", href: "/armory/utilities" },
+			{ label: "Weapons", href: "/armory/weapons" },
+		],
 	},
-	navButton: {
-		border: "1px solid transparent",
-		"&:hover, &:focus": {
-			border: "1px solid white",
-		},
-	},
-});
-
-const DropdownMenu = ({
-	title,
-	items,
-}: {
-	title: string;
-	items: {
-		label: string;
-		href?: string;
-		submenu?: { label: string; href: string }[];
-	}[];
-}) => {
-	const styles = useStyles();
-	return (
-		<Menu positioning={{ autoSize: true }}>
-			<MenuTrigger disableButtonEnhancement>
-				<Button className={styles.navButton}>{title}</Button>
-			</MenuTrigger>
-			<MenuPopover>
-				<MenuList>
-					{items.map((item, index) =>
-						item.submenu ? (
-							// If the item has a submenu, create a nested menu
-							<Menu key={index}>
-								<MenuTrigger disableButtonEnhancement>
-									<MenuItem>{item.label}</MenuItem>
-								</MenuTrigger>
-								<MenuPopover>
-									<MenuList>
-										{item.submenu.map((subItem, subIndex) => (
-											<MenuItem key={subIndex}>
-												<Link href={subItem.href}>{subItem.label}</Link>
-											</MenuItem>
-										))}
-									</MenuList>
-								</MenuPopover>
-							</Menu>
-						) : (
-							// If there's no submenu, render a normal menu item
-							<MenuItem key={index}>
-								<Link href={item.href!}>{item.label}</Link>
-							</MenuItem>
-						)
-					)}
-				</MenuList>
-			</MenuPopover>
-		</Menu>
-	);
 };
 
-const Navbar = () => {
-	const styles = useStyles();
+// Improved DropdownMenu with semantic HTML and accessibility
+const DropdownMenu = ({ title, items }: { title: string; items: any[] }) => (
+	<Menu positioning={{ autoSize: true }}>
+		<MenuTrigger disableButtonEnhancement>
+			<Button
+				className="px-4 py-2"
+				appearance="transparent"
+				aria-haspopup="menu"
+				aria-label={title}
+			>
+				{title}
+			</Button>
+		</MenuTrigger>
+		<MenuPopover>
+			<MenuList className="text-white p-2 rounded-md" role="menu">
+				{items.map((item, index) =>
+					item.submenu ? (
+						<Menu key={index}>
+							<MenuTrigger disableButtonEnhancement>
+								<MenuItem
+									className="px-4 py-2 cursor-pointer hover:bg-gray-700"
+									aria-haspopup="menu"
+								>
+									{item.label}
+								</MenuItem>
+							</MenuTrigger>
+							<MenuPopover>
+								<MenuList
+									className="text-white p-2 rounded-md shadow-lg"
+									role="menu"
+								>
+									{item.submenu.map((subItem: any, subIndex: number) => (
+										<MenuItem
+											key={subIndex}
+											className="px-4 py-2 cursor-pointer hover:bg-gray-700"
+											role="menuitem"
+											tabIndex={0}
+										>
+											<Link href={subItem.href} tabIndex={-1}>
+												{subItem.label}
+											</Link>
+										</MenuItem>
+									))}
+								</MenuList>
+							</MenuPopover>
+						</Menu>
+					) : (
+						<MenuItem
+							key={index}
+							className="px-4 py-2 cursor-pointer hover:bg-gray-700"
+							role="menuitem"
+							tabIndex={0}
+						>
+							<Link href={item.href!} tabIndex={-1}>
+								{item.label}
+							</Link>
+						</MenuItem>
+					)
+				)}
+			</MenuList>
+		</MenuPopover>
+	</Menu>
+);
 
-	return (
-		<nav className={styles.nav}>
-			<Link href="/">Sellswords</Link>
-			<div className={styles.navOptions}>
-				<Button className={styles.navButton}>
-					<Link href="/">Home</Link>
+const Navbar = () => (
+	<nav
+		className="flex justify-between items-center py-4 px-6 text-white"
+		role="navigation"
+		aria-label="Main Navigation"
+	>
+		<Link href="/" className="text-xl font-bold" tabIndex={0} aria-label="Home">
+			Sellswords
+		</Link>
+		<ul className="flex gap-4" role="menubar">
+			<li role="none">
+				<Button
+					className="px-4 py-2"
+					appearance="transparent"
+					aria-label="Home"
+				>
+					<Link href="/" tabIndex={-1}>
+						Home
+					</Link>
 				</Button>
-				<DropdownMenu
-					title="Rules"
-					items={[
-						{
-							label: "Character Creation",
-							submenu: [
-								{
-									label: "Proficiencies",
-									href: "/rules/character-creation/proficiencies",
-								},
-								{ label: "Traits", href: "/rules/character-creation/traits" },
-							],
-						},
-						{ label: "How To", href: "/rules/how-to" },
-					]}
-				/>
-				<DropdownMenu
-					title="Armory"
-					items={[
-						{ label: "Armors", href: "/armory/armors" },
-						{ label: "Consumables", href: "/armory/consumables" },
-						{ label: "Utilities", href: "/armory/utilities" },
-						{ label: "Weapons", href: "/armory/weapons" },
-					]}
-				/>
-				<Button className={styles.navButton}>
-					<Link href="/abilities">Abilities</Link>
+			</li>
+			<li role="none">
+				<DropdownMenu {...menuConfig.rules} />
+			</li>
+			<li role="none">
+				<DropdownMenu {...menuConfig.armory} />
+			</li>
+			<li role="none">
+				<Button
+					className="px-4 py-2"
+					appearance="transparent"
+					aria-label="Abilities"
+				>
+					<Link href="/abilities" tabIndex={-1}>
+						Abilities
+					</Link>
 				</Button>
-				<Button className={styles.navButton}>
-					<Link href="/glossary">Glossary</Link>
+			</li>
+			<li role="none">
+				<Button
+					className="px-4 py-2"
+					appearance="transparent"
+					aria-label="Appendix"
+				>
+					<Link href="/appendix" tabIndex={-1}>
+						Appendix
+					</Link>
 				</Button>
-			</div>
-		</nav>
-	);
-};
+			</li>
+		</ul>
+	</nav>
+);
 
 export default Navbar;

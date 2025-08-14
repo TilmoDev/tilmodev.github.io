@@ -1,0 +1,366 @@
+{
+	"traits": [
+		{
+			"name": "Aquatic",
+			"category": "Physical",
+			"description": "Possessing gills or another aquatic breathing ability, your character could be an Atlantean, a half-fish hybrid, or some other intriguing sea creature.",
+			"required": "You can purchase base Traits during character creation only.",
+			"ranks": [
+				{
+					"rank": "I",
+					"price": 300,
+					"effect": "You have the ability to breathe and swim underwater normally for up to 8 hours (as long as your Bulk does not exceed 2)."
+				},
+				{
+					"rank": "II",
+					"price": 600,
+					"requires": "Rank I",
+					"effect": "You have the ability to breathe and swim underwater."
+				},
+				{
+					"rank": "III",
+					"price": 900,
+					"requires": "Rank II",
+					"effect": "You have the ability to dive into the deepest depths underwater."
+				}
+			]
+		},
+		{
+			"name": "Fast",
+			"category": "Physical",
+			"description": "Whether naturally swift or endowed with elongated legs, your character moves with remarkable celerity.",
+			"required": "You can purchase base Traits during character creation only.",
+			"ranks": [
+				{
+					"rank": "I",
+					"price": 300,
+					"effect": "Double your move distance when spending all Stamina to move."
+				},
+				{
+					"rank": "II",
+					"price": 600,
+					"requires": "Rank I",
+					"effect": "When rolling for Base Finesse Action Dice, roll two dice instead but choose the highest result."
+				},
+				{
+					"rank": "III",
+					"price": 900,
+					"requires": "Rank II",
+					"effect": "Whenever you take damage, you can spend 1 Reflex to reduce it by 5."
+				}
+			]
+		},
+		{
+			"name": "Healthy",
+			"category": "Physical",
+			"description": "Blessed with robust health and hardy constitution, your character shrugs off sickness and recovers quickly from wounds, facing adversity with remarkable vitality.",
+			"required": "You can purchase base Traits during character creation only.",
+			"ranks": [
+				{ "rank": "I", "price": 300, "effect": "Gain 5 Maximum Health." },
+				{
+					"rank": "II",
+					"price": 600,
+					"requires": "Rank I",
+					"effect": "When rolling for Base Vitality Action Dice, roll two dice instead but choose the highest result."
+				},
+				{
+					"rank": "III",
+					"price": 900,
+					"requires": "Rank II",
+					"effect": "The effects of Injury are delayed by 2 more points."
+				}
+			]
+		},
+		{
+			"name": "Flight",
+			"category": "Physical",
+			"description": "Whether equipped with wings akin to a bird or flying reptile, or endowed with supernatural means of flight, your character’s trait grants them the ability to soar through the skies.",
+			"required": "You can purchase base Traits during character creation only.",
+			"ranks": [
+				{
+					"rank": "I",
+					"price": 300,
+					"effect": "You have the ability to glide (when you fall, you can choose to descend 2m per Turn). You must maintain horizontal movement."
+				},
+				{
+					"rank": "II",
+					"price": 600,
+					"requires": "Rank I",
+					"effect": "You have the ability to fly. You can carry 1 regular-sized creature when flying but your move distance is reduced to half."
+				},
+				{
+					"rank": "III",
+					"price": 900,
+					"requires": "Rank II",
+					"effect": "Your move distance is no longer affected when carrying 1 regular-sized creature when flying. You have the ability to carry 2 regular-sized creatures when flying but your move distance is reduced to half."
+				}
+			]
+		},
+		{
+			"name": "Gecko",
+			"category": "Physical",
+			"description": "Whether a genuine humanoid gecko or equipped with the wall-climbing prowess of a spider or insect, your character defies gravity with remarkable climbing abilities.",
+			"required": "You can purchase base Traits during character creation only.",
+			"ranks": [
+				{
+					"rank": "I",
+					"price": 300,
+					"effect": "Spend 1 Stamina to stick to walls until your next Turn ends."
+				},
+				{
+					"rank": "II",
+					"price": 600,
+					"requires": "Rank I",
+					"effect": "You have the ability to Move on any surface by doubling your Stamina cost."
+				},
+				{
+					"rank": "III",
+					"price": 900,
+					"requires": "Rank II",
+					"effect": "You have the ability to Move on any surface, free of added costs."
+				}
+			]
+		},
+		{
+			"name": "Jumper",
+			"category": "Physical",
+			"description": "Possessing either robust, reverse-jointed legs or exceptionally powerful muscles, your character’s physique grants a unique advantage allowing them to navigate diverse environments with prowess.",
+			"required": "You can purchase base Traits during character creation only.",
+			"ranks": [
+				{
+					"rank": "I",
+					"price": 300,
+					"effect": "Your Jump distance increases to 3 meters per 1 Stamina spent. If you move at least 5 meters before jumping, your Jump distance increases to 6 meters per 1 Stamina spent."
+				},
+				{
+					"rank": "II",
+					"price": 600,
+					"requires": "Rank I",
+					"effect": "Spend 1 Focus to double your Jump distance for the remainder of your Turn."
+				},
+				{
+					"rank": "III",
+					"price": 900,
+					"requires": "Rank II",
+					"effect": "Spend 3 Focus to triple your Jump distance for the remainder of your Turn."
+				}
+			]
+		},
+		{
+			"name": "Extra Limbs",
+			"category": "Physical",
+			"description": "Sporting extra arms, tentacles, or appendages, your character multitasks with ease, adeptly wielding more weapons, tools, or performing complex actions others can only dream of.",
+			"required": "You can purchase base Traits during character creation only.",
+			"price": 300,
+			"options": [
+				"Your feet function as hands",
+				"You have a functional tail",
+				"Gain 2 extra arms"
+			],
+			"limit": "You can purchase this Trait multiple times but you can only purchase each option once."
+		},
+		{
+			"name": "Natural Weapons",
+			"category": "Physical",
+			"description": "Armed with nature's fury, your character unleashes primal power with razor-sharp claws, crushing horns, or piercing fangs.",
+			"required": "You can purchase base Traits during character creation only.",
+			"price": 300,
+			"options": [
+				"Horns - You have a set of horns. It is a melee weapon that deals 3d6 Blunt damage and has a reach of 1m.",
+				"Fangs - You have a set of fangs. It is a melee weapon that deals 4d4 Pierce damage and has a reach of 1m.",
+				"Claws - You have a set of claws. It is a melee weapon that deals 2d8 Slice damage and has a reach of 1m."
+			],
+			"notes": "Your natural weapons are exempted from having Durability and its effects.",
+			"limit": "You can purchase this Trait multiple times but you can only purchase each option once."
+		},
+		{
+			"name": "Nightsight",
+			"category": "Physical",
+			"description": "Whether a catfolk or another hybrid creature, your character possesses the ability to see clearly in the darkness of the night.",
+			"required": "You can purchase base Traits during character creation only.",
+			"ranks": [
+				{
+					"rank": "I",
+					"price": 300,
+					"effect": "You can clearly see in the dark within 12m."
+				},
+				{
+					"rank": "II",
+					"price": 600,
+					"requires": "Rank I",
+					"effect": "You can clearly see in the dark within 20m."
+				},
+				{
+					"rank": "III",
+					"price": 900,
+					"requires": "Rank II",
+					"effect": "You can clearly see in the dark within 60m."
+				}
+			]
+		},
+		{
+			"name": "Small",
+			"category": "Physical",
+			"description": "Naturally diminutive, whether a dwarf, gnome, elf, or pixie, your character harnesses their small stature as an advantage, adeptly utilizing size to navigate challenges with finesse.",
+			"required": "You can purchase base Traits during character creation only.",
+			"price": 300,
+			"effects": [
+				"You are half a meter tall",
+				"Decrease all Base Attack Dice against you by 2 sizes, Ignore if Attacker has Small Trait as well",
+				"Lose 5 Equipment Slots"
+			]
+		},
+		{
+			"name": "Big",
+			"category": "Physical",
+			"description": "Imposing in size—tall, broad, or immense—your character dominates the battlefield, using their formidable presence to intimidate foes and overcome physical obstacles.",
+			"required": "You can purchase base Traits during character creation only.",
+			"price": 300,
+			"effects": [
+				"You are 3m tall",
+				"Increase your Melee Reach by 1m",
+				"Gain 5 extra Equipment Slots"
+			]
+		},
+		{
+			"name": "Durable",
+			"category": "Physical",
+			"description": "Whether naturally robust, toughened, or fortified through supernatural means like a psychic barrier or protective film, your character embodies a resilient well-protected nature.",
+			"required": "You can purchase base Traits during character creation only.",
+			"ranks": [
+				{ "rank": "I", "price": 300, "effect": "Gain Toughness 2" },
+				{
+					"rank": "II",
+					"price": 600,
+					"requires": "Rank I",
+					"effect": "The First Time in a Mission your Health becomes 0, Gain 1 Health."
+				},
+				{
+					"rank": "III",
+					"price": 900,
+					"requires": "Rank II",
+					"effect": "The First Time in a Mission your Health becomes 0, Gain 10 Health instead."
+				}
+			]
+		},
+		{
+			"name": "Resistant",
+			"category": "Physical",
+			"description": "Whether naturally resilient or endowed with supernatural traits like scales, natural armor, chitin, or stoneskin, you embody a hardy and robust nature.",
+			"required": "You can purchase base Traits during character creation only.",
+			"price": 500,
+			"options": [
+				"Gain Resist Burn Damage",
+				"Gain Resist Frost Damage",
+				"Gain Resist Shock Damage",
+				"Gain Resist Toxic Damage",
+				"Gain Resist Pure Damage",
+				"Gain Resist Corrosion Damage",
+				"Gain Resist Corruption Damage",
+				"Gain Resist Sonic Damage",
+				"Gain Resist Brilliant Damage"
+			],
+			"limit": "You can purchase this Trait multiple times but you can only purchase each option once."
+		},
+		{
+			"name": "Regenerative",
+			"category": "Physical",
+			"description": "Possessing an uncanny natural healing ability, your character, whether a vampire, werewolf, or another regenerative creature like a plant, jellyfish, or insect, can swiftly mend wounds with remarkable resilience.",
+			"required": "You can purchase base Traits during character creation only.",
+			"ranks": [
+				{
+					"rank": "I",
+					"price": 300,
+					"effect": "When you gain Health, Roll a 2d4 and add that much Health to the amount you would gain."
+				},
+				{
+					"rank": "II",
+					"price": 600,
+					"requires": "Rank I",
+					"effect": "After combat, you may convert 1 Focus to 3 Health as many times as you want."
+				},
+				{
+					"rank": "III",
+					"price": 900,
+					"requires": "Rank II",
+					"effect": "When you lose Health, you may spend 1 Focus to gain 3 Health as many times as you want."
+				}
+			]
+		},
+		{
+			"name": "Strong",
+			"category": "Physical",
+			"description": "Endowed with raw, physical might, your character lifts, pushes, and combats with exceptional power, breaking barriers and opponents with sheer force.",
+			"required": "You can purchase base Traits during character creation only.",
+			"ranks": [
+				{
+					"rank": "I",
+					"price": 300,
+					"effect": "Add a 1d4 Bonus Die to all your Melee Damage Dice."
+				},
+				{
+					"rank": "II",
+					"price": 600,
+					"requires": "Rank I",
+					"effect": "When rolling for Base Strength Action Dice, roll two dice instead but choose the highest result."
+				},
+				{
+					"rank": "III",
+					"price": 900,
+					"requires": "Rank II",
+					"effect": "Whenever you hit with a Heavy Attack or a Critical Hit, the target is also Knocked Down if the damage is at least 10."
+				}
+			]
+		},
+		{
+			"name": "Kinetic",
+			"category": "Physical",
+			"description": "Lightning-fast reflexes put your character a step ahead, allowing rapid reactions and split-second maneuvers that leave adversaries struggling to keep up.",
+			"required": "You can purchase base Traits during character creation only.",
+			"ranks": [
+				{
+					"rank": "I",
+					"price": 300,
+					"effect": "Your maximum Reflex increases by 2."
+				},
+				{
+					"rank": "II",
+					"price": 600,
+					"requires": "Rank I",
+					"effect": "Whenever you have leftover Stamina, each point recovers 2 Reflex instead of 1."
+				},
+				{
+					"rank": "III",
+					"price": 900,
+					"requires": "Rank II",
+					"effect": "You can use Reflex during your Turn."
+				}
+			]
+		},
+		{
+			"name": "Terrifying Visage",
+			"category": "Physical",
+			"description": "With a fearsome face or unnerving appearance, your character unsettles and intimidates foes at a glance, leveraging their looks to instill fear and hesitation.",
+			"required": "You can purchase base Traits during character creation only.",
+			"ranks": [
+				{
+					"rank": "I",
+					"price": 300,
+					"effect": "Your Base Action Dice increases by 2 whenever you are intimidating someone, but decreases also by 2 whenever you are trying to persuade someone."
+				},
+				{
+					"rank": "II",
+					"price": 600,
+					"requires": "Rank I",
+					"effect": "Enemies within 3m have a -2 penalty to their Attack Dice against you."
+				},
+				{
+					"rank": "III",
+					"price": 900,
+					"requires": "Rank II",
+					"effect": "Enemies within 5m have a -2 penalty to their Attack Dice against you instead."
+				}
+			]
+		}
+	]
+}

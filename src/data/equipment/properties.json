@@ -1,0 +1,158 @@
+[
+	{
+		"name": "Accurate",
+		"description": "Weapons with this property increase the size of your Attack Dice by 1, making your attacks more likely to hit and deal damage."
+	},
+	{
+		"name": "Ammo",
+		"description": "These weapons fire projectiles and have a specific ammo capacity. Once the weapon is empty, you must reload it before you can continue firing. The number of shots the weapon can hold is indicated in the property description."
+	},
+	{
+		"name": "Attached",
+		"description": "These weapons are affixed directly to your limb, allowing you to keep a hand free for other actions or equipment."
+	},
+	{
+		"name": "Awkward",
+		"description": "When using these weapons below a certain distance threshold (specified in the property description), the size of your Attack Dice decreases by 2, making it harder to hit targets at close range."
+	},
+	{
+		"name": "Blast",
+		"description": "When you throw a Blast weapon, you do not roll to hit. Instead, after the weapon detonates (immediately or after any delay), it automatically deals its damage to all creatures and objects within its area of effect."
+	},
+	{
+		"name": "Brace",
+		"description": "When enemies approach within the range of your weapon, they automatically suffer 1d10 Pierce damage before they can attack or take other actions."
+	},
+	{
+		"name": "Bulk",
+		"description": "This property refers to the weight and encumbrance of armor or shields. Each point of Bulk applies penalties to related Action or Reaction Dice for physical activities while the equipment is worn. Additionally, every 2 points of Bulk reduce your movement speed by 1 meter and your accuracy with ranged weapons by -1."
+	},
+	{
+		"name": "Burst",
+		"description": "A weapon with the Burst keyword is designed to allow multiple instances of it to be used in a single attack. The number value associated with the keyword indicates how many instances of the weapon can be thrown, fired, or used at once. For example, a shuriken with Burst 3 allows you to throw up to three shurikens in one attack."
+	},
+	{
+		"name": "Compact",
+		"description": "Compact weapons or equipment are small enough to share inventory space with other items, up to a specified limit. However, all Compact items within the same inventory space share a single Durability value."
+	},
+	{
+		"name": "Continuous",
+		"description": "Weapons with this property pierces all targets in a straight line up to its maximum range, hitting everything in its path."
+	},
+	{
+		"name": "Defensive",
+		"description": "Weapons with this property increase the size of your Defense Dice by 1, improving your chances of avoiding incoming attacks."
+	},
+	{
+		"name": "Disposable",
+		"description": "These items are destroyed after a single use and cannot be used again."
+	},
+	{
+		"name": "Durability",
+		"description": "This property represents an equipment's structural integrity and resilience. When taking damage while the equipment is on your person, you may actively spend 1 Durability point (from any of your equipment) to nullify 5 points of damage of any type. Equipment breaks permanently and becomes unusable when its Durability reaches 0. Additionally, when rolling a natural 1 on Attack or Defense Dice, flip a coin - on tails, reduce the Durability of either your weapon (for Attack) or your choice of armor or shield (for Defense) by 1."
+	},
+	{
+		"name": "Explosive",
+		"description": "When rolling damage for weapons with the Explosive property, you continue to roll additional damage dice for each maximum result obtained until a non-maximum result is rolled. Furthermore, when the Durability of an Explosive weapon reaches 0, it detonates, dealing its explosive damage to the surrounding area."
+	},
+	{
+		"name": "Heavy",
+		"description": "Weapons with the Heavy property cannot be used to make Quick Attacks. However, wielding a Heavy weapon grants you a +1 bonus to your Defense Dice."
+	},
+	{
+		"name": "Light",
+		"description": "Quick Attacks made with Light weapons deal full damage instead of the usual reduced damage. However, you cannot make Heavy Attacks with Light weapons."
+	},
+	{
+		"name": "Lingering",
+		"description": "Weapons with this property creates a damaging area that remains active for 3 Turns. The effect varies based on the weapon or ammunition used."
+	},
+	{
+		"name": "Loud",
+		"description": "Firing weapons with the Loud property immediately disrupts any active stealth and alerts nearby enemies to your presence."
+	},
+	{
+		"name": "Malfunction",
+		"description": "When rolling a natural 1 on an Attack Dice with this weapon, flip a coin. On tails, the weapon jams and requires the specified amount of Stamina (denoted by a number) to repair before it can be used again. On heads, the weapon continues to function normally."
+	},
+	{
+		"name": "Melee",
+		"description": "Weapons and attacks that are melee always have a reach of 1 meter."
+	},
+	{
+		"name": "Mitigation",
+		"description": "This property signifies an armor's ability to absorb and reduce incoming damage. The Mitigation value represents the maximum amount of damage the armor can absorb from a single hit. Any damage exceeding this value is subtracted from your Health points. Blunt damage permanently reduces an armor's Mitigation value. If Mitigation reaches 0, the armor is broken and no longer provides protection."
+	},
+	{
+		"name": "One-Handed",
+		"description": "These weapons can be wielded effectively with a single hand, allowing you to keep your other hand free or use it for other purposes."
+	},
+	{
+		"name": "Precise",
+		"description": "When your Attack Dice rolls the maximum possible result with a Precise weapon, the attack automatically deals critical damage if it hits the target."
+	},
+	{
+		"name": "Range",
+		"description": "This property specifies the effective distance at which projectiles fired from the weapon can hit targets. Attacks made beyond this range suffer a Weakness penalty, reducing their effectiveness."
+	},
+	{
+		"name": "Reach",
+		"description": "Melee weapons with the Reach property can strike targets beyond the standard 1-meter range, with the specific range indicated in the property description."
+	},
+	{
+		"name": "Recoil",
+		"description": "The Recoil property allows you to voluntarily reduce your Attack Dice by up to -5 to add an equal amount to your Damage Dice when using this ranged weapon."
+	},
+	{
+		"name": "Reload",
+		"description": "The Reload property indicates the time required to fully replenish a weapon's ammo. The Stamina cost for reloading the weapon to its full capacity is noted in the property description. Reloading a weapon requires a free hand."
+	},
+	{
+		"name": "Returning",
+		"description": "After making an attack with a Returning weapon, the weapon automatically returns to your hand, ready for another attack. However, if you roll a natural 1 on the attack, the weapon lands 1 meter away from the target instead of returning to you."
+	},
+	{
+		"name": "Risky",
+		"description": "When rolling a natural 1 on your Attack Dice with this weapon, flip a coin - on tails, you are knocked down. Additionally, when rolling the maximum possible result on your Attack Dice, the target is knocked down in addition to suffering the attack's normal effects."
+	},
+	{
+		"name": "Slot",
+		"description": "This property determines the number of inventory spaces a piece of equipment occupies. Managing your Equipment Slots is crucial for balancing your loadout and ensuring you have access to the items you need."
+	},
+	{
+		"name": "Sneak",
+		"description": "Attacks made with Sneak weapons against unaware targets roll triple their Damage Dice."
+	},
+	{
+		"name": "Snipe",
+		"description": "Weapons with the Snipe property can effectively engage targets at extreme distances beyond their normal range. The specific range bonus is indicated in the property description. Attacks made with the Snipe property do not suffer penalties for firing beyond the weapon's standard range. However, the Snipe property can only be used when you are not actively engaged in combat, as the chaos and fast pace of battle make it impractical to line up precise long-distance shots."
+	},
+	{
+		"name": "Sole",
+		"description": "You can only equip one instance of a Sole item at a time. This restriction prevents stacking multiple copies of the same powerful item to gain an unfair advantage."
+	},
+	{
+		"name": "Thrown",
+		"description": "Weapons with the Thrown property can be hurled at targets up to a specified range, as indicated in the property description. These weapons are designed for ranged combat but can also be used in melee if needed."
+	},
+	{
+		"name": "Trap (Trigger Type)",
+		"description": "Trap devices activate automatically when specific conditions are met. Each trap specifies its trigger type and activation conditions. Traps require 3 Stamina and a successful Finesse Action Dice vs Risk 3 to deploy. Enemies can attempt to detect traps with Sense Reaction Dice vs Risk 6, or disarm them with Finesse Action Dice vs Risk 6. Trigger Types: Proximity, Tripwire, Pressure, Remote, Timer, Motion."
+	},
+	{
+		"name": "Two-Handed",
+		"description": "These weapons require the use of both hands to wield effectively. While this restricts your ability to use other items or equipment simultaneously, wielding a Two-Handed weapon grants you a +1 bonus to your Attack Dice."
+	},
+	{
+		"name": "Unarmed",
+		"description": "Attacks made with weapons that have the Unarmed property are considered Unarmed attacks, which may interact differently with certain abilities, effects, or game mechanics."
+	},
+	{
+		"name": "Unique",
+		"description": "If an item has the Unique property, its effects do not stack with additional copies of the same item. This prevents exploiting duplicate items to gain excessive bonuses or advantages."
+	},
+	{
+		"name": "Versatile",
+		"description": "Weapons with the Versatile property can be wielded effectively with either one or two hands (also gains the Two-Handed bonus), providing flexibility in combat and allowing you to adapt to different situations and fighting styles."
+	}
+]

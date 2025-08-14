@@ -1,0 +1,381 @@
+{
+	"grenades": {
+		"description": "Explosive devices thrown or launched to deliver area-of-effect damage, perfect for disrupting groups or flushing out enemies from cover.",
+		"items": [
+			{
+				"name": "Grenade",
+				"price": 75,
+				"properties": [
+					"4d4 Blunt + 4d4 Pierce Damage at the end of the next Turn",
+					"Thrown 10m",
+					"Area 5 sqm",
+					"Durability 2",
+					"Slot 1",
+					"Disposable",
+					"One-Handed",
+					"Compact 3",
+					"Blast",
+					"Explosive",
+					"Loud"
+				]
+			},
+			{
+				"name": "Acid Grenade",
+				"price": 75,
+				"properties": [
+					"5d4 Corrosion Damage and Inflicts Weakened at the end of the next Turn",
+					"Thrown 10m",
+					"Area 5 sqm",
+					"Durability 2",
+					"Slot 1",
+					"Disposable",
+					"One-Handed",
+					"Compact 3",
+					"Blast",
+					"Explosive",
+					"Loud"
+				]
+			},
+			{
+				"name": "Corruption Grenade",
+				"price": 75,
+				"properties": [
+					"At the end of the next Turn, Area is Corrupted for 2d4 Turns (Apply ‘Vulnerable All’ condition to creatures in the area)",
+					"Thrown 10m",
+					"Area 5 sqm",
+					"Durability 2",
+					"Slot 1",
+					"Disposable",
+					"One-Handed",
+					"Compact 3",
+					"Blast",
+					"Loud"
+				]
+			},
+			{
+				"name": "Flash Grenade",
+				"price": 75,
+				"properties": [
+					"5d4 Brilliant damage at the end of the next Turn",
+					"Thrown 10m",
+					"Area 5 sqm",
+					"Durability 2",
+					"Slot 1",
+					"Disposable",
+					"One-Handed",
+					"Compact 3",
+					"Blast",
+					"Explosive",
+					"Loud"
+				]
+			},
+			{
+				"name": "Fire Grenade",
+				"price": 75,
+				"properties": [
+					"At the end of the next Turn, Area is ablaze for 2d4 Turns (Any creature that starts its Turn in, enters, or moves within the area takes 5d4 Burn damage)",
+					"Thrown 10m",
+					"Area 5 sqm",
+					"Durability 2",
+					"Slot 1",
+					"Disposable",
+					"One-Handed",
+					"Compact 3",
+					"Blast",
+					"Loud"
+				]
+			},
+			{
+				"name": "Frost Grenade",
+				"price": 75,
+				"properties": [
+					"5d4 Frost damage and Inflicts Slowed at the end of the next Turn",
+					"Thrown 10m",
+					"Area 5 sqm",
+					"Durability 2",
+					"Slot 1",
+					"Disposable",
+					"One-Handed",
+					"Compact 3",
+					"Blast",
+					"Explosive",
+					"Loud"
+				]
+			},
+			{
+				"name": "Plasma Grenade",
+				"price": 125,
+				"properties": [
+					"10d4 Pure damage at the end of the next Turn",
+					"Thrown 10m",
+					"Area 5 sqm",
+					"Durability 2",
+					"Slot 1",
+					"Disposable",
+					"One-Handed",
+					"Compact 3",
+					"Blast",
+					"Explosive",
+					"Loud"
+				]
+			},
+			{
+				"name": "Shock Grenade",
+				"price": 75,
+				"properties": [
+					"5d4 Shock damage and Inflicts Staggered at the end of the next Turn",
+					"Thrown 10m",
+					"Area 5 sqm",
+					"Durability 2",
+					"Slot 1",
+					"Disposable",
+					"One-Handed",
+					"Compact 3",
+					"Blast",
+					"Explosive",
+					"Loud"
+				]
+			},
+			{
+				"name": "Sleep Grenade",
+				"price": 75,
+				"properties": [
+					"Inflicts Asleep at the end of the next Turn",
+					"Thrown 10m",
+					"Area 5 sqm",
+					"Durability 2",
+					"Slot 1",
+					"Disposable",
+					"One-Handed",
+					"Compact 3",
+					"Blast"
+				]
+			},
+			{
+				"name": "Smoke Grenade",
+				"price": 50,
+				"properties": [
+					"At the end of the next Turn, Area is obscured for 2d4 Turns (Any creature within the area gains Greater Cover but is also considered Blinded while inside the area)",
+					"Thrown 10m",
+					"Area 5 sqm",
+					"Durability 2",
+					"Slot 1",
+					"Disposable",
+					"One-Handed",
+					"Compact 3",
+					"Blast"
+				]
+			},
+			{
+				"name": "Stench Grenade",
+				"price": 75,
+				"properties": [
+					"At the end of the next Turn, Area is stenched for 2d4 Turns (Any creature that starts its Turn in, enters, or moves within the area are Dazed and Dizzied)",
+					"Thrown 10m",
+					"Area 5 sqm",
+					"Durability 2",
+					"Slot 1",
+					"Disposable",
+					"One-Handed",
+					"Compact 3",
+					"Blast",
+					"Loud"
+				]
+			},
+			{
+				"name": "Toxic Grenade",
+				"price": 75,
+				"properties": [
+					"5d4 Toxic damage and Inflicts Fatigued at the end of the next Turn",
+					"Thrown 10m",
+					"Area 5 sqm",
+					"Durability 2",
+					"Slot 1",
+					"Disposable",
+					"One-Handed",
+					"Compact 3",
+					"Blast",
+					"Explosive",
+					"Loud"
+				]
+			},
+			{
+				"name": "Web Grenade",
+				"price": 75,
+				"properties": [
+					"At the end of the next Turn, All creatures in the area are Restrained and Immobilised",
+					"Thrown 10m",
+					"Area 5 sqm",
+					"Durability 2",
+					"Slot 1",
+					"Disposable",
+					"One-Handed",
+					"Compact 3",
+					"Blast",
+					"Loud"
+				]
+			}
+		]
+	},
+	"snares": {
+		"description": "Concealed traps designed to immobilize or hinder foes, ideal for controlling the battlefield or setting up ambushes.",
+		"items": [
+			{
+				"name": "Caltrops",
+				"price": 15,
+				"properties": [
+					"Instant 2d4 Pierce damage and Slowed",
+					"Trap (Proximity)",
+					"Area 3 sqm",
+					"Durability 2",
+					"Slot 1",
+					"Disposable",
+					"One-Handed",
+					"Light",
+					"Compact 5"
+				]
+			},
+			{
+				"name": "Explosive Clay",
+				"price": 35,
+				"properties": [
+					"Combine this with an explosive you possess and it becomes a trap",
+					"Trap (Remote)",
+					"Area 1 sqm",
+					"Durability 2",
+					"Slot 1",
+					"Disposable",
+					"One-Handed",
+					"Compact 5"
+				]
+			},
+			{
+				"name": "Grease",
+				"price": 30,
+				"properties": [
+					"Instant Knocked Down until they escape the area",
+					"Trap (Proximity)",
+					"Area 3 sqm",
+					"Durability 2",
+					"Slot 1",
+					"Disposable",
+					"One-Handed",
+					"Light",
+					"Compact 5"
+				]
+			},
+			{
+				"name": "Sticky Substance",
+				"price": 30,
+				"properties": [
+					"Instant Immobilised",
+					"Trap (Proximity)",
+					"Area 3 sqm",
+					"Durability 2",
+					"Slot 1",
+					"Disposable",
+					"One-Handed",
+					"Light",
+					"Compact 5"
+				]
+			},
+			{
+				"name": "Perimeter Alarm",
+				"price": 25,
+				"properties": [
+					"Loud acoustic alarm when triggered, alerts all allies within 100m",
+					"Trap (Tripwire)",
+					"Area 10m line",
+					"Durability 2",
+					"Slot 1",
+					"Disposable",
+					"One-Handed",
+					"Compact 5"
+				]
+			},
+			{
+				"name": "Motion Sensor",
+				"price": 40,
+				"properties": [
+					"Silent alert to user's communicator when triggered, detects movement within 5m radius",
+					"Trap (Motion)",
+					"Area 5 sqm",
+					"Durability 2",
+					"Slot 1",
+					"Disposable",
+					"One-Handed",
+					"Compact 5"
+				]
+			},
+			{
+				"name": "Lure",
+				"price": 20,
+				"properties": [
+					"Blinking lights and sound to attract enemies, draws enemies toward the device location",
+					"Trap (Timer) - activates 1 Turn after placement",
+					"Area 3 sqm attraction radius",
+					"Durability 2",
+					"Slot 1",
+					"Disposable",
+					"One-Handed",
+					"Compact 5"
+				]
+			},
+			{
+				"name": "Net",
+				"price": 45,
+				"properties": [
+					"Instant Immobilized and Prone until they escape (Strength vs Risk 8)",
+					"Trap (Proximity)",
+					"Area 4 sqm",
+					"Durability 3",
+					"Slot 2",
+					"Disposable",
+					"Two-Handed",
+					"Compact 3"
+				]
+			},
+			{
+				"name": "Bear Trap",
+				"price": 35,
+				"properties": [
+					"Instant Immobilized and Bleeding, target must spend 5 Stamina per Turn to attempt escape (Strength vs Risk 8)",
+					"Trap (Pressure)",
+					"Area 1 sqm",
+					"Durability 4",
+					"Slot 1",
+					"Disposable",
+					"One-Handed",
+					"Compact 2"
+				]
+			},
+			{
+				"name": "Pitfall",
+				"price": 50,
+				"properties": [
+					"Instant 5d6 Pierce damage and Prone, requires 10 minutes and tools to dig",
+					"Trap (Pressure)",
+					"Area 2 sqm",
+					"Durability 2",
+					"Slot 3",
+					"Disposable",
+					"Two-Handed",
+					"Compact 2"
+				]
+			},
+			{
+				"name": "Decoy",
+				"price": 30,
+				"properties": [
+					"False target that appears valuable, enemies must pass Intellect vs Risk 7 to recognize as fake, draws enemy attention and movement",
+					"Trap (Remote)",
+					"Durability 2",
+					"Slot 1",
+					"Disposable",
+					"One-Handed",
+					"Compact 3"
+				]
+			}
+		]
+	}
+}
