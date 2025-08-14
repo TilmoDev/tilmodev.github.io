@@ -1,0 +1,41 @@
+{
+	"name": "Guardian",
+	"description": "A master of absolute defense, the Guardian transforms heavy armor and shields into an impenetrable fortress. Through unwavering discipline and mastery of protective equipment, they become an immovable object that enemies break themselves against. Where others rely on agility or healing, the Guardian trusts in steel, bulk, and the simple truth that the best offense is an unbreachable defense.",
+	"prerequisite": [
+		"Medium or Heavy Armor Proficiency",
+		"Light or Heavy Shield Proficiency",
+		"At least three Tier 2 or Tier 3 Warden, Tactician, or Warrior Techniques"
+	],
+	"achievement": [
+		"Successfully tank massive damage (at least 20+) for your team in at least 3 separate combat encounters",
+		"Complete a mission while wearing the heaviest armor available and using a shield throughout",
+		"Protect an ally from taking damage by intercepting attacks in at least 5 separate instances",
+		"Survive a combat encounter where you took damage equal to at least twice your maximum Health (through healing/recovery)"
+	],
+	"abilities": [
+		{
+			"name": "Living Fortress",
+			"type": "Passive",
+			"effect": "Your mastery of heavy protection transforms bulk into vitality. For every point of Bulk value you possess, your maximum Health increases by 2 points. Additionally, when you take damage while wearing a shield, reduce that damage by 1 point (after all other calculations). This damage reduction increases to 2 points if you're wearing medium or heavy armor."
+		},
+		{
+			"name": "Boulder Stance",
+			"type": "Active",
+			"cost": "5 Stamina, 1 Focus",
+			"effect": "Enter a defensive formation for 5 Turns. While in Boulder Stance, your Base Defense Dice increases by 2 sizes; you become immobilized but immune to forced movement; and any ally within 2m of you gains +1d6 bonus to Defense Dice as they benefit from your protective presence. You can end this stance early for free."
+		},
+		{
+			"name": "Aegis Protocol",
+			"type": "Active",
+			"cost": "3 Stamina, 2 Focus",
+			"effect": "Become a mobile fortress for 3 Turns. During this time, all damage you take is reduced by your total Bulk value (before any calculations); you can spend 2 Reflex to move 5m towards an ally’s side and intercept any attack targeting them, redirecting it to yourself. When this effect ends, regain 1 Focus for every 10 points of damage you absorbed during Aegis Protocol."
+		},
+		{
+			"name": "Immovable Object",
+			"type": "Ultimate",
+			"limit": "Once per mission",
+			"cost": "5 Stamina",
+			"effect": "Become an absolute defensive anchor for 5 Turns. During this time, you become completely immobilized but immune to all conditions and forced effects; your Mitigation value doubles; all allies within 5m gain your current Mitigation value as Soak; and any enemy that attacks you in melee become Crippled as they exhaust themselves against your impenetrable defense. When this effect ends, you may immediately restore 1 Health to all allies within 10m for every enemy that attacked you during Immovable Object."
+		}
+	]
+}
