@@ -2133,7 +2133,7 @@ export default function Page() {
 					{/* Description */}
 					<div className="px-4 py-3 bg-amber-50 border-b border-amber-300">
 						<p className="text-sm text-gray-800 italic">
-							Proficient in heavy weapons, you wield them with crushing force
+							Proficient in siege weapons, you wield them with crushing force
 							and ruthless efficiency, turning the battlefield into a smoking
 							ruin in your wake.
 						</p>
