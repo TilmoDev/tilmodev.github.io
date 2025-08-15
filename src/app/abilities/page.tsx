@@ -2123,11 +2123,11 @@ export default function Page() {
 				<div className="text-xl font-semibold text-blue-700 mb-3">
 					<h3>Support Proficiencies</h3>
 				</div>
-				{/* Heavies */}
+				{/* Siege */}
 				<div className="max-w-2xl mx-auto border-2 border-amber-600 rounded-lg overflow-hidden shadow-lg">
 					{/* Header */}
 					<div className="bg-amber-200 border-b-2 border-amber-600 px-4 py-2">
-						<h2 className="text-xl font-bold text-amber-900">Heavies</h2>
+						<h2 className="text-xl font-bold text-amber-900">Siege</h2>
 					</div>
 
 					{/* Description */}
@@ -2199,7 +2199,7 @@ export default function Page() {
 							</div>
 							<div className="flex-1 px-4 py-3">
 								<div className="text-sm">
-									Whenever you carry a heavy weapon, their slot size is reduced
+									Whenever you carry a siege weapon, their slot size is reduced
 									by 2.
 								</div>
 							</div>
