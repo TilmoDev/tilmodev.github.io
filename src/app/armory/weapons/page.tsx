@@ -2025,9 +2025,9 @@ export default function Page() {
 								<div className="text-sm">
 									<span className="font-bold text-emerald-800">Properties</span>
 									: At the end of the next Turn, Area is Corrupted for 2d4 Turns
-									(Apply 'Vulnerable All' condition to creatures in the area);
-									Thrown 10m, Area 5 sqm, Durability 2, Slot 1, Disposable,
-									One-Handed, Compact 3, Blast, Loud
+									(Apply &apos;Vulnerable All&apos; condition to creatures in
+									the area); Thrown 10m, Area 5 sqm, Durability 2, Slot 1,
+									Disposable, One-Handed, Compact 3, Blast, Loud
 								</div>
 							</div>
 						</div>
@@ -2367,8 +2367,8 @@ export default function Page() {
 							<div className="flex-1 px-4 py-3">
 								<div className="text-sm">
 									<span className="font-bold text-emerald-800">Properties</span>
-									: Silent alert to user's communicator when triggered, detects
-									movement within 5m radius, Trap (Motion), Area 5 sqm,
+									: Silent alert to user&apos;s communicator when triggered,
+									detects movement within 5m radius, Trap (Motion), Area 5 sqm,
 									Durability 2, Slot 1, Disposable, One-Handed, Compact 5
 								</div>
 							</div>
@@ -2901,7 +2901,7 @@ export default function Page() {
 										Blunt damage, Durability 3, Slot 1, Compact 50
 									</div>
 									<div className="text-xs text-red-700 mt-1 italic">
-										Note: This ammunition's area of effect only affects the
+										Note: This ammunition&apos;s area of effect only affects the
 										first target it hits and is not Continuous
 									</div>
 								</div>
