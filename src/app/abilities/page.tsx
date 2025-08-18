@@ -8,12 +8,6 @@ export default function Page() {
 			<div className="flex justify-center my-20">
 				<LargeTitle>Abilities</LargeTitle>
 			</div>
-			{/* <div className="mb-4">
-				<Title2>Tier Header</Title2>
-			</div>
-			<div className="mb-4">
-				<Title3>Tier Header</Title3>
-			</div> */}
 			<div className="mb-4">
 				<h2 className="text-2xl font-semibold text-blue-700 mb-3">
 					Proficiencies
