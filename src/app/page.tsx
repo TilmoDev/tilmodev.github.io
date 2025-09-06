@@ -1,17 +1,10 @@
 "use client";
 
-import { Image } from "@fluentui/react-components";
-import logo from "../../public/images/logo.png";
+import Layout from "@/components/Layout/Layout";
 
 export default function Home() {
 	return (
-		<div className="flex flex-col justify-center items-center h-screen">
-			<Image
-				alt="Sellwords Initiative"
-				src={logo.src}
-				height={200}
-				width={200}
-			/>
+		<Layout title={"Sellswords Initiative"}>
 			<h2>Welcome to Sellswords Initiative</h2>
 			<p className="mb-4">
 				Three mercenaries huddle behind a half-destroyed concrete barrier as
@@ -73,6 +66,6 @@ export default function Home() {
 				beneath them. &quot;That was fun,&quot; Gregg quipped, grinning as the
 				city fell away beneath them.
 			</p>
-		</div>
+		</Layout>
 	);
 }

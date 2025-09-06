@@ -1,7 +1,7 @@
 "use client";
 
+import Layout from "@/components/Layout/Layout";
 import AppendixSection from "@/templates/AppendixSection/AppendixSection";
-import { Title1 } from "@fluentui/react-components";
 
 const groupedData = {
 	Equipment: [
@@ -30,11 +30,10 @@ const groupedData = {
 
 export default function Page() {
 	return (
-		<div className="px-[100px]">
-			<Title1 className="center">Appendix Page</Title1>
+		<Layout title="Appendix">
 			{Object.entries(groupedData).map(([category, items]) => (
 				<AppendixSection key={category} category={category} items={items} />
 			))}
-		</div>
+		</Layout>
 	);
 }
