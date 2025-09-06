@@ -1,9 +1,10 @@
 import Layout from "@/components/Layout/Layout";
+import UnderConstruction from "@/components/UnderConstruction/UnderConstruction";
 
 export default function Page() {
 	return (
 		<Layout title="Traits">
-			<h1>Hello, Traits Page</h1>;
+			<UnderConstruction />
 		</Layout>
 	);
 }

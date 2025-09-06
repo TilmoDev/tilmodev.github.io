@@ -121,7 +121,6 @@ export default function Navigation({
 		}, 150);
 	};
 
-	// Helper function to check if section should render as simple link
 	const isSimpleLink = (section: MenuSection) => {
 		return (
 			section.items.length === 1 &&
@@ -142,7 +141,6 @@ export default function Navigation({
 				aria-label="Global"
 				className="flex items-center justify-between p-6 lg:px-8"
 			>
-				{/* Logo */}
 				<div className="flex lg:flex-1">
 					<Link href="/" className="-m-1.5 p-1.5">
 						<span className="sr-only">{companyName}</span>
@@ -333,7 +331,6 @@ export default function Navigation({
 							<div className="-my-6 divide-y divide-white/10">
 								<div className="space-y-2 py-6">
 									{Object.entries(menuConfig).map(([sectionKey, section]) => {
-										// Render as simple link if section has only one item without submenu
 										if (isSimpleLink(section)) {
 											return (
 												<Link
