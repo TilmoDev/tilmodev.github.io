@@ -1,12 +1,7 @@
 import type { Config } from "tailwindcss";
 
 const config: Config = {
-	content: [
-		"./src/pages/**/*.{js,ts,jsx,tsx,mdx}",
-		"./src/components/**/*.{js,ts,jsx,tsx,mdx}",
-		"./src/app/**/*.{js,ts,jsx,tsx,mdx}",
-		"./src/**/*.{js,ts,jsx,tsx}",
-	],
+	content: ["./src/**/*.{js,ts,jsx,tsx,mdx}"],
 	theme: {
 		extend: {
 			backgroundImage: {
@@ -17,5 +12,15 @@ const config: Config = {
 		},
 	},
 	plugins: [],
+	corePlugins: {
+		preflight: true,
+	},
+	// Only in production
+	...(process.env.NODE_ENV === "production" && {
+		purge: {
+			enabled: true,
+			content: ["./src/**/*.{js,ts,jsx,tsx,mdx}"],
+		},
+	}),
 };
 export default config;
