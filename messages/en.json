@@ -1,0 +1,178 @@
+{
+	"HowTo": {
+		"title": "How To",
+		"sections": {
+			"introduction": {
+				"title": "How To Play Sellswords Initiative",
+				"content": "Think of this game like making a movie together. You've got two groups: the Players (the stars on screen) and the Director (the person running the show behind the scenes). Both need to work together to create an action-packed story you'll be talking about for years."
+			},
+			"player": {
+				"title": "The Player",
+				"content": "As a Player, you're basically an actor playing a badass mercenary character, like Henry Cavill becoming Geralt in The Witcher or Chris Evans suiting up as Captain America. Your job is to focus on bringing one character to life - figuring out their personality, quirks, how they talk, and what they can do. You're performing, just without actual cameras (unless you're streaming, which is cool too)."
+			},
+			"director": {
+				"title": "The Director",
+				"content": "The Director is the one-person show running everything else. You're like a movie director, but with way more hats - you're also the scriptwriter, narrator, every NPC, rule keeper, and action sequence choreographer all rolled into one. Here's the thing - your main goal isn't to memorize every rule or kill the players. It's to create those \"holy crap!\" moments that get everyone at the table fired up. Don't get bogged down in rule books - focus on telling an awesome story that might even get some emotional reactions!",
+				"protips": [
+					{
+						"label": "Pro Tip",
+						"content": "You don't need to know every single rule to start playing. That could take forever! All you really need is a cool story idea and the basics of rolling dice, tracking health, and dealing damage. You can wing the rest!"
+					},
+					{
+						"label": "Another Pro Tip",
+						"content": "Remember, YOU'RE the Director. What you say goes. These rules are more like guidelines anyway, so use what works and ignore what doesn't. Don't let rules lawyers push you around!"
+					}
+				]
+			},
+			"table": {
+				"title": "The Table",
+				"content": "We say \"table\" but with Zoom and Discord, that might just mean wherever everyone's connecting from. The table is wherever the Director and Players gather to play, bringing their imagination, maybe some notes, and definitely snacks. Oh, and dice - can't forget the dice!"
+			},
+			"dice": {
+				"title": "The Dice",
+				"content": "Like most tabletop RPGs, Sellswords runs on dice. <emphasis>You'll need these bad boys: d4, d6, d8, d10, and d12 (LOTS of them)</emphasis>.",
+				"reminder": "<emphasis>Reminder:</emphasis> If you're new to this, the \"d\" means \"die\" and the number is how many sides it has. So a d6 is your standard six-sided die like you'd find in Monopoly.",
+				"protips": [
+					{
+						"label": "Pro Tip",
+						"content": "No dice? No problem! There are tons of free dice-rolling apps you can download. They work just as well, even if they're not as satisfying to throw."
+					}
+				]
+			},
+			"session": {
+				"title": "The Session",
+				"content": "No dice? No problem! There are tons of free dice-rolling apps you can download. They work just as well, even if they're not as satisfying to throw."
+			},
+			"roleplay": {
+				"title": "The Roleplay",
+				"content": "Roleplaying is just fancy talk for pretending to be someone else. You're thinking, talking, and making decisions as your Character would, not as yourself. Some people take to this naturally, while others find it awkward as hell at first. Both are totally normal!",
+				"protips": [
+					{
+						"label": "Pro Tip",
+						"content": "If you're new to roleplaying, don't sweat it. It's like any skill - you get better with practice. A good Director will help paint the scene so vividly that slipping into character gets easier."
+					}
+				]
+			},
+			"story": {
+				"title": "The Story",
+				"content": "Even games like Mortal Kombat have stories (thin as they might be). In Sellswords, story comes before rules (although this book is thick with it), with action as the main flavor - though you can definitely mix in drama, comedy, or whatever else your table enjoys.",
+				"note": "<emphasis>Important Note:</emphasis> Years from now, players will remember that epic moment when they barely survived an ambush or the hilarious failed seduction attempt - not the exact damage roll they made. <emphasis>Story trumps mechanics every time!</emphasis>"
+			},
+			"mission": {
+				"title": "The Mission",
+				"content": "Unlike those old-school RPGs where you wander around aimlessly for hours, Sellswords keeps it simple with bite-sized missions. Think of them as one-and-done adventures you can knock out in a single game night. It's like watching an action movie - you show up, kick some ass, and wrap things up before the pizza gets cold. Every game starts with a mission briefing from some patron who needs your services. Maybe they meet you in a shady bar (or tavern, if you like them retro), call your burner phone, or slide a mysterious envelope under your door. Whatever the setup, they'll tell you what needs doing. And let's be real - you're mercenaries, not heroes. Sometimes you're rescuing hostages, sometimes you're stealing priceless artifacts, and sometimes you're taking out that politician nobody likes. Hey, a job's a job.",
+				"note": "<emphasis>Quick Note:</emphasis> We call them \"Missions\" but if your game has more of a swords-and-sorcery vibe, feel free to call them \"Quests\" instead. We won't send the RPG police after you. Once you successfully finish a mission, your team will be rewarded Credits (and whatever your Director thinks should be added). If you fail, that's up to your Director what to do with it.",
+				"subsections": {
+					"creditsAndCharacterProgression": {
+						"title": "Credits and Character Progression",
+						"content": "You do not earn Experience Points in this game. You also do not Level Up. You upgrade your character by earning Credits (mostly from Missions) and use the money to purchase everything your character needs to get stronger, whether it be weapons, armors, skills, and whatnot."
+					}
+				}
+			},
+			"rolls": {
+				"title": "The Rolls",
+				"subsections": {
+					"anatomy": {
+						"title": "Anatomy of a Roll",
+						"content": "In Sellswords, dice rolls are the backbone of gameplay, determining the outcomes of actions, attacks, and defenses. Understanding how dice work in this system is essential for creating dynamic and engaging gameplay. Below is a breakdown of the key concepts behind dice rolls in Sellswords."
+					},
+					"whatIsRoll": {
+						"title": "What is a Roll?",
+						"content": "A Roll is the act of rolling dice to determine the value or outcome of an action. Rolls are used to resolve conflicts, measure success, and calculate effects during gameplay."
+					},
+					"whatIsDicePool": {
+						"title": "What is a Dice Pool?",
+						"content": "The Dice Pool refers to all the dice rolled collectively for a single action or event. While the term \"Dice Pool\" isn't officially used in Sellswords gameplay, the concept helps explain how rolls are structured and scaled. Sellswords uses incremental dice sizes (d4, d6, d8, d10, d12) to represent increasing levels of power or proficiency."
+					},
+					"structure": {
+						"title": "The Structure of a Roll",
+						"content": "In Sellswords, every roll consists of two components:",
+						"formula": "<emphasis>Value = Base Dice + Bonus Dice</emphasis>",
+						"components": [
+							{
+								"title": "Base Dice:",
+								"content": "Represents your character's core capability for an action (e.g., attacking with a sword or defending against an attack).",
+								"example": "A character proficient with swords might roll 1d8 as their Base Attack Dice when using a sword."
+							},
+							{
+								"title": "Bonus Dice:",
+								"content": "Represents additional effects or enhancements applied to the roll (e.g., magic items, special conditions).",
+								"example": "An enchanted amulet might add +1d4 Bonus Damage Dice when you successfully attack."
+							}
+						]
+					},
+					"modifiers": {
+						"title": "Dice Modifiers",
+						"content": "Sellswords allows for dynamic changes to dice rolls through modifiers that can increase, decrease, or double the size or number of dice rolled:",
+						"types": [
+							{
+								"title": "Increase Size:",
+								"content": "Moves the die up one step on the scale (e.g., d4 → d6).",
+								"example": "A special ability might increase your Base Attack Dice from 1d8 to 1d10."
+							},
+							{
+								"title": "Decrease Size:",
+								"content": "Moves the die down one step on the scale (e.g., d8 → d6).",
+								"example": "A magical condition might reduce an enemy's Base Attack Dice from 1d10 to 1d8."
+							},
+							{
+								"title": "Double Dice:",
+								"content": "Adds an extra die of the same size and quantity (e.g., 1d6 → 2d6, 3d4 → 6d4).",
+								"example": "A critical hit might allow you to double your damage dice."
+							}
+						]
+					},
+					"opposedRolls": {
+						"title": "Opposed Rolls",
+						"content": "Sellswords runs on what we call \"Opposed Rolls\". Basically, you roll dice against someone else's dice to see who wins. It keeps things moving and makes sure nobody falls asleep during combat.",
+						"subtitle": "There are two main types of rolls:"
+					},
+					"dynamicOpposed": {
+						"title": "Dynamic Opposed Rolls",
+						"content": "This is when you're actively going against someone else:",
+						"types": [
+							{
+								"title": "Attack vs Defense:",
+								"content": "You trying to stab someone? Roll your Attack Dice against their Defense Dice. Roll higher, and you get to hurt them. Roll lower, and they dodge your sorry attempt. Tie? We usually give the win to the players because heroes should catch breaks sometimes."
+							},
+							{
+								"title": "Action vs Reaction:",
+								"content": "This is for all that cool movie stuff - swinging on chandeliers, sliding under tables, or talking your way past guards. Roll your Action Dice against their Reaction Dice. Higher roll means you pull off that sweet move. This is where you get to be creative and do the fun stuff."
+							}
+						]
+					},
+					"staticOpposed": {
+						"title": "Static Opposed Rolls",
+						"content": "This is when you're up against a fixed number:",
+						"types": [
+							{
+								"title": "Damage vs Mitigation:",
+								"content": "After you hit someone, you roll Damage Dice to see how badly you hurt them. Their armor (Mitigation) reduces that damage. Simple math."
+							},
+							{
+								"title": "Action/Reaction vs Risk Threshold:",
+								"content": "Trying to pick a lock? Avoid falling rocks? Resist that sketchy street food? Roll against a set number that represents how hard it is. Higher roll means you succeed."
+							}
+						],
+						"protip": {
+							"content": "Don't roll dice for easy stuff! If there's no risk of failure or it's something anyone could do, just let it happen. Only roll when there's a chance things could go wrong in an interesting way. Or when you want to see someone embarrass themselves for laughs."
+						}
+					},
+					"criticalHits": {
+						"title": "Critical Hits",
+						"content": "When you really outclass your opponent, the results are spectacular. If your Attack Dice total beats their Defense Dice by 3 or more, you score a <critical>Critical Hit</critical> which lets you roll <emphasis>double damage</emphasis> dice. But if you beat them by 5 or more, you score a <critical>Severe Critical Hit</critical> which lets you roll <emphasis>triple damage</emphasis> dice. Picture that perfect shot, the one everyone at the table is going to remember."
+					},
+					"aimedShots": {
+						"title": "Aimed Shots",
+						"content": "These are the high-risk, high-reward plays. You call your shot — \"I'm hitting that knee,\" \"Going for the eye,\" \"Right between the plates\" — and the target instantly <critical>doubles</critical> their Base Defense Dice to dodge your precision strike. If you land it, you not only roll <emphasis>double damage</emphasis> dice, but you also mess them up with a <emphasis>negative condition</emphasis> based on exactly where you hit. The worse the damage, the nastier the condition: less than 5 is Mild, 5-9 is Moderate, and 10+ is Severe. The Director decides the effect, while you get the glory. Alternatively, you can make your Aimed Shot a precision strike against gear instead of flesh — targeting armor joints, weapon mechanisms, power cells, or anything your Director says is fair game. If you go this route, you skip dealing damage to the target's Health and instead break their stuff. <emphasis>For every 5 points of damage</emphasis> you would have dealt, you <emphasis>reduce the chosen piece of equipment's Durability by 1</emphasis>. Sometimes taking out their weapon or armor is a lot more satisfying than hurting the person holding it."
+					},
+					"fumbles": {
+						"title": "Fumbles",
+						"content": "These are the flip side — those \"oh no\" moments that make everyone groan or laugh. If you roll a natural 1 on your Attack Dice, you must flip a coin. On tails, your weapon loses 1 Durability. And, if you roll a natural 1 on your Defense Dice, same deal — do a coin flip. If it's tails, it means your armor just took a beating and drops 1 Durability.",
+						"note": "<emphasis>Note:</emphasis> You can still use Focus to turn a blown roll into a last-second save, but here's the kicker: that won't save your gear from the wear and tear. You still have to flip the coin. Even the best merc in the field knows — in the chaos of combat, sometimes your luck holds… and sometimes your kit pays the price."
+					}
+				}
+			}
+		}
+	}
+}
