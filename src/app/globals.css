@@ -1,7 +1,12 @@
+@font-face {
+	font-family: "MyCustomFont";
+	src: url("/tilmodev.github.io/assets/fonts/solander.ttf");
+	font-weight: normal;
+	font-style: normal;
+}
+
 @import "tailwindcss/base";
-
 @import "tailwindcss/components";
-
 @import "tailwindcss/utilities";
 
 :root {
@@ -19,6 +24,7 @@
 }
 
 body {
+	font-family: "MyCustomFont", sans-serif;
 	color: rgb(var(--foreground-rgb));
 	background: linear-gradient(
 			to bottom,
