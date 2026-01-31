@@ -4,10 +4,14 @@ import InfoCard from "@/components/InfoCard/InfoCard";
 import Layout from "@/components/Layout/Layout";
 import SubSection from "@/components/SubSection/SubSection";
 import TextContent from "@/components/TextContent/TextContent";
-import { useTranslations } from "next-intl";
+
+import { useRichTranslations } from "@/hooks/useRichTranslations";
 
 export default function Page() {
-	const t = useTranslations("Blog1");
+	const { t } = useRichTranslations({
+		namespace: "Blog1",
+	});
+
 	return (
 		<Layout title="Blog">
 			<InfoCard title="Dev Blog 1: Why Sellswords Initiative Was Created">

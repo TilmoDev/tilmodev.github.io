@@ -9,25 +9,12 @@ import ContentGroup from "@/components/ContentGroup/ContentGroup";
 import FormulaDisplay from "@/components/FormulaDisplay/FormulaDisplay";
 import RollTypeList from "@/components/RollTypeList/RollTypeList";
 
-import { useTranslations } from "next-intl";
+import { useRichTranslations } from "@/hooks/useRichTranslations";
 
 export default function Page() {
-	const t = useTranslations("HowTo");
-
-	const richText = (key: string) =>
-		t.rich(key, {
-			emphasis: (chunks) => <strong>{chunks}</strong>,
-			critical: (chunks) => (
-				<strong>
-					<i>{chunks}</i>
-				</strong>
-			),
-		});
-
-	const getComponents = (key: string) =>
-		t.raw(key) as Array<{ title: string; content: string; example?: string }>;
-	const getTypes = (key: string) =>
-		t.raw(key) as Array<{ title: string; content: string; example?: string }>;
+	const { t, richText, getComponents, getTypes } = useRichTranslations({
+		namespace: "HowTo",
+	});
 
 	return (
 		<Layout title={t("title")}>
