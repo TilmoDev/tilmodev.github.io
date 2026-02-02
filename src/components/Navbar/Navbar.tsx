@@ -6,6 +6,8 @@ import Link from "next/link";
 
 interface SubMenuItem {
 	label: string;
+	sublabel: string;
+	icon: string;
 	href: string;
 }
 
@@ -33,53 +35,98 @@ interface NavigationProps {
 }
 
 const defaultMenuConfig: MenuConfig = {
-	home: {
-		title: "Home",
-		items: [{ label: "Home", href: "/" }],
+	introduction: {
+		title: "Introduction",
+		items: [{ label: "Introduction", href: "/" }],
 	},
-	rules: {
-		title: "Rules",
+	mercenary: {
+		title: "Mercenary",
+		items: [{ label: "Mercenary", href: "/" }],
+	},
+	skills: {
+		title: "Skills",
 		items: [
 			{
-				label: "Character Creation",
+				label: "Skills",
 				submenu: [
 					{
-						label: "Proficiencies",
-						href: "/rules/character-creation/proficiencies",
+						label: "Equipment",
+						sublabel: "Learn the basics",
+						icon: "/assets/vectors/backpack.svg",
+						href: "/skills/equipment",
 					},
 					{
-						label: "Traits",
-						href: "/rules/character-creation/traits",
+						label: "Proficiency",
+						sublabel: "Learn the basics",
+						icon: "/assets/vectors/handshake.svg",
+						href: "/skills/proficiency",
+					},
+					{
+						label: "Expertise",
+						sublabel: "Your character's profession",
+						icon: "/assets/vectors/career.svg",
+						href: "/skills/proficiency",
+					},
+					{
+						label: "Talents",
+						sublabel: "???",
+						icon: "/assets/vectors/star.svg",
+						href: "/skills/talents",
+					},
+					{
+						label: "Techniques",
+						sublabel: "Your character's combat prowess",
+						icon: "/assets/vectors/lightbulb.svg",
+						href: "/skills/techniques",
+					},
+					{
+						label: "Masteries",
+						sublabel: "Pinnacle of your character's specialization",
+						icon: "/assets/vectors/scroll.svg",
+						href: "/skills/masteries",
 					},
 				],
 			},
-			{ label: "How To", href: "/rules/how-to" },
 		],
 	},
-	armory: {
-		title: "Armory",
+	directorsToolkit: {
+		title: "Director's Toolkit",
 		items: [
-			{ label: "Armors", href: "/armory/armors" },
-			{ label: "Weapons", href: "/armory/weapons" },
+			{
+				label: "Toolkits",
+				submenu: [
+					{
+						label: "Director's Toolkit",
+						sublabel: "All you need to become a good Director",
+						icon: "/assets/vectors/book.svg",
+						href: "/skills/equipment",
+					},
+				],
+			},
+			{
+				label: "Blog",
+				submenu: [
+					{
+						label: "Dev Journal",
+						sublabel: "History and updates of the game",
+						icon: "/assets/vectors/book2.svg",
+						href: "/skills/equipment",
+					},
+					{
+						label: "Short Stories",
+						sublabel: "Action and drama stories",
+						icon: "/assets/vectors/tree.svg",
+						href: "/skills/equipment",
+					},
+				],
+			},
 		],
-	},
-	abilities: {
-		title: "Abilities",
-		items: [{ label: "Abilities", href: "/abilities" }],
-	},
-	blog: {
-		title: "Blog",
-		items: [{ label: "Blog", href: "/blog" }],
-	},
-	appendix: {
-		title: "Appendix",
-		items: [{ label: "Appendix", href: "/appendix" }],
 	},
 };
 
 export default function Navigation({
 	menuConfig = defaultMenuConfig,
-	logoSrc = "https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=500",
+	logoSrc = "/assets/vectors/placeholder.svg",
 	companyName = "Your Company",
 	showLogin = true,
 	className = "sticky inset-x-0 top-0 z-50",
@@ -87,7 +134,7 @@ export default function Navigation({
 	const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 	const [activeDropdown, setActiveDropdown] = useState<string | null>(null);
 	const [mobileActiveSection, setMobileActiveSection] = useState<string | null>(
-		null
+		null,
 	);
 	const dropdownRefs = useRef<{ [key: string]: HTMLDivElement | null }>({});
 	const timeoutRef = useRef<NodeJS.Timeout>();
@@ -97,7 +144,7 @@ export default function Navigation({
 		const handleClickOutside = (event: MouseEvent) => {
 			const target = event.target as Node;
 			const isInsideDropdown = Object.values(dropdownRefs.current).some(
-				(ref) => ref && ref.contains(target)
+				(ref) => ref && ref.contains(target),
 			);
 			if (!isInsideDropdown) {
 				setActiveDropdown(null);
@@ -106,6 +153,18 @@ export default function Navigation({
 
 		document.addEventListener("mousedown", handleClickOutside);
 		return () => document.removeEventListener("mousedown", handleClickOutside);
+	}, []);
+
+	// Handle Escape key to close dropdowns and mobile menu
+	useEffect(() => {
+		const handleEscape = (e: KeyboardEvent) => {
+			if (e.key === "Escape") {
+				setActiveDropdown(null);
+				setMobileMenuOpen(false);
+			}
+		};
+		document.addEventListener("keydown", handleEscape);
+		return () => document.removeEventListener("keydown", handleEscape);
 	}, []);
 
 	const handleMouseEnter = (sectionKey: string) => {
@@ -131,7 +190,7 @@ export default function Navigation({
 
 	const toggleMobileSection = (sectionKey: string) => {
 		setMobileActiveSection(
-			mobileActiveSection === sectionKey ? null : sectionKey
+			mobileActiveSection === sectionKey ? null : sectionKey,
 		);
 	};
 
@@ -139,17 +198,17 @@ export default function Navigation({
 		<header className={className}>
 			<nav
 				aria-label="Global"
-				className="flex items-center justify-between p-6 lg:px-8"
+				className="bg-stone-900 text-white flex items-center justify-between px-4 md:px-8 h-14"
 			>
-				<div className="flex lg:flex-1">
-					<Link href="/" className="-m-1.5 p-1.5">
+				<div className="flex items-center flex-1 lg:flex-1">
+					<Link href="/" className="flex items-center -m-1.5 p-1.5">
 						<span className="sr-only">{companyName}</span>
 						<Image
 							src={logoSrc}
 							alt={`${companyName} Logo`}
-							width={32}
-							height={32}
-							className="h-8 w-auto"
+							width={28}
+							height={28}
+							className="h-6 w-auto brightness-0 invert"
 						/>
 					</Link>
 				</div>
@@ -160,6 +219,8 @@ export default function Navigation({
 						type="button"
 						onClick={() => setMobileMenuOpen(true)}
 						className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-200 hover:text-white transition-colors"
+						aria-label="Open main menu"
+						aria-expanded={mobileMenuOpen}
 					>
 						<span className="sr-only">Open main menu</span>
 						<svg
@@ -180,14 +241,14 @@ export default function Navigation({
 				</div>
 
 				{/* Desktop navigation */}
-				<div className="hidden lg:flex lg:gap-x-8">
+				<div className="hidden lg:flex lg:flex-1 lg:justify-center lg:items-center lg:gap-x-4 h-full">
 					{Object.entries(menuConfig).map(([sectionKey, section]) => {
 						if (isSimpleLink(section)) {
 							return (
 								<Link
 									key={sectionKey}
 									href={section.items[0].href!}
-									className="text-sm/6 font-semibold text-white hover:text-gray-300 transition-colors"
+									className="flex h-full items-center px-6 text-base leading-tight font-semibold text-white hover:text-emerald-400 hover:bg-white/10 transition-colors"
 								>
 									{section.title}
 								</Link>
@@ -196,15 +257,28 @@ export default function Navigation({
 						return (
 							<div
 								key={sectionKey}
-								className="relative"
+								className="h-full"
 								ref={(el) => (dropdownRefs.current[sectionKey] = el)}
 								onMouseEnter={() => handleMouseEnter(sectionKey)}
 								onMouseLeave={handleMouseLeave}
 							>
 								<button
 									type="button"
-									className="flex items-center gap-x-1 text-sm/6 font-semibold text-white hover:text-gray-300 transition-colors"
+									className="flex h-full items-center px-6 text-base leading-tight font-semibold text-white hover:text-emerald-400 hover:bg-white/10 transition-colors"
 									aria-expanded={activeDropdown === sectionKey}
+									onClick={() =>
+										setActiveDropdown(
+											activeDropdown === sectionKey ? null : sectionKey,
+										)
+									}
+									onKeyDown={(e) => {
+										if (e.key === "Enter" || e.key === " ") {
+											e.preventDefault();
+											setActiveDropdown(
+												activeDropdown === sectionKey ? null : sectionKey,
+											);
+										}
+									}}
 								>
 									{section.title}
 									<svg
@@ -225,40 +299,71 @@ export default function Navigation({
 
 								{/* Desktop Dropdown */}
 								{activeDropdown === sectionKey && (
-									<div className="absolute left-1/2 z-10 mt-5 flex w-screen max-w-max -translate-x-1/2 px-4">
-										<div className="w-screen max-w-md flex-auto overflow-hidden rounded-3xl bg-white text-sm/6 shadow-lg ring-1 ring-gray-900/5">
-											<div className="p-4">
-												{section.items.map((item) => (
-													<div key={item.label} className="group relative">
-														{item.submenu ? (
-															<div className="block py-2">
-																<div className="font-semibold text-gray-900 group-hover:text-indigo-600">
+									<div className="absolute inset-x-0 z-10">
+										<div className="">
+											<div className="bg-stone-900 overflow-hidden shadow-lg ring-1 ring-gray-900/5">
+												<div className="grid grid-cols-1 gap-8 p-8 sm:p-10 lg:grid-cols-2">
+													{section.items.map((item) => (
+														<div key={item.label} className="space-y-4">
+															{item.submenu ? (
+																<>
+																	<div className="font-semibold text-white group-hover:text-emerald-400">
+																		{item.label}
+																	</div>
+																	<div
+																		className="grid gap-2 text-base leading-tight"
+																		style={{
+																			gridTemplateRows:
+																				"repeat(4, minmax(0, 1fr))",
+																			gridAutoFlow: "column",
+																		}}
+																	>
+																		{item.submenu.map((subItem) => (
+																			<Link
+																				key={subItem.label}
+																				href={subItem.href}
+																				className="group/link flex items-center gap-3 rounded-lg px-3 py-2 text-white hover:bg-white/10 hover:text-emerald-400 transition-colors"
+																				onClick={() => setActiveDropdown(null)}
+																				role="menuitem"
+																			>
+																				{subItem.icon && (
+																					<Image
+																						src={subItem.icon}
+																						alt=""
+																						width={20}
+																						height={20}
+																						className="brightness-0 invert group-hover/link:brightness-0 flex-shrink-0"
+																					/>
+																				)}
+																				<div className="flex flex-col">
+																					{subItem.label && (
+																						<span className="font-medium">
+																							{subItem.label}
+																						</span>
+																					)}
+																					{subItem.sublabel && (
+																						<span className="text-xs text-gray-400">
+																							{subItem.sublabel}
+																						</span>
+																					)}
+																				</div>
+																			</Link>
+																		))}
+																	</div>
+																</>
+															) : (
+																<Link
+																	href={item.href!}
+																	className="block rounded-lg px-3 py-2 font-semibold text-white hover:bg-gray-50 hover:text-emerald-400 transition-colors"
+																	onClick={() => setActiveDropdown(null)}
+																	role="menuitem"
+																>
 																	{item.label}
-																</div>
-																<div className="mt-1 space-y-1">
-																	{item.submenu.map((subItem) => (
-																		<Link
-																			key={subItem.label}
-																			href={subItem.href}
-																			className="block rounded-lg px-3 py-1 text-gray-500 hover:bg-gray-50 hover:text-indigo-600 transition-colors"
-																			onClick={() => setActiveDropdown(null)}
-																		>
-																			{subItem.label}
-																		</Link>
-																	))}
-																</div>
-															</div>
-														) : (
-															<Link
-																href={item.href!}
-																className="block rounded-lg px-3 py-2 font-semibold text-gray-900 hover:bg-gray-50 hover:text-indigo-600 transition-colors"
-																onClick={() => setActiveDropdown(null)}
-															>
-																{item.label}
-															</Link>
-														)}
-													</div>
-												))}
+																</Link>
+															)}
+														</div>
+													))}
+												</div>
 											</div>
 										</div>
 									</div>
@@ -273,9 +378,9 @@ export default function Navigation({
 					<div className="hidden lg:flex lg:flex-1 lg:justify-end">
 						<Link
 							href="/login"
-							className="text-sm/6 font-semibold text-white hover:text-gray-300 transition-colors"
+							className="text-base leading-tight font-semibold text-white hover:text-emerald-400 transition-colors"
 						>
-							Log in <span aria-hidden="true">&rarr;</span>
+							Log in
 						</Link>
 					</div>
 				)}
@@ -300,7 +405,7 @@ export default function Navigation({
 									alt={`${companyName} Logo`}
 									width={32}
 									height={32}
-									className="h-8 w-auto"
+									className="h-8 w-auto brightness-0 invert"
 								/>
 							</Link>
 							<button
@@ -386,9 +491,28 @@ export default function Navigation({
 																				key={subItem.label}
 																				href={subItem.href}
 																				onClick={() => setMobileMenuOpen(false)}
-																				className="block rounded-lg px-6 py-2 text-sm text-white hover:bg-white/5 transition-colors"
+																				className="flex items-center gap-3 rounded-lg px-3 py-2 text-sm text-white hover:bg-gray-50 hover:text-emerald-400 transition-colors"
+																				role="menuitem"
 																			>
-																				{subItem.label}
+																				{subItem.icon && (
+																					<Image
+																						src={subItem.icon}
+																						alt=""
+																						width={20}
+																						height={20}
+																						className="brightness-0 invert flex-shrink-0"
+																					/>
+																				)}
+																				<div className="flex flex-col">
+																					{subItem.label && (
+																						<span>{subItem.label}</span>
+																					)}
+																					{subItem.sublabel && (
+																						<span className="text-xs text-gray-400">
+																							{subItem.sublabel}
+																						</span>
+																					)}
+																				</div>
 																			</Link>
 																		))}
 																	</div>
@@ -396,7 +520,7 @@ export default function Navigation({
 																	<Link
 																		href={item.href!}
 																		onClick={() => setMobileMenuOpen(false)}
-																		className="block rounded-lg px-3 py-2 text-white hover:bg-white/5 transition-colors"
+																		className="block rounded-lg px-3 py-2 text-white"
 																	>
 																		{item.label}
 																	</Link>
