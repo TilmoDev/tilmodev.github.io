@@ -4,7 +4,7 @@ import Layout from "@/components/Layout/Layout";
 
 export default function Page() {
 	return (
-		<Layout title="Armory">
+		<Layout>
 			<div className="px-[100px]">
 				{/* Armors */}
 				<section>

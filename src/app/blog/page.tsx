@@ -13,7 +13,7 @@ export default function Page() {
 	});
 
 	return (
-		<Layout title="Blog">
+		<Layout>
 			<InfoCard title="Dev Blog 1: Why Sellswords Initiative Was Created">
 				<TextContent>September 8, 2025</TextContent>
 

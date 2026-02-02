@@ -3,7 +3,7 @@ import UnderConstruction from "@/components/UnderConstruction/UnderConstruction"
 
 export default function Page() {
 	return (
-		<Layout title="Traits">
+		<Layout>
 			<UnderConstruction />
 		</Layout>
 	);

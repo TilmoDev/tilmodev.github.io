@@ -4,7 +4,7 @@ import Layout from "@/components/Layout/Layout";
 
 export default function Page() {
 	return (
-		<Layout title="Weapons">
+		<Layout>
 			<div className="px-[100px]">
 				{/* Melee Weapons */}
 				<section>

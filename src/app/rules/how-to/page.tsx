@@ -17,7 +17,7 @@ export default function Page() {
 	});
 
 	return (
-		<Layout title={t("title")}>
+		<Layout>
 			<div className="grid gap-6">
 				<InfoCard title={t("sections.introduction.title")} titleLevel="h2">
 					<TextContent>{t("sections.introduction.content")}</TextContent>

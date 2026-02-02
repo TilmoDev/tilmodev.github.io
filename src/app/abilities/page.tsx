@@ -4,7 +4,7 @@ import Layout from "@/components/Layout/Layout";
 
 export default function Page() {
 	return (
-		<Layout title="Abilities">
+		<Layout>
 			<div className="flex flex-col">
 				<div className="mb-4">
 					<h2 className="text-2xl font-semibold text-blue-700 mb-3">

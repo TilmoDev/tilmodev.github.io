@@ -30,7 +30,7 @@ const groupedData = {
 
 export default function Page() {
 	return (
-		<Layout title="Appendix">
+		<Layout>
 			{Object.entries(groupedData).map(([category, items]) => (
 				<AppendixSection key={category} category={category} items={items} />
 			))}
