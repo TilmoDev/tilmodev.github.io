@@ -280,7 +280,7 @@ export default function Navigation({
 										}
 									}}
 								>
-									{section.title}
+									<p className="whitespace-nowrap">{section.title}</p>
 									<svg
 										viewBox="0 0 20 20"
 										fill="currentColor"
