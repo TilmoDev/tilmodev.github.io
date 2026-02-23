@@ -86,10 +86,10 @@ export default function HomeHero({
 				<div className="absolute bottom-0 left-0 right-0 z-10 flex justify-center gap-8 px-4 md:px-8 lg:px-12 py-8 bg-gradient-to-t from-black/40 to-transparent">
 					{badges.map((badge, idx) => (
 						<div key={idx} className="flex flex-col gap-1 text-center">
-							<p className="text-gray-400 text-sm font-medium">{badge.label}</p>
 							<p className="text-white text-xl md:text-2xl font-bold">
 								{badge.value}
 							</p>
+							<p className="text-gray-400 text-sm font-medium">{badge.label}</p>
 						</div>
 					))}
 				</div>
