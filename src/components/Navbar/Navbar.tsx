@@ -35,13 +35,13 @@ interface NavigationProps {
 }
 
 const defaultMenuConfig: MenuConfig = {
-	introduction: {
-		title: "Introduction",
-		items: [{ label: "Introduction", href: "/" }],
+	home: {
+		title: "Home",
+		items: [{ label: "Home", href: "/" }],
 	},
-	mercenary: {
-		title: "Mercenary",
-		items: [{ label: "Mercenary", href: "/" }],
+	game: {
+		title: "Game",
+		items: [{ label: "Game", href: "/" }],
 	},
 	skills: {
 		title: "Skills",
@@ -89,8 +89,8 @@ const defaultMenuConfig: MenuConfig = {
 			},
 		],
 	},
-	directorsToolkit: {
-		title: "Director's Toolkit",
+	resources: {
+		title: "Resources",
 		items: [
 			{
 				label: "Toolkits",
